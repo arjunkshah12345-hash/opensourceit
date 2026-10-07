@@ -1,0 +1,1240 @@
+@@ databricks | Databricks | Databricks | Data
+summary: A lakehouse platform for Spark jobs, SQL warehouses, notebooks, and model serving.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The platform many data teams use when the warehouse and the Spark jobs need to live on the same tables.
+license: Databricks terms
+note: The workspace, the runtime, and the managed control plane are proprietary. Spark itself is open source.
+gap: You can run Spark and a query engine yourself. Databricks' workspace, Unity Catalog, and the managed runtime are the gap.
+url: https://www.databricks.com/
+docs: https://docs.databricks.com/
+alt: Apache Spark | https://github.com/apache/spark | Apache-2.0 | The open engine. You bring the cluster, the catalog, and the notebook UI.
+- Notebooks | Notebooks | A notebook mixes SQL, Python, and markdown on a cluster attached to the workspace.
+- Jobs | Jobs | Schedules a notebook or a jar and retries it when a task fails.
+- SQL | SQL warehouses | A warehouse runs SQL on the same tables the notebooks use.
+- Catalog | Unity Catalog | Governs tables, files, and models with one permission model across workspaces.
+- Delta | Delta tables | Tables keep a transaction log so a reader sees a consistent version.
+- Serving | Model serving | Hosts a model behind an endpoint the application can call.
+- Workflows | Workflows | A DAG of tasks passes data from an ingest job to a publish job.
+- Marketplace | Marketplace | Shares a dataset or a model with another account without copying the files by hand.
+@@ bigquery | BigQuery | Google | Data
+summary: Google's serverless warehouse, where a query runs against columns you do not provision as a cluster.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Google Cloud. BigQuery revenue is not reported as its own line.
+reach: The warehouse inside a huge number of companies that already keep data in Google Cloud.
+license: Google Cloud terms
+note: BigQuery is a proprietary service. The SQL dialect and the storage are not an open product.
+gap: DuckDB or ClickHouse can query local files. BigQuery's serverless scale and the Google IAM tie-in are the gap.
+url: https://cloud.google.com/bigquery
+docs: https://cloud.google.com/bigquery/docs
+alt: ClickHouse | https://github.com/ClickHouse/ClickHouse | Apache-2.0 | An open columnar database you operate.
+- SQL | Standard SQL | Analysts write SQL, including nested fields and window functions, against tables in a dataset.
+- Storage | Columnar storage | Data sits in columnar files so a query reads only the columns it names.
+- Slots | Slot capacity | A reservation buys compute, or the project pays per byte scanned.
+- Load | Batch and streaming load | Files from Cloud Storage or a streaming insert land in a table.
+- Scheduled | Scheduled queries | A query runs on a timer and writes the result to another table.
+- BI | Connected sheets and Looker | Sheets and Looker can query the same tables with the warehouse's permissions.
+- ML | BigQuery ML | Trains a model with SQL instead of exporting the table to another system.
+- Omni | Cross-cloud query | A query can read data that still lives in another cloud's storage.
+@@ redshift | Amazon Redshift | Amazon | Data
+summary: Amazon's columnar warehouse for SQL analytics inside a VPC.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of AWS. Redshift revenue is not reported alone.
+reach: The warehouse teams pick when the rest of the data already lives in S3 and IAM.
+license: AWS terms
+note: Redshift is a proprietary managed warehouse.
+gap: ClickHouse or Postgres can answer SQL. Redshift's managed cluster and the S3 integration are the gap.
+url: https://aws.amazon.com/redshift/
+docs: https://docs.aws.amazon.com/redshift/
+alt: ClickHouse | https://github.com/ClickHouse/ClickHouse | Apache-2.0 | An open columnar engine you run yourself.
+- Clusters | Provisioned clusters | A cluster of nodes stores the tables and runs the queries.
+- Serverless | Serverless workgroups | A workgroup scales compute without a cluster you size by hand.
+- Spectrum | Spectrum | A query reads files in S3 without loading them into the cluster first.
+- Unload | Unload to S3 | Writes a query result back to S3 as files.
+- Materialized | Materialized views | Stores the result of a heavy query and refreshes it.
+- WLM | Workload management | Queues stop one dashboard from starving the nightly ETL.
+- Shares | Data sharing | Another account can query a table without a copy.
+- IAM | IAM authentication | The same AWS identity that can read S3 can run the query.
+@@ looker | Looker | Google | Analytics
+summary: A semantic-layer BI tool where metrics are defined in LookML and explored in the browser.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Google. Looker revenue is not split out on this card.
+reach: The BI tool data teams choose when they want one definition of revenue, not a metric copied into every dashboard.
+license: Looker terms
+note: Looker and LookML hosting are proprietary.
+gap: A dbt model plus an open BI tool can define a metric. Looker's explorer and the governed layer are the gap.
+url: https://cloud.google.com/looker
+docs: https://cloud.google.com/looker/docs
+alt: Apache Superset | https://github.com/apache/superset | Apache-2.0 | An open BI app on top of the warehouse you already run.
+- LookML | LookML models | A model file defines views, joins, and measures the explorer is allowed to use.
+- Explore | Explores | A user pivots dimensions and measures without writing SQL by hand.
+- Looks | Saved looks | A saved query can be a tile on a dashboard.
+- Dashboards | Dashboards | Tiles share filters, such as a date range, across the page.
+- Embeds | Embedded analytics | A dashboard can be embedded in another product with a signed URL.
+- Git | Git integration | LookML changes go through a branch and a pull request.
+- Schedule | Scheduled deliveries | A dashboard arrives by email or a webhook on a schedule.
+- Permissions | Content permissions | A folder of looks can be limited to one team.
+@@ tableau | Tableau | Salesforce | Analytics
+summary: A visual analytics product for dragging fields onto a canvas and publishing the workbook.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Salesforce. Tableau revenue is not cited alone on this card.
+reach: Still the charting tool many analysts mean when they say build a dashboard for the exec meeting.
+license: Tableau terms
+note: Tableau Desktop and Tableau Cloud are proprietary.
+gap: Superset or Metabase can chart a SQL table. Tableau's visual canvas and the extract engine are the gap.
+url: https://www.tableau.com/
+docs: https://help.tableau.com/
+alt: Apache Superset | https://github.com/apache/superset | Apache-2.0 | An open charting app you host on your warehouse.
+- Sheets | Worksheets | A sheet maps dimensions and measures to rows, columns, color, and size.
+- Dashboards | Dashboards | Several sheets share filters on one page.
+- Extracts | Extracts | A packaged extract lets a workbook run when the live database is slow or offline.
+- Prep | Tableau Prep | Cleans and joins files before they become a data source.
+- Publish | Publish to Cloud | A workbook published to Tableau Cloud or Server keeps the permissions of that site.
+- Ask | Ask Data and explanations | A viewer can ask a question of a published data source in plain language.
+- Alerts | Data alerts | An email fires when a mark crosses a threshold.
+- Catalog | Data catalog | Lists which workbooks depend on a given column.
+@@ mode | Mode | Mode | Analytics
+summary: A SQL notebook and report product aimed at analysts who write the query themselves.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: Used by analytics teams that want a query, a chart, and a written report in one link.
+license: Mode terms
+note: The notebook, the report viewer, and the hosted Python runtime are proprietary.
+gap: A notebook and a warehouse you run can do the analysis. Mode's sharing and the scheduled report are the gap.
+url: https://mode.com/
+docs: https://mode.com/help/
+alt: Apache Superset | https://github.com/apache/superset | Apache-2.0 | An open SQL and charting app.
+- SQL | SQL editor | An analyst writes SQL against a connected warehouse and sees the result grid.
+- Notebooks | Python notebooks | A notebook cell can use the query result as a dataframe.
+- Reports | Reports | A report mixes charts, text, and query results into a page a stakeholder can open.
+- Charts | Visual explorer | Builds a chart from a query result without leaving the report.
+- Schedule | Scheduled runs | The queries refresh on a timer so the report is not stale.
+- Collections | Collections | Groups reports for a team or a metric review.
+- Permissions | Database permissions | Uses the warehouse credentials the workspace admin connected.
+- Embeds | Private links | Shares a report with people inside the workspace.
+@@ amplitude | Amplitude | Amplitude | Analytics
+summary: A product-analytics suite for event funnels, retention, and experiment results.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: A default analytics tool for product managers who instrument clicks and want a funnel.
+license: Amplitude terms
+note: The analytics service and the UI are proprietary.
+gap: PostHog's open core can chart events you host. Amplitude's warehouse and the session tools are the gap.
+url: https://amplitude.com/
+docs: https://amplitude.com/docs
+alt: PostHog | https://github.com/PostHog/posthog | MIT | An open product-analytics suite you can host.
+- Events | Event taxonomy | Events and properties are named once and reused in every chart.
+- Funnels | Funnels | A funnel shows how many people finished each step, and where they dropped.
+- Retention | Retention | A chart shows who came back on day one, day seven, and day thirty.
+- Cohorts | Cohorts | A saved definition, such as paid users in Germany, can filter any chart.
+- Sessions | Session replay | A replay shows what the screen did for one user's session.
+- Experiments | Experiments | Compares a metric between a control group and a variant.
+- CDP | Audiences | Syncs a cohort to an ad tool or a messaging tool.
+- Governance | Taxonomy governance | Flags an event that arrived with a property the plan did not expect.
+@@ mixpanel | Mixpanel | Mixpanel | Analytics
+summary: An event-analytics product for funnels, retention, and user profiles.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A long-running product-analytics tool for teams that track named events from a mobile or web app.
+license: Mixpanel terms
+note: The Mixpanel service and its analysis UI are proprietary.
+gap: An open event pipeline and a warehouse can answer the same questions. Mixpanel's UI is the gap.
+url: https://mixpanel.com/
+docs: https://docs.mixpanel.com/
+alt: PostHog | https://github.com/PostHog/posthog | MIT | An open analytics product with funnels and retention.
+- Insights | Insights | A chart counts an event, broken down by a property such as plan or country.
+- Funnels | Funnels | Orders events into steps and shows the conversion between them.
+- Retention | Retention | Measures how many users did an event again after the first time.
+- Profiles | User profiles | A profile stores the properties and the event history of one person.
+- Cohorts | Cohorts | Saves a group from a chart and uses it as a filter elsewhere.
+- Lexicon | Lexicon | Documents what each event means so the next analyst does not guess.
+- Alerts | Custom alerts | Sends a message when a metric moves more than a threshold.
+- Warehouse | Warehouse connectors | Imports events into the product or exports them to a warehouse.
+@@ segment | Segment | Twilio | Data
+summary: A customer-data pipeline that collects events from apps and forwards them to other tools.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Twilio. Segment revenue is not cited alone on this card.
+reach: The pipe many companies put in front of analytics, ads, and the warehouse so each app emits one event stream.
+license: Segment terms
+note: Segment is proprietary. The open-source analytics libraries are clients, not the pipeline.
+gap: RudderStack's open server can forward events. Segment's protocols and the hosted connections are the gap.
+url: https://segment.com/
+docs: https://segment.com/docs/
+alt: RudderStack | https://github.com/rudderlabs/rudder-server | Elastic-2.0 | The server is source-available under the Elastic License, not an OSI license. It is a real pipeline you can run, with that limit.
+- Sources | Sources | A website, a mobile app, or a server sends identify and track calls to one source.
+- Destinations | Destinations | The same event is forwarded to a warehouse, an ad network, or an analytics tool.
+- Protocols | Protocols | A tracking plan rejects an event that is missing a required property.
+- Identity | Identity resolution | Merges anonymous and logged-in events into one profile.
+- Functions | Destination functions | A small function reshapes an event before it is delivered.
+- Replay | Replay | Sends historical events to a new destination without changing the app.
+- Warehouses | Warehouse sync | Loads tables of tracks, identifies, and pages into a warehouse.
+- Debugger | Event debugger | Shows the last events that arrived, including the ones a destination rejected.
+@@ fivetran | Fivetran | Fivetran | Data
+summary: A managed ELT service that copies SaaS and database tables into a warehouse.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The connector vendor data teams name when they do not want to maintain one script per SaaS API.
+license: Fivetran terms
+note: The connectors and the hosted service are proprietary.
+gap: You can write an ingest job. Fivetran's catalog of maintained connectors is the gap.
+url: https://www.fivetran.com/
+docs: https://fivetran.com/docs
+alt: Meltano | https://github.com/meltano/meltano | MIT | An open ELT runner. You still maintain the taps.
+- Connectors | Connector catalog | A connector logs into a source such as Salesforce, Stripe, or Postgres and reads the tables.
+- Schema | Schema migration | Adds a column in the destination when the source adds a field.
+- Sync | Incremental syncs | A cursor copies only the rows that changed since the last run.
+- Destinations | Warehouse destinations | Writes the tables into Snowflake, BigQuery, Redshift, or Databricks.
+- Transformations | dbt integration | Triggers a dbt job after the sync finishes.
+- Logs | Sync logs | Shows which table failed and which API error the source returned.
+- Governance | Column blocking | Stops a sensitive column from landing in the warehouse.
+- Scheduling | Sync frequency | A connector can run every few minutes or once a night.
+@@ dbt-cloud | dbt Cloud | dbt Labs | Data
+summary: The hosted version of dbt, for building, testing, and documenting warehouse models.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The scheduler and IDE many teams use on top of dbt Core, which itself is open source.
+license: dbt Cloud terms
+note: dbt Core is Apache-2.0. dbt Cloud, the IDE, and the scheduler are proprietary.
+gap: dbt Core plus a cron job and a CI runner covers the models. The hosted IDE and the semantic layer service are the gap.
+url: https://www.getdbt.com/product/dbt-cloud
+docs: https://docs.getdbt.com/
+alt: dbt Core | https://github.com/dbt-labs/dbt-core | Apache-2.0 | The open compiler and runner. You schedule it yourself.
+- IDE | Browser IDE | Edits a model, compiles it, and previews the rows without a local install.
+- Jobs | Jobs | Runs a selection of models on a schedule or when the Git branch changes.
+- Tests | Tests | A job fails when a not-null or a unique test fails.
+- Docs | Docs site | Generates a lineage graph and a description for each model.
+- CI | Continuous integration | Builds only the models a pull request changed, in a schema for that request.
+- Semantic | Semantic layer | Defines a metric once and serves it to a BI tool.
+- Explorer | Explorer | A stakeholder browses the lineage without opening the Git repo.
+- Develop | Development schema | Each developer writes to their own schema so they do not clobber production.
+@@ confluent | Confluent Cloud | Confluent | Data
+summary: A hosted Kafka service with schema registry, connectors, and stream processing.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The Kafka service companies buy when they do not want to operate brokers.
+license: Confluent terms
+note: Apache Kafka is open source. Confluent Cloud and several Confluent components are proprietary.
+gap: You can run Apache Kafka. The managed brokers, the commercial connectors, and the cloud UI are the gap.
+url: https://www.confluent.io/
+docs: https://docs.confluent.io/
+alt: Apache Kafka | https://github.com/apache/kafka | Apache-2.0 | The open log. You operate the brokers.
+- Clusters | Managed clusters | A cluster of brokers is patched and scaled by Confluent.
+- Topics | Topics and partitions | Producers append records to a topic, and consumers read them in order.
+- Schema | Schema registry | A schema is stored and checked so a producer cannot break a consumer.
+- Connect | Managed connectors | A connector copies a database table into a topic or the reverse.
+- Flink | Stream processing | A SQL job transforms a stream without a separate cluster you run.
+- ksql | ksqlDB | A continuous query writes a new topic from an existing one.
+- Governance | Stream governance | A catalog lists topics and who produces them.
+- Network | Private networking | Clients in your VPC reach the brokers without the public internet.
+@@ auth0 | Auth0 | Okta | Identity
+summary: A hosted login service for applications that do not want to store passwords themselves.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Okta. Auth0 revenue is not cited alone on this card.
+reach: The login box in a huge number of SaaS apps, often still branded Auth0 after the Okta acquisition.
+license: Auth0 terms
+note: The hosted service is proprietary. Some SDK source is open; the tenant is not.
+gap: Keycloak can host login, users, and social connections. Auth0's hosted rules and the dashboard are the gap.
+url: https://auth0.com/
+docs: https://auth0.com/docs
+alt: Keycloak | https://github.com/keycloak/keycloak | Apache-2.0 | An open identity server you host.
+- Universal | Universal Login | A hosted page handles email, password, and social login so the app never sees the password.
+- Connections | Social connections | Google, Apple, or a SAML identity provider can sign the user in.
+- Actions | Actions | A function runs at login to add a claim, block a user, or call another API.
+- Organizations | Organizations | One tenant can host many customer companies, each with its own connections.
+- MFA | Multi-factor | A second step can be a push, a code, or a WebAuthn key.
+- Users | User store | The dashboard searches users and blocks one without a database migration.
+- Tokens | API tokens | The app receives an ID token and an access token after login.
+- Attack | Attack protection | Blocks a credential-stuffing burst against the login page.
+@@ clerk | Clerk | Clerk | Identity
+summary: A developer login product with prebuilt components for user accounts and organizations.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A common login choice in new Next.js and React apps that want components instead of a protocol tutorial.
+license: Clerk terms
+note: The hosted users, the components' backend, and the dashboard are proprietary.
+gap: Keycloak or an open auth library can issue sessions. Clerk's components and the hosted user console are the gap.
+url: https://clerk.com/
+docs: https://clerk.com/docs
+alt: Keycloak | https://github.com/keycloak/keycloak | Apache-2.0 | An open identity server with hosted login pages you run.
+- Components | Prebuilt components | A sign-in and a user-button component drop into a React app.
+- Users | User management | The dashboard lists users, sessions, and the providers they used.
+- Orgs | Organizations | A user can belong to an organization with roles such as admin and member.
+- Sessions | Session tokens | The app reads the session on the server without building the cookie format.
+- Social | Social providers | Google, GitHub, and other providers are toggled in the dashboard.
+- MFA | Multi-factor | Users can add a second factor from the account component.
+- Webhooks | Webhooks | The app is told when a user is created or deleted.
+- Restrictions | Allowlists | Sign-up can be limited to an email domain or an invite.
+@@ firebase | Firebase | Google | Infrastructure
+summary: Google's app backend for auth, a document database, file storage, and push messaging.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Google. Firebase revenue is not reported alone.
+reach: The backend behind a huge number of mobile apps that did not stand up their own servers.
+license: Firebase terms
+note: The hosted Firebase services are proprietary. Some client SDKs are open; the project is not.
+gap: Appwrite or PocketBase can cover auth, a database, and files. Firebase's scale and the Google tie-in are the gap.
+url: https://firebase.google.com/
+docs: https://firebase.google.com/docs
+alt: Appwrite | https://github.com/appwrite/appwrite | BSD-3-Clause | An open backend for auth, databases, and storage.
+- Auth | Authentication | Email, phone, and social providers issue a user id the other services trust.
+- Firestore | Cloud Firestore | A document database with security rules that run on each read and write.
+- Storage | Cloud Storage | Uploads files against a rule that checks the signed-in user.
+- Functions | Cloud Functions | A function runs when a document changes or an HTTPS request arrives.
+- Messaging | Cloud Messaging | Sends a push notification to a device token.
+- Hosting | Hosting | Serves a static site on a global CDN with a config file in the repo.
+- Crash | Crashlytics | Groups crash reports from the mobile app.
+- Remote | Remote Config | Changes a flag in the app without shipping a new binary.
+@@ algolia | Algolia | Algolia | Infrastructure
+summary: A hosted search API for product catalogs, docs, and in-app search boxes.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The search box on a large number of documentation sites and online stores.
+license: Algolia terms
+note: The hosted index and the API are proprietary.
+gap: The Meilisearch repository splits an engine from an enterprise edition under the Business Source License. Algolia's hosted relevance and the dashboard are the gap.
+url: https://www.algolia.com/
+docs: https://www.algolia.com/doc/
+alt: Meilisearch | https://github.com/meilisearch/meilisearch | MIT-and-BUSL | The enterprise edition in that repo is Business Source License 1.1. Read LICENSE for which parts are not.
+- Index | Indexes | Records are pushed into an index with attributes you mark as searchable or filterable.
+- Query | Query API | A keystroke sends a query and gets ranked hits in a few tens of milliseconds.
+- Facets | Facets | A response includes counts for brand, price, or category so the UI can draw filters.
+- Rules | Query rules | A merchandiser pins a record or hides one for a given query.
+- Synonyms | Synonyms | A search for one word also matches a synonym the index was told about.
+- Analytics | Search analytics | Shows queries that returned no hits so you can add synonyms or records for searches that failed.
+- Recommend | Recommendations | Returns related records from the same index.
+- Crawler | Crawler | Indexes a public website without a custom push pipeline.
+@@ pinecone | Pinecone | Pinecone | Data
+summary: A hosted vector database for similarity search over embeddings.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A common store behind retrieval-augmented chat features that need nearest-neighbor search.
+license: Pinecone terms
+note: The hosted index, the control plane, and the query service are proprietary.
+gap: Qdrant or pgvector can store embeddings you host. Pinecone's managed pods and the serverless index are the gap.
+url: https://www.pinecone.io/
+docs: https://docs.pinecone.io/
+alt: Qdrant | https://github.com/qdrant/qdrant | Apache-2.0 | An open vector database you can run.
+- Indexes | Indexes | An index stores vectors and metadata with a chosen dimension and metric.
+- Upsert | Upsert | A record is inserted or replaced by id, with a vector and a metadata map.
+- Query | Similarity query | A query vector returns the nearest ids, with optional metadata filters.
+- Namespaces | Namespaces | One index can separate tenants so a query stays inside one namespace.
+- Serverless | Serverless indexes | The service scales the index without a pod size you pick up front.
+- Sparse | Sparse and dense | Some indexes combine keyword-style sparse vectors with dense embeddings.
+- Backups | Collections and backups | A snapshot can be restored if an ingest job writes bad vectors.
+- Metrics | Index metrics | The console shows request rate and the size of the index.
+@@ twilio | Twilio | Twilio | Communications
+summary: APIs for SMS, voice, WhatsApp, and verification codes.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current end-user total is not cited on this card.
+reach: The API a huge number of apps call when they send a text or place a call.
+license: Twilio terms
+note: The APIs, the phone-number inventory, and the console are proprietary.
+gap: An open PBX can place a call on hardware you run. Twilio's global numbers and the APIs are the gap.
+url: https://www.twilio.com/
+docs: https://www.twilio.com/docs
+alt: Asterisk | https://github.com/asterisk/asterisk | GPL-2.0 | An open telephony toolkit. You bring the carriers.
+- SMS | Programmable SMS | An API sends and receives text messages on a Twilio number.
+- Voice | Programmable Voice | A webhook returns instructions that play audio, gather digits, or dial a person.
+- Verify | Verify | Sends a one-time code and checks the code the user typed.
+- WhatsApp | WhatsApp sender | Sends a template message on WhatsApp through the same account.
+- Numbers | Phone numbers | Buys a local or toll-free number in the console.
+- Studio | Studio flows | A visual flow handles a call or a message without a custom server for the simple cases.
+- Lookup | Lookup | Checks whether a phone number is valid and which carrier serves it.
+- Debugger | Debugger | Shows the last webhook errors so a failed signature is visible.
+@@ sendgrid | SendGrid | Twilio | Communications
+summary: An email delivery API for transactional mail such as receipts, resets, and invites.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Twilio. SendGrid revenue is not cited alone.
+reach: The SMTP and HTTP API many apps use so their password-reset mail actually arrives.
+license: SendGrid terms
+note: The delivery service and the template editor are proprietary.
+gap: A mail server you run can send mail. SendGrid's reputation, templates, and the event webhook are the gap.
+url: https://sendgrid.com/
+docs: https://docs.sendgrid.com/
+alt: Listmonk | https://github.com/knadh/listmonk | AGPL-3.0 | An open mailing-list manager. You still need a server that inboxes will trust.
+- API | Mail send API | A JSON request sends a message to one or many recipients.
+- Templates | Dynamic templates | A template holds the layout, and the API fills handlebars-style fields.
+- Events | Event webhook | The app is told when a message is delivered, opened, bounced, or marked as spam.
+- Suppressions | Suppressions | A bounced or unsubscribed address is not mailed again.
+- IP | Dedicated IPs | A sender can warm a dedicated IP so reputation is not shared.
+- Validation | Address validation | Checks an address before the send and flags a mailbox that is likely to bounce.
+- Stats | Category stats | Tags a message with a category and charts delivery by category.
+- SMTP | SMTP relay | An existing app can relay through SMTP instead of the HTTP API.
+@@ hubspot | HubSpot | HubSpot | Sales
+summary: A CRM suite for marketing email, a sales pipeline, service tickets, and a CMS.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The CRM a huge number of mid-sized companies adopt before they buy Salesforce.
+license: HubSpot terms
+note: The CRM, the marketing tools, and the CMS hosting are proprietary.
+gap: SuiteCRM or EspoCRM can track contacts and deals. HubSpot's marketing automation and the hosted CMS are the gap.
+url: https://www.hubspot.com/
+docs: https://developers.hubspot.com/docs
+alt: EspoCRM | https://github.com/espocrm/espocrm | AGPL-3.0 | An open CRM for contacts, deals, and emails.
+- CRM | Contact records | A contact has a company, a lifecycle stage, and a timeline of emails and meetings.
+- Pipeline | Deal pipeline | A deal moves through stages, with an amount and a close date.
+- Inbox | Shared inbox | A team works a sales inbox without forwarding mail by hand.
+- Marketing | Email and forms | A form on a site creates a contact, and a workflow sends the next email.
+- Service | Tickets | A support ticket is tied to the same contact the sales team already has.
+- CMS | Content CMS | Hosts landing pages and a blog on HubSpot's servers.
+- Reporting | Attribution reports | Shows which form or campaign the closed deal came from.
+- Calling | Calling and sequences | A sequence enrolls a contact in a series of emails and tasks.
+@@ zendesk | Zendesk | Zendesk | Support
+summary: A support desk for tickets, a help center, and chat with customers.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company after going private. No current public user total is cited here.
+reach: The ticket inbox a large share of support teams still live in.
+license: Zendesk terms
+note: The desk, the help center, and the messaging product are proprietary.
+gap: Zammad or Chatwoot can take tickets and chat. Zendesk's help center and the marketplace are the gap.
+url: https://www.zendesk.com/
+docs: https://support.zendesk.com/
+alt: Zammad | https://github.com/zammad/zammad | AGPL-3.0 | An open help desk you host.
+- Tickets | Tickets | An email, a form, or a chat becomes a ticket with a status, a priority, and an assignee.
+- Views | Views | A view lists tickets that match a query, such as unsolved and assigned to the team.
+- Macros | Macros | Applies a canned reply and a set of field changes in one click.
+- Help | Help center | Publishes articles customers can search before they open a ticket.
+- Messaging | Messaging | A web widget chats with a customer and can become a ticket.
+- SLAs | Service targets | A policy says the first reply must happen within an hour.
+- Apps | Marketplace apps | A sidebar app shows an order from another system next to the ticket.
+- Explore | Explore reports | Charts ticket volume, wait time, and satisfaction.
+@@ intercom | Intercom | Intercom | Support
+summary: A messenger for sales and support, with a bot and a shared inbox.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The chat widget on a large number of SaaS marketing sites.
+license: Intercom terms
+note: The messenger, the inbox, and the bots are proprietary.
+gap: Chatwoot can run a website inbox you host. Intercom's bots and the product tours are the gap.
+url: https://www.intercom.com/
+docs: https://developers.intercom.com/docs
+alt: Chatwoot | https://github.com/chatwoot/chatwoot | MIT | An open customer-inbox for chat, email, and social channels.
+- Messenger | Messenger widget | A bubble on the site opens a conversation tied to the signed-in user.
+- Inbox | Team inbox | Teammates assign, snooze, and reply from one inbox.
+- Bots | Fin and custom bots | A bot answers from the help center before a person is invited in.
+- Tours | Product tours | A series of pointers walks a user through a screen.
+- Outbound | Outbound messages | Sends a chat or an email when a user matches a segment.
+- Articles | Help articles | The bot and the help center share the same articles.
+- Users | User and company records | A conversation shows the plan and the company of the person writing in.
+- Apps | App store | A sidebar shows data from another tool inside the conversation.
+@@ outreach | Outreach | Outreach | Sales
+summary: A sales-engagement product for sequences of email, calls, and tasks.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A standard tool for outbound sales teams that work a list of prospects every day.
+license: Outreach terms
+note: The sequences, the dialer, and the analytics are proprietary.
+gap: A CRM plus a mailbox can send a sequence by hand. Outreach's pacing, dialer, and the safety checks are the gap.
+url: https://www.outreach.io/
+docs: https://support.outreach.io/
+alt: EspoCRM | https://github.com/espocrm/espocrm | AGPL-3.0 | An open CRM that can send mail and track deals. It is not a full dialer.
+- Sequences | Sequences | A sequence is a series of emails and call tasks with waits between them.
+- Mailboxes | Mailbox send | The email is sent from the rep's mailbox, not a shared marketing address.
+- Safety | Deliverability checks | Blocks a send that would hit too many people at one company in one day.
+- Dialer | Dialer | Places the call from the task and logs the disposition on the prospect.
+- Kaia | Conversation recording | Records a call and surfaces moments a manager asked to review.
+- Content | Snippets | Inserts an approved paragraph so every rep does not rewrite the pricing line.
+- Analytics | Sequence analytics | Shows reply rate by step so a weak email can be replaced.
+- CRM | CRM sync | A reply can move the Salesforce opportunity to the next stage.
+@@ gong | Gong | Gong | Sales
+summary: A revenue-intelligence product that records sales calls and scores what was said.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The call-recording system a lot of B2B sales teams require on every customer meeting.
+license: Gong terms
+note: The recorder, the models, and the deal board are proprietary.
+gap: A recorder plus a transcript can store the call. Gong's deal warnings and the team analytics are the gap.
+url: https://www.gong.io/
+docs: https://help.gong.io/
+alt: Jitsi | https://github.com/jitsi/jitsi-meet | Apache-2.0 | An open meeting tool. Recording and transcription are yours to add.
+- Capture | Call capture | Joins a Zoom, Meet, or Teams call and records it when the host allows.
+- Transcript | Transcript | Produces a transcript a person can search by keyword.
+- Trackers | Trackers | Counts how often a competitor, a pricing objection, or a next step was mentioned.
+- Deals | Deal board | Warns when a deal has gone quiet or no next meeting is booked.
+- Scorecards | Scorecards | A manager scores a call against a checklist.
+- Library | Call library | Saves a clip of a good discovery call for the next new hire.
+- Forecast | Forecast | A forecast view uses call activity next to the CRM amount.
+- Coaching | Coaching comments | A manager leaves a comment on a timestamp.
+@@ zoominfo | ZoomInfo | ZoomInfo | Sales
+summary: A contact and company database for B2B prospecting, plus a buyer-intent feed.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The database outbound teams search when they need a direct phone number and a title.
+license: ZoomInfo terms
+note: The database and the intent feed are proprietary.
+gap: Public web pages and an open CRM can store contacts you already have. ZoomInfo's database is the gap.
+url: https://www.zoominfo.com/
+docs: https://tech-docs.zoominfo.com/
+alt: EspoCRM | https://github.com/espocrm/espocrm | AGPL-3.0 | An open CRM. It does not include a licensed contact database.
+- Search | Contact search | Filters people by title, department, company size, and technology.
+- Company | Company profiles | A company page lists employees, technologies, and news.
+- Intent | Buyer intent | A topic spike says which accounts are reading about a problem you sell to.
+- Enrich | Enrichment API | An API fills a CRM record with a phone number and an email.
+- Engage | Engage sequences | A sequence emails the contacts a search returned.
+- Chorus | Conversation intel | A related product records calls. It is part of the same company.
+- Scoops | Scoops | A note says a company is hiring for a role or changed leadership.
+- Lists | Exported lists | A rep exports a list into the CRM or a sequence, within the license.
+@@ klaviyo | Klaviyo | Klaviyo | Marketing
+summary: An email and SMS platform built around ecommerce events such as a checkout or a browse.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The marketing tool a large share of Shopify stores use for abandoned-cart mail.
+license: Klaviyo terms
+note: The flows, the templates, and the hosted sending are proprietary.
+gap: Listmonk or Mautic can send a campaign. Klaviyo's ecommerce flows and the deliverability service are the gap.
+url: https://www.klaviyo.com/
+docs: https://developers.klaviyo.com/en
+alt: Mautic | https://github.com/mautic/mautic | GPL-3.0 | An open marketing automation app you host.
+- Flows | Flows | A flow sends a message when an event happens, such as a checkout that was not paid.
+- Campaigns | Campaigns | A one-time campaign goes to a segment, such as people who bought in the last year.
+- Segments | Segments | A segment is a query over profile properties and events.
+- Templates | Templates | A drag-and-drop editor builds the email, with product blocks.
+- SMS | SMS | The same flow can send a text where the shopper opted in.
+- Signups | Signup forms | A form on the store collects an email and a consent flag.
+- Benchmarks | Benchmarks | Compares open rate with other stores in the same category.
+- Reviews | Reviews product | A related tool asks for a review after delivery.
+@@ mailchimp | Mailchimp | Intuit | Marketing
+summary: An email marketing product for newsletters, audiences, and simple automations.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Intuit. Mailchimp revenue is not cited alone on this card.
+reach: The newsletter tool a huge number of small businesses started with.
+license: Mailchimp terms
+note: The editor, the audience, and the sending service are proprietary.
+gap: Listmonk can send a newsletter you host. Mailchimp's templates and the deliverability are the gap.
+url: https://mailchimp.com/
+docs: https://mailchimp.com/developer/
+alt: Listmonk | https://github.com/knadh/listmonk | AGPL-3.0 | An open newsletter and mailing-list manager.
+- Audience | Audiences | A contact has tags, a status, and the groups they joined.
+- Campaigns | Campaigns | A campaign is designed, tested, and sent to a segment.
+- Automations | Customer journeys | A journey sends a welcome mail, then a follow-up if they did not click.
+- Forms | Signup forms | An embedded form adds a subscriber with consent.
+- Templates | Templates | A template keeps the brand colors and the footer.
+- Reports | Reports | Shows opens, clicks, and bounces per campaign.
+- Stores | Store connection | An ecommerce store can feed purchase data into a segment.
+- Transactional | Transactional email | A separate stream sends receipts that are not marketing.
+@@ webflow | Webflow | Webflow | Design
+summary: A visual website builder that publishes a hosted site and a CMS without a hand-written frontend.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The builder a lot of marketing teams use when they want a custom site without a ticket to engineering.
+license: Webflow terms
+note: The designer, the hosting, and the CMS are proprietary.
+gap: You can write the HTML yourself and host it. Webflow's designer and the hosted CMS are the gap.
+url: https://webflow.com/
+docs: https://developers.webflow.com/
+alt: WordPress | https://github.com/WordPress/WordPress | GPL-2.0 | An open CMS. The editing experience is different, and you host it.
+- Designer | Visual designer | Lays out sections, typography, and interactions on a canvas that emits the site.
+- CMS | CMS collections | A collection such as blog posts or jobs feeds a template page.
+- Hosting | Hosting | Publishes the site to Webflow's CDN with a certificate.
+- Interactions | Interactions | An animation runs on scroll or on hover without a separate JS file.
+- Components | Components | A navbar or a card is defined once and reused.
+- Forms | Forms | A form submission lands in the project or a connected tool.
+- Ecommerce | Ecommerce | A catalog, a cart, and checkout can live on the same site.
+- Editor | Editor role | A marketer edits CMS content without opening the designer.
+@@ framer | Framer | Framer | Design
+summary: A design-and-publish tool for marketing sites, with a canvas that ships the page.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A frequent pick for startup marketing sites that used to be designed in one tool and rebuilt in another.
+license: Framer terms
+note: The editor and the hosting are proprietary.
+gap: A static site you code can look the same. Framer's canvas-to-host path is the gap.
+url: https://www.framer.com/
+docs: https://www.framer.com/developers/
+alt: WordPress | https://github.com/WordPress/WordPress | GPL-2.0 | An open CMS you host yourself.
+- Canvas | Design canvas | Places frames, text, and components the way a design tool does, then publishes them.
+- Components | Components and variants | A button has variants for size and state, reused across pages.
+- CMS | CMS | A collection fills a list page and a detail page.
+- Effects | Effects | Scroll and appear animations are set on the layer.
+- Hosting | Hosting and domains | The published site is served with a custom domain.
+- Localization | Localization | A page can have a locale with translated text.
+- Forms | Forms | Submissions are stored in the project or forwarded to an email address and a webhook.
+- Analytics | Analytics | A simple page-view count is built in so a published site can show traffic without a separate tag.
+@@ squarespace | Squarespace | Squarespace | Design
+summary: A hosted website builder for brochure sites, blogs, and small shops.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: A default website for restaurants, artists, and small businesses that do not want a server.
+license: Squarespace terms
+note: The templates, the editor, and the hosting are proprietary.
+gap: WordPress can run a similar site. Squarespace's templates and the all-in hosting are the gap.
+url: https://www.squarespace.com/
+docs: https://developers.squarespace.com/
+alt: WordPress | https://github.com/WordPress/WordPress | GPL-2.0 | An open CMS with themes and plugins.
+- Templates | Templates | Starts from a template for a portfolio, a menu, or a shop.
+- Editor | Section editor | Adds blocks for text, images, video, and forms.
+- Commerce | Commerce | Sells a product with checkout, tax, and a shipping rule.
+- Domains | Domains and email | Registers a domain and can attach email forwarding.
+- Blogging | Blog | Publishes posts with categories and a subscription form.
+- Scheduling | Scheduling | A visitor books an appointment on the site.
+- Members | Member areas | A page is visible only after a person pays or signs in.
+- Analytics | Built-in analytics | Shows visits without a separate tag for the basic count.
+@@ miro | Miro | Miro | Collaboration
+summary: An online whiteboard for workshops, diagrams, and sticky-note meetings.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The board a lot of remote workshops open when the team cannot stand around a wall.
+license: Miro terms
+note: The board, the templates, and the facilitation tools are proprietary.
+gap: Excalidraw can sketch a diagram you host. Miro's infinite board, timers, and the template library are the gap.
+url: https://miro.com/
+docs: https://developers.miro.com/docs
+alt: Excalidraw | https://github.com/excalidraw/excalidraw | MIT | An open whiteboard for diagrams.
+- Board | Infinite canvas | People add stickies, shapes, and images on a shared board.
+- Frames | Frames | A frame is a slide-sized region that a presentation can walk through.
+- Templates | Templates | Starts from a retro, a journey map, or a flowchart.
+- Facilitation | Timer and voting | A timer and a dot-vote run a workshop without a second tool.
+- Tables | Tables and docs | A table or a doc can sit on the board next to the stickies.
+- Talktrack | Talktrack | Records a walkthrough of the board for someone who missed the meeting.
+- Integrations | Embeds | Embeds a Jira issue, a Figma frame, or a document.
+- Permissions | Board permissions | A guest can view or edit one board without joining the whole team workspace.
+@@ loom | Loom | Atlassian | Collaboration
+summary: A screen-and-camera recorder that shares a link instead of a meeting.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Atlassian. Loom revenue is not cited alone.
+reach: The async video a lot of product and support teams send when a screenshot is not enough.
+license: Loom terms
+note: The recorder, the hosting, and the viewer are proprietary.
+gap: OBS can record a screen to a file you host. Loom's instant link and the comments are the gap.
+url: https://www.loom.com/
+docs: https://support.loom.com/
+alt: OBS Studio | https://github.com/obsproject/obs-studio | GPL-2.0 | An open screen and camera recorder. You host the file.
+- Record | Screen and camera | Records the screen, a camera bubble, or both, from a desktop app or an extension.
+- Link | Instant link | The video gets a URL as soon as the recording stops.
+- Viewer | Viewer insights | Shows who watched and how far they got so the owner can see which part of the video lost people.
+- Comments | Timestamp comments | A viewer comments on a moment in the video.
+- Transcript | Transcript | A transcript makes the video searchable.
+- Edit | Trim and stitch | Trims the start and the end and can stitch clips into one video before it is shared.
+- Embed | Embeds | The link embeds in a doc, a ticket, or a pull request.
+- Workspace | Workspace library | A team library keeps videos that should not live only in someone's account.
+@@ calendly | Calendly | Calendly | Collaboration
+summary: A scheduling page that shows when you are free and books the meeting.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The link people paste when they say book time with me.
+license: Calendly terms
+note: The scheduling service and the routing features are proprietary.
+gap: Cal.com publishes the scheduler in its repository under the MIT license. Calendly's hosted pages and the routing are the gap.
+url: https://calendly.com/
+docs: https://developer.calendly.com/
+alt: Cal.com | https://github.com/calcom/cal.com | MIT | The repository license is MIT. A hosted Cal.com account is a separate service.
+- Event | Event types | A link offers 15 minutes, 30 minutes, or a paid session, with its own questions.
+- Calendar | Calendar check | Reads Google, Outlook, or another calendar so booked time is not offered.
+- Buffers | Buffers and limits | Adds a gap between meetings and a cap on how many happen in one day.
+- Routing | Routing forms | A form sends a lead to the right person's calendar.
+- Round | Round robin | Distributes bookings across a team so the next open host, not one calendar, receives the meeting.
+- Reminders | Reminders | Emails or texts both people before the meeting.
+- Workflows | Workflows | Sends a follow-up after the meeting ends.
+- Embed | Embeds | Drops the booking page into another website.
+@@ dropbox | Dropbox | Dropbox | Files
+summary: A file-sync product for a folder that stays the same on a laptop and on the web.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The synced folder a huge number of teams still use for shared files.
+license: Dropbox terms
+note: The sync client and the service are proprietary.
+gap: Nextcloud can sync files you host. Dropbox's client and the sharing links are the gap.
+url: https://www.dropbox.com/
+docs: https://www.dropbox.com/developers
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open file sync and share server you host.
+- Sync | Desktop sync | A folder on the computer stays in step with the cloud copy.
+- Share | Shared links | A link can be view-only, expiring, or password protected.
+- Paper | Paper docs | A doc lives next to the files for a lightweight write-up.
+- Replay | Replay | Reviews a video file with frame comments.
+- Requests | File requests | Asks someone to upload into a folder without giving them the rest of the account.
+- Versions | Version history | Restores an older copy of a file from the version list after an overwrite or a bad save.
+- Admin | Admin console | An admin can see devices, wipe a session, and set sharing rules.
+- Transfer | Transfer | Sends a large file to someone who does not have an account.
+@@ box | Box | Box | Files
+summary: An enterprise file platform with governance, retention, and app integrations.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The content layer a lot of regulated companies use instead of a consumer sync folder.
+license: Box terms
+note: The service and the clients are proprietary.
+gap: Nextcloud covers sync and share. Box's retention, watermarking, and the compliance controls are the gap.
+url: https://www.box.com/
+docs: https://developer.box.com/
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open content server you host.
+- Files | Files and folders | Stores files with previews for office documents, video, and images.
+- Sharing | Shared links and collaborators | Invites a person or creates a link with an expiry.
+- Governance | Retention and legal hold | A policy keeps a file for a required period or freezes it for a matter.
+- Shield | Classification | Labels a file and can watermark a download.
+- Notes | Box Notes | A collaborative note sits in the same folder as the files.
+- Relay | Workflow | A file can move through an approval before it is shared outside.
+- Sign | Box Sign | Collects a signature on a file in the same account.
+- Admin | Admin insights | Reports external sharing and inactive accounts.
+@@ docusign | DocuSign | DocuSign | Business
+summary: An electronic-signature service for sending a document and collecting a legal signature.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The signature request a huge number of contracts still arrive as.
+license: DocuSign terms
+note: The envelope service and the certificate of completion are proprietary.
+gap: An open signature tool can collect an image of a signature. DocuSign's envelope, audit trail, and the legal workflow are the gap.
+url: https://www.docusign.com/
+docs: https://developers.docusign.com/
+alt: Documenso | https://github.com/documenso/documenso | AGPL-3.0 | An open e-signature product you can host.
+- Envelopes | Envelopes | A sender uploads a PDF, places fields, and sends it to signers in order.
+- Fields | Fields | A signer fills a signature, a date, or a text field on the page.
+- Templates | Templates | A reusable template already has the fields for a standard contract.
+- Reminders | Reminders | Nudges a signer who has not finished by sending a reminder email on a schedule you set.
+- Certificate | Certificate of completion | A record lists who signed, from where, and when.
+- TemplatesPower | PowerForms | A public link starts an envelope without a person sending it each time.
+- CLM | Agreement workflow | A contract can be routed for approval before it is sent for signature.
+- API | Embedded signing | An app can embed the signing ceremony in its own page.
+@@ xero | Xero | Xero | Finance
+summary: A small-business accounting product for invoices, bills, bank feeds, and a ledger.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: A default ledger for agencies and small companies outside the QuickBooks-only market.
+license: Xero terms
+note: The ledger and the bank feeds are proprietary.
+gap: ERPNext can invoice and keep a ledger. Xero's bank feeds and the accountant workflow are the gap. Akaunting is under the Business Source License, so it is not the open alternative.
+url: https://www.xero.com/
+docs: https://developer.xero.com/documentation/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with invoices, bills, and a ledger.
+- Invoices | Invoices | Sends an invoice, records a payment, and chases an overdue one.
+- Bills | Bills | Enters a supplier bill and matches it to a bank line.
+- Bank | Bank feeds | Imports transactions from a bank and suggests a match.
+- Reconciliation | Reconciliation | Marks a statement line as explained by an invoice or a transfer.
+- Reports | Reports | A profit-and-loss and a balance sheet come from the same ledger.
+- Payroll | Payroll | In supported countries, a pay run calculates tax and files it.
+- Projects | Projects | Tracks time and costs against a customer project.
+- Advisors | Advisor access | An accountant can work in the file without sharing the owner's password.
+@@ gusto | Gusto | Gusto | People
+summary: A payroll and benefits product for small US companies.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A common payroll system for US startups that do not want to file taxes by hand.
+license: Gusto terms
+note: The payroll engine, the tax filing, and the benefits marketplace are proprietary.
+gap: A spreadsheet can list salaries. Gusto's tax filing, direct deposit, and benefits are the gap.
+url: https://gusto.com/
+docs: https://docs.gusto.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with payroll features. US tax filing is not the same product.
+- Payroll | Payroll runs | Calculates gross pay, taxes, and deductions and pays by direct deposit.
+- Taxes | Tax filing | Files payroll taxes and issues year-end forms in supported jurisdictions.
+- Benefits | Benefits | Offers health and retirement plans employees enroll in.
+- Time | Time tracking | Hourly employees submit hours that flow into the run.
+- Onboard | Hiring | Collects a new hire's tax forms and bank details.
+- PTO | Time off | Requests and balances sit next to the payroll record.
+- Contractors | Contractor pay | Pays a contractor and collects the tax form.
+- Reports | Payroll reports | Exports a journal for the accounting system.
+@@ rippling | Rippling | Rippling | People
+summary: An employee system that combines HR records, payroll, devices, and app access.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: Chosen by companies that want one hire to create the payroll record, the laptop, and the app accounts.
+license: Rippling terms
+note: The Rippling HR, IT, and payroll platform is proprietary.
+gap: Separate open HR and device tools exist. Rippling's single employee graph is the gap.
+url: https://www.rippling.com/
+docs: https://developer.rippling.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open system for employees, payroll, and expenses.
+- Directory | Employee directory | One record holds the job, the manager, the start date, and the documents.
+- Payroll | Payroll | Runs pay from the same record that holds the job.
+- Devices | Device management | Ships a laptop and can lock it if the person leaves.
+- Apps | App access | Grants Slack, Google, or another app based on the department.
+- Time | Time and attendance | Collects hours and time-off requests and sends approved time into the payroll run.
+- Workflows | Workflows | A hire triggers a checklist of tasks for IT and a manager.
+- Global | Global employment | Employs people in other countries through the product's entities, where offered.
+- Reports | Headcount reports | Charts starters, leavers, and cost by department.
+@@ bamboohr | BambooHR | BambooHR | People
+summary: An HR system of record for employee data, time off, and hiring at mid-sized companies.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A frequent HRIS when a company has outgrown a spreadsheet and is not yet on Workday.
+license: BambooHR terms
+note: The BambooHR human-resources system and its employee records are proprietary.
+gap: An open HR app can store employees and time off. BambooHR's hiring and the employee experience are the gap.
+url: https://www.bamboohr.com/
+docs: https://documentation.bamboohr.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open employee and leave system.
+- Records | Employee records | Stores job, compensation, emergency contacts, and documents.
+- Timeoff | Time off | Employees request leave, and a manager approves it against a policy.
+- Onboarding | Onboarding checklists | A new hire sees the tasks they must finish in the first week.
+- Hiring | Applicant tracking | A job opens, candidates move through stages, and an offer is recorded.
+- Directory | Org chart | An org chart is generated from the manager field.
+- Performance | Performance | Collects a review on a cycle so a manager and an employee both write feedback before the meeting.
+- Reports | Custom reports | Exports a list of employees who match a filter.
+- Mobile | Mobile app | An employee can request time off from a phone.
+@@ greenhouse | Greenhouse | Greenhouse | People
+summary: An applicant-tracking system for job posts, interviews, and scorecards.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A standard hiring tool at technology companies that run a structured interview loop.
+license: Greenhouse terms
+note: The Greenhouse hiring system, scorecards, and candidate database are proprietary.
+gap: An open form and a spreadsheet can track candidates. Greenhouse's scorecards and the scheduling are the gap.
+url: https://www.greenhouse.com/
+docs: https://developers.greenhouse.io/
+alt: OpenCATS | https://github.com/opencats/OpenCATS | GPL-3.0 | An open applicant-tracking system.
+- Jobs | Job posts | A job has a description, a hiring team, and a public posting.
+- Stages | Pipeline stages | A candidate moves from application to screen to onsite to offer.
+- Scorecards | Scorecards | Each interviewer submits a structured score after the interview.
+- Scheduling | Interview scheduling | Proposes times that match the interviewers' calendars.
+- Approvals | Offer approvals | An offer cannot be sent until the approval chain finishes.
+- Reports | Pipeline reports | Shows where candidates drop out, by source and by stage.
+- CRM | Talent CRM | Keeps a person who is not in an open job, for a later search.
+- Permissions | Private jobs | A confidential search is hidden from the rest of the company.
+@@ airtable | Airtable | Airtable | Product work
+summary: A spreadsheet-database hybrid for bases, views, and automations non-engineers can edit.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The tool operations teams open when a spreadsheet has become the product.
+license: Airtable terms
+note: The base, the automations, and the interface pages are proprietary.
+gap: Grist can hold typed rows on a database you host. Airtable's interfaces and automations are the gap.
+url: https://www.airtable.com/
+docs: https://airtable.com/developers/web/api/introduction
+alt: Grist | https://github.com/gristlabs/grist-core | Apache-2.0 | An Apache-2.0 spreadsheet-database you host.
+- Bases | Bases and tables | A base holds tables, and a row has typed fields such as a link, a date, or a select.
+- Views | Views | The same table can be a grid, a kanban, a calendar, or a gallery.
+- Links | Linked records | A field points at a row in another table, like a foreign key a person can click.
+- Interfaces | Interfaces | Builds a page for a teammate who should not see the raw grid.
+- Automations | Automations | Sends a message or updates a row when a field changes.
+- Forms | Forms | A public form creates a row in the base without giving the visitor access to the rest of the data.
+- Sync | Sync | A view in one base can appear in another.
+- API | API | Scripts and other products read and write rows with a token.
+@@ coda | Coda | Coda | Knowledge
+summary: A doc that behaves like an app, with tables, buttons, and packs that call other products.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: Used by teams that want a written page and a working table in the same URL.
+license: Coda terms
+note: The doc runtime and the packs are proprietary.
+gap: A wiki plus a database can split the same job. Coda's buttons and packs in one doc are the gap.
+url: https://coda.io/
+docs: https://coda.io/developers
+alt: Docmost | https://github.com/docmost/docmost | AGPL-3.0 | An open wiki and doc space you host.
+- Docs | Docs and pages | A doc is a set of pages with text, tables, and embeds.
+- Tables | Tables | A table has typed columns, formulas, and relations to other tables.
+- Buttons | Buttons | A button runs an action, such as adding a row or pushing a Slack message.
+- Packs | Packs | A pack pulls data from another product into the doc.
+- Automations | Automations | A rule runs on a schedule or when a row changes.
+- Sharing | Sharing | A page can be shared with the company or with a public link.
+- Locking | Page locking | Stops a reader from editing a finished page.
+- Versions | Version history | Restores an earlier copy of the doc, including tables and buttons, after an unwanted edit.
+@@ sketch | Sketch | Sketch | Design
+summary: A Mac design tool for screens, symbols, and a shared library.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The Mac-native design tool many product teams used before the work moved to the browser.
+license: Sketch license
+note: The Mac app and the cloud documents are proprietary.
+gap: Penpot can design screens in the browser. Sketch's Mac app and the library workflow are the gap.
+url: https://www.sketch.com/
+docs: https://www.sketch.com/docs/
+alt: Penpot | https://github.com/penpot/penpot | MPL-2.0 | An open design tool for screens and components.
+- Artboards | Artboards | A file holds frames for each screen of a flow.
+- Symbols | Symbols | A component is defined once and instanced across the file.
+- Libraries | Shared libraries | A team library pushes color and component updates to other files.
+- Prototypes | Prototypes | Links hotspots so a click moves to another artboard.
+- Inspect | Inspect | A developer reads spacing, colors, and assets from the web app.
+- Cloud | Cloud documents | The file lives in Sketch's cloud and can be commented on.
+- Plugins | Plugins | A plugin generates content or exports assets.
+- Version | Version history | Restores an earlier save of the document.
+@@ illustrator | Adobe Illustrator | Adobe | Design
+summary: Adobe's vector editor for logos, icons, and print artwork.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Adobe. Illustrator revenue is not cited alone.
+reach: The vector tool print and brand designers still name first.
+license: Adobe terms
+note: Illustrator is proprietary. The file format is not an open editor.
+gap: Inkscape edits SVG. Illustrator's type, color, and the Creative Cloud libraries are the gap.
+url: https://www.adobe.com/products/illustrator.html
+docs: https://helpx.adobe.com/illustrator/user-guide.html
+alt: Inkscape | https://gitlab.com/inkscape/inkscape | GPL-2.0 | An open vector editor.
+- Vectors | Paths and anchors | Draws and edits bezier paths with anchors and handles.
+- Type | Type on a path | Sets type on a path or inside a shape, with OpenType features.
+- Color | Color and swatches | Uses swatches, gradients, and spot colors for print.
+- Artboards | Multiple artboards | One file holds several sizes, such as a logo lockup and an icon.
+- Libraries | Cloud libraries | Reuses a logo or a color from a Creative Cloud library.
+- Image | Image trace | Turns a raster image into editable vector paths that can be recolored and scaled.
+- Export | Export for screens | Exports SVG, PDF, and PNG at the sizes a product needs.
+- Repeat | Repeat and patterns | Builds a pattern tile or a radial repeat.
+@@ after-effects | Adobe After Effects | Adobe | Design
+summary: Adobe's motion-graphics tool for compositing layers over time.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Adobe. After Effects revenue is not cited alone.
+reach: The motion tool behind a huge amount of commercial animation and title sequences.
+license: Adobe terms
+note: After Effects, its plugin host, and the project file format are proprietary.
+gap: Blender can animate and composite. After Effects' layer timeline and the plugin ecosystem are the gap.
+url: https://www.adobe.com/products/aftereffects.html
+docs: https://helpx.adobe.com/after-effects/user-guide.html
+alt: Blender | https://projects.blender.org/blender/blender | GPL-2.0 | An open 3D and motion tool. The workflow is different.
+- Layers | Layer timeline | Stacks footage, solids, and text on a timeline with in and out points.
+- Keyframes | Keyframes | Animates position, opacity, and effects with keyframes and easing.
+- Masks | Masks and mattes | Hides part of a layer with a mask or another layer's alpha.
+- Effects | Effect plugins | Applies a blur, a color grade, or a third-party effect to a layer.
+- Text | Text animators | Animates characters or words of a title independently.
+- Expressions | Expressions | A line of code drives one property from another.
+- Render | Render queue | Renders the composition to a movie or an image sequence.
+- Roundtrip | Premiere roundtrip | A composition can replace a clip in Premiere and come back rendered.
+@@ lightroom | Adobe Lightroom | Adobe | Design
+summary: Adobe's photo library and raw editor for culling and developing a shoot.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Adobe. Lightroom revenue is not cited alone.
+reach: The library a huge number of photographers use to develop a shoot and sync it to a phone.
+license: Adobe terms
+note: Lightroom and Lightroom Classic are proprietary.
+gap: Darktable develops raw files. Lightroom's cloud library and the mobile sync are the gap.
+url: https://www.adobe.com/products/photoshop-lightroom.html
+docs: https://helpx.adobe.com/lightroom-cc/user-guide.html
+alt: Darktable | https://github.com/darktable-org/darktable | GPL-3.0 | An open raw developer.
+- Library | Photo library | Imports a card of photos and keeps them in albums and folders.
+- Develop | Develop controls | Adjusts exposure, white balance, color, and a tone curve on a raw file.
+- Masks | Masks | Paints an adjustment onto the sky, a subject, or a brushed area.
+- Presets | Presets | Applies a saved look to one photo or a whole set.
+- Cull | Flags and ratings | Rates and rejects photos so the export is only the keepers.
+- Sync | Cloud sync | Edits on the desktop show up on the phone.
+- Export | Export | Writes a JPEG or a TIFF at a size and a color space.
+- Heal | Heal and clone | Removes a sensor spot or a distraction by cloning nearby pixels across the selected photos.
+@@ final-cut | Final Cut Pro | Apple | Design
+summary: Apple's timeline editor for cutting picture and sound on a Mac.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Apple. Final Cut revenue is not reported alone.
+reach: The editor a large share of Mac-based video teams use instead of a rental suite.
+license: Apple terms
+note: Final Cut Pro and its library format are proprietary Apple software.
+gap: Kdenlive can cut a timeline on hardware you own. Final Cut's magnetic timeline and the Mac performance are the gap.
+url: https://www.apple.com/final-cut-pro/
+docs: https://support.apple.com/final-cut-pro
+alt: Kdenlive | https://github.com/KDE/kdenlive | GPL-2.0 | An open timeline editor.
+- Timeline | Magnetic timeline | Clips stick to a primary storyline and connected clips ride above or below it.
+- Library | Libraries | A library holds events of footage and the projects that cut them.
+- Roles | Roles | Assigns dialogue, music, and effects so a mix can be soloed by role.
+- Color | Color wheels | Grades a clip with wheels, curves, and a LUT.
+- Multicam | Multicam | Cuts between angles that share a sync point.
+- Captions | Captions | Creates a caption file on the timeline and can burn or export those captions with the cut.
+- Effects | Effects and titles | Drops a title or an effect onto a clip and edits its timing in the inspector.
+- Export | Share destinations | Exports a master, a social file, or a send to another app.
+@@ runway | Runway | Runway | AI
+summary: A generative video studio for text-to-video, inpainting, and editing shots.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: One of the tools video teams open when they want a generated shot without a full CG pipeline.
+license: Runway terms
+note: The models and the studio are proprietary. Generated output is covered by Runway's terms, not an open license.
+gap: Open video models exist and change quickly. Runway's studio, the editor, and the hosted models are the gap.
+url: https://runwayml.com/
+docs: https://help.runwayml.com/
+alt: ComfyUI | https://github.com/comfyanonymous/ComfyUI | GPL-3.0 | An open node editor for generative models you run. The models have their own licenses.
+- Generate | Text to video | Writes a prompt and generates a short clip.
+- Image | Image to video | Animates a still image the user uploaded.
+- Inpaint | Inpainting | Replaces an object in a shot while the rest of the frame stays.
+- Expand | Expand | Extends the frame beyond the original crop.
+- Motion | Motion brush | Paints where motion should happen in the frame.
+- Edit | Timeline edit | Trims generated clips on a simple timeline.
+- Act | Act-one style performance | Drives a character with a reference performance, where the tool offers it.
+- Assets | Asset library | Keeps generated clips in a project for the next edit.
+@@ elevenlabs | ElevenLabs | ElevenLabs | AI
+summary: A voice studio for synthetic speech, voice cloning, and dubbed audio.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The voice API a large number of products call when they want speech that does not sound like a classic TTS engine.
+license: ElevenLabs terms
+note: The voices, the API, and the studio are proprietary. A cloned voice is allowed only under their consent rules.
+gap: Open TTS models can speak a sentence. ElevenLabs' voice library, dubbing, and the API reliability are the gap.
+url: https://elevenlabs.io/
+docs: https://elevenlabs.io/docs
+alt: Piper | https://github.com/OHF-Voice/piper1-gpl | GPL-3.0 | An open local text-to-speech system. Voice quality and licensing of each voice still need a check.
+- TTS | Text to speech | Types text, picks a voice, and downloads the audio.
+- Clone | Voice clone | Creates a voice from samples when the account is allowed to do so.
+- Library | Voice library | Shares or uses a community voice under the product's rules.
+- Projects | Projects | A long script is split into paragraphs that can be regenerated one at a time.
+- Dubbing | Dubbing | Translates speech in a video into another language and keeps timing.
+- API | Speech API | An application requests audio with a voice id and a model id.
+- Agents | Conversational agents | A voice agent answers on a phone call or a web widget.
+- Isolation | Voice isolation | Separates a voice from background noise.
+@@ descript | Descript | Descript | AI
+summary: A video and podcast editor where the transcript is the timeline.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: Used by podcasters and marketers who would rather delete a sentence than blade a waveform.
+license: Descript terms
+note: The editor, the transcription, and the studio sound features are proprietary.
+gap: A transcript plus an open editor can cut audio. Descript's text-based edit and the studio features are the gap.
+url: https://www.descript.com/
+docs: https://help.descript.com/
+alt: Kdenlive | https://github.com/KDE/kdenlive | GPL-2.0 | An open editor. You cut the timeline, not the transcript.
+- Transcript | Transcript editing | Deletes a word in the transcript and the matching audio is removed.
+- Overdub | Overdub | Regenerates a short phrase in the speaker's voice, where the feature is offered.
+- Studio | Studio sound | Cleans a room tone and levels the voice.
+- Screen | Screen recording | Records a screen and a camera into the same project.
+- Scenes | Scenes | Arranges clips and titles on a scene timeline.
+- Publish | Publish | Exports a video or sends it to a publishing destination.
+- Rooms | Recording rooms | Remote guests record locally so the file is not a compressed call.
+- Comments | Comments | A reviewer marks a word instead of a timecode.
+@@ grammarly | Grammarly | Grammarly | Writing
+summary: A writing assistant that underlines grammar, tone, and clarity in the browser and in docs.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The underline a huge number of people see in email, docs, and the browser.
+license: Grammarly terms
+note: The suggestions service and the apps are proprietary.
+gap: A local language tool can flag grammar. Grammarly's tone rewrites and the everywhere-extension are the gap.
+url: https://www.grammarly.com/
+docs: https://developer.grammarly.com/
+alt: LanguageTool | https://github.com/languagetool-org/languagetool | LGPL-2.1 | An open proofreading server you can run.
+- Underline | Inline suggestions | Underlines a phrase and offers a replacement.
+- Tone | Tone rewrite | Rewrites a sentence to be more formal or more concise.
+- Clarity | Clarity | Flags a long sentence and proposes a split.
+- Plagiarism | Plagiarism check | Compares a document with published sources on the paid plan.
+- Goals | Audience goals | Sets the audience and the formality before the suggestions change.
+- Browser | Browser extension | Works in web mail and other text boxes so a suggestion appears where the sentence is typed.
+- Docs | Document editor | Uploads a doc and accepts suggestions in Grammarly's editor.
+- Snippets | Snippets | Expands a short code into a paragraph the person uses often.
+@@ perplexity | Perplexity | Perplexity | AI
+summary: An answer engine that searches the web and cites the pages it used.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A widely used alternative to a classic search box when the person wants a sourced paragraph.
+license: Perplexity terms
+note: The product, the ranking, and the apps are proprietary.
+gap: An open model plus a search index can answer with links. Perplexity's product and the citation UI are the gap.
+url: https://www.perplexity.ai/
+docs: https://docs.perplexity.ai/
+alt: SearXNG | https://github.com/searxng/searxng | AGPL-3.0 | An open metasearch engine. It does not write the answer.
+- Answer | Cited answers | Writes an answer with numbered citations a person can open.
+- Focus | Focus modes | Limits the search to the web, academic papers, or another source set.
+- Follow | Follow-up questions | A thread keeps the earlier question so the next one can say tell me more.
+- Pages | Pages | Turns a research thread into a page that can be edited and shared as a write-up.
+- Files | File questions | Uploads a PDF and asks a question about that file.
+- Collections | Collections | Saves threads into a collection for a topic.
+- Pro | Model choice | A paid search can use a stronger model when the default answer is not enough.
+- API | Search API | An application can request a cited answer.
+@@ gemini | Gemini | Google | AI
+summary: Google's assistant and model family inside the Gemini app and across Google products.
+users: Not disclosed
+revenue: Not disclosed
+scale: Part of Google. Gemini revenue is not reported as a standalone consumer total here.
+reach: The assistant inside a Google account, on the web, on phones, and inside Workspace apps.
+license: Google terms
+note: The Gemini app and the hosted models are proprietary. Some smaller Google models are released under open terms; this card is the product.
+gap: An open chat UI and an open model can converse. Gemini's Google account, the tools, and the product integration are the gap.
+url: https://gemini.google.com/
+docs: https://ai.google.dev/gemini-api/docs
+alt: LibreChat | https://github.com/danny-avila/LibreChat | MIT | An MIT chat interface. You bring the model. Open WebUI uses its own license, so it is not listed here.
+- Chat | Chat | A conversation can use text, and the app can search or run a tool when the product offers it.
+- Files | File understanding | Uploads a document or an image and asks about it.
+- Gems | Gems | Saves a custom instruction as a reusable assistant.
+- Workspace | Workspace side panel | Drafts or summarizes mail and docs where the account has access.
+- Extensions | Extensions | Connects a Google app so the answer can use that data.
+- Code | Code help | Explains or writes code in the same chat.
+- Live | Live conversation | A voice mode talks with the model, where the account has it.
+- API | Gemini API | Developers call the model with an API key, separate from the consumer app.
+@@ grok | Grok | xAI | AI
+summary: xAI's assistant, available on the web, in apps, and inside X.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The assistant bundled with X and offered as its own app and API.
+license: xAI terms
+note: Grok the product, the chat service, and the apps are proprietary.
+gap: An open model and a chat UI can answer. Grok's product, the X context, and the API are the gap.
+url: https://x.ai/
+docs: https://docs.x.ai/
+alt: LibreChat | https://github.com/danny-avila/LibreChat | MIT | An MIT chat interface. You bring the model. Open WebUI uses its own license, so it is not listed here.
+- Chat | Chat | A conversation with the model, including follow-up questions.
+- X | Context on X | Can look at public posts on X when the feature is enabled.
+- Images | Image understanding and generation | Reads an uploaded image and can generate an image where the plan allows.
+- Voice | Voice mode | Speaks an answer in a voice mode the app offers.
+- Files | File questions | A document can be attached to a conversation.
+- Agents | Tool use | The model can call a tool, such as search or code, when the product enables it.
+- API | API | An application calls the model with a key from the xAI console.
+- Memory | Conversation history | Past chats stay in the account so a person can return to one.
+@@ replit | Replit | Replit | Developer tools
+summary: A browser IDE that runs a project on a hosted machine and can generate code into it.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: A place students and small teams start an app without installing a toolchain.
+license: Replit terms
+note: The hosted workspace and the agent are proprietary. The code you write is yours, subject to their terms.
+gap: A local editor and a VM can run the same stack. Replit's hosted machine and the agent are the gap.
+url: https://replit.com/
+docs: https://docs.replit.com/
+alt: code-server | https://github.com/coder/code-server | MIT | VS Code in the browser, on a machine you run.
+- Workspace | Hosted workspace | A project has a filesystem, a shell, and a language runtime in the browser.
+- Run | Run button | Starts the app and opens a preview URL from the same repl without a separate deploy step.
+- Agent | Agent | Asks for a change in plain language and applies a diff in the project.
+- Deploy | Deployments | Publishes the project to a reserved VM or an autoscaled service.
+- Secrets | Secrets | Stores a key outside the repository so the value is injected at run time and is not committed.
+- Multi | Multiplayer | Two people can edit the same repl at once and see each other's cursors.
+- Database | Built-in database | A small database can be attached without a separate host.
+- Templates | Templates | Starts from a template for a framework instead of an empty folder.
+@@ windsurf | Windsurf | Cognition | Developer tools
+summary: An editor built around an agent that edits a codebase from a prompt.
+users: Not disclosed
+revenue: Not disclosed
+scale: The product has changed hands. No audited user or revenue total is cited here.
+reach: One of the agent-first editors teams try next to Cursor and a plain VS Code setup.
+license: Windsurf terms
+note: The editor product and the agent service are proprietary.
+gap: An open editor plus an open agent can edit files. Windsurf's integrated agent and the hosted models are the gap.
+url: https://windsurf.com/
+docs: https://docs.windsurf.com/
+alt: Continue | https://github.com/continuedev/continue | Apache-2.0 | An open coding assistant inside an editor you already use.
+- Agent | Cascade agent | A prompt can create and edit several files, then show the diff.
+- Context | Codebase context | The agent reads the project so a change matches existing patterns.
+- Tab | Autocomplete | Suggests the next edit as the person types.
+- Terminal | Terminal use | The agent can run a command and read the output, when the user allows it.
+- Preview | Preview | A web preview shows the app the agent just changed.
+- Rules | Rules | A rules file tells the agent how this repository wants to be changed.
+- Models | Model choice | The user picks which hosted model runs the agent.
+- History | Checkpoints | A session can be reverted to an earlier checkpoint of the files.
+@@ devin | Devin | Cognition | Developer tools
+summary: A software-engineering agent that takes a task, edits a repo, and opens a pull request.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: Sold as an agent that works a ticket the way a junior engineer would, inside a remote machine.
+license: Cognition terms
+note: The agent, the remote machine, and the session UI are proprietary.
+gap: An open agent in a sandbox can edit a repo. Devin's hosted computer and the product workflow are the gap.
+url: https://devin.ai/
+docs: https://docs.devin.ai/
+alt: OpenHands | https://github.com/All-Hands-AI/OpenHands | MIT | An open agent that can edit a repository in a sandbox you run.
+- Session | Task session | A person writes a task and the agent works it in a session they can watch.
+- Shell | Remote shell | The agent has a terminal on a machine with the repository checked out.
+- Browser | Browser | The agent can open a page to check what it built.
+- Editor | Editor | File edits show up as a diff the person can review.
+- Pull | Pull request | The session can open a pull request when the task is done.
+- Wiki | Repo wiki | The product keeps notes about how the repository is structured.
+- Parallel | Parallel sessions | More than one task can run at the same time.
+- Secrets | Secrets | Credentials for the session are stored apart from the chat.
+@@ tabnine | Tabnine | Tabnine | Developer tools
+summary: An AI completion tool for code, with an option to run in a private deployment.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: An older code-completion product still used by companies that want a private model.
+license: Tabnine terms
+note: The product and the hosted models are proprietary.
+gap: An open completion model in an editor can suggest the next line. Tabnine's enterprise deployment is the gap.
+url: https://www.tabnine.com/
+docs: https://docs.tabnine.com/
+alt: Continue | https://github.com/continuedev/continue | Apache-2.0 | An open assistant you can point at a local model.
+- Complete | Line completion | Suggests the rest of a line or a block as the person types.
+- Chat | Chat | Asks a question about the open file and can insert the answer as a suggestion in the editor.
+- Context | Workspace context | Uses other files in the project when forming a suggestion.
+- Private | Private deployment | An enterprise plan can keep the model inside the company's network.
+- Provenance | Code provenance | Can warn when a suggestion matches a known public snippet, where the plan includes it.
+- IDEs | Editor plugins | Installs in common editors rather than replacing the editor.
+- Controls | Admin controls | An admin can disable a repository or a language.
+- Personalize | Learning from the repo | Suggestions can follow patterns in the repository the admin allowed.
+@@ palantir | Palantir Foundry | Palantir | Data
+summary: An operating system for an organization's data, with pipelines, an ontology, and operational apps.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current end-user total is not cited on this card.
+reach: Deployed by governments and large companies that want one governed model of their operations.
+license: Palantir terms
+note: Foundry and Gotham, and the pipelines that feed them, are proprietary.
+gap: A warehouse and a BI tool can report. Foundry's ontology and the operational apps are the gap.
+url: https://www.palantir.com/platforms/foundry/
+docs: https://palantir.com/docs/foundry/
+alt: Apache Spark | https://github.com/apache/spark | Apache-2.0 | An open data-processing engine. It is not an ontology product.
+- Ontology | Ontology | Objects such as an order or a truck are defined once and used by every app.
+- Pipeline | Pipelines | A build transforms raw files into datasets on a schedule.
+- Code | Code workbooks | Transforms can be written in code with the platform's libraries.
+- Workshop | Workshop apps | Builds an operational app on the ontology without a separate frontend stack.
+- Security | Markings | A marking restricts a row or a column to people who hold that mark.
+- Quiver | Analysis | An analyst explores object data and publishes a result.
+- AIP | AI platform | A model can read the ontology through the product's controls.
+- Lineage | Lineage | Shows which dataset a broken pipeline output came from.
+@@ uipath | UiPath | UiPath | Automation
+summary: A robotic-process-automation suite that drives other software from a studio and a robot.
+users: Not disclosed
+revenue: Not disclosed
+scale: Public company. A current user total is not cited on this card.
+reach: The RPA vendor a lot of back offices buy when an old app has no API.
+license: UiPath terms
+note: The studio, the robots, and the orchestrator are proprietary.
+gap: An open automation runner can click a UI or call an API. UiPath's studio and the attended robots are the gap.
+url: https://www.uipath.com/
+docs: https://docs.uipath.com/
+alt: Robot Framework | https://github.com/robotframework/robotframework | Apache-2.0 | An open automation framework. You build the tasks.
+- Studio | Studio | Designs a process as a flowchart of activities.
+- Robots | Robots | An unattended robot runs the process on a schedule, or an attended one runs beside a person.
+- Orchestrator | Orchestrator | Queues jobs, stores assets, and watches which robot is busy.
+- Selectors | UI selectors | A click targets a button in another application by a selector, not only by pixels.
+- Document | Document understanding | Extracts fields from an invoice before the robot types them.
+- Apps | Action center | A person approves a step the robot is not allowed to finish alone.
+- Integration | Integration service | Calls a SaaS API from the same process that drives a desktop app.
+- Insights | Insights | Reports how many jobs failed and how long they took.
+@@ zapier | Zapier | Zapier | Automation
+summary: A no-code automation product that connects thousands of apps with triggers and actions.
+users: Not disclosed
+revenue: Not disclosed
+scale: Private company. No audited user or revenue total is cited here.
+reach: The default if-this-then-that tool for small teams that do not want to host a worker.
+license: Zapier terms
+note: The product and the app directory are proprietary.
+gap: Activepieces or n8n-style runners can connect APIs you host. Zapier's directory and the hosted runners are the gap. n8n itself is source-available, not OSI.
+url: https://zapier.com/
+docs: https://docs.zapier.com/
+alt: Activepieces | https://github.com/activepieces/activepieces | MIT | An open automation builder you can host.
+- Zaps | Zaps | A trigger in one app starts actions in others.
+- Steps | Multi-step zaps | A path can filter, format, and branch before the next action.
+- Tables | Tables | Stores a small table of rows the zap can read.
+- Interfaces | Interfaces | Builds a form that starts a zap when someone submits it, without writing a front end.
+- Agents | Agents | A step can ask a model to draft text inside the zap.
+- Transfer | Transfer | Moves existing rows once, not only new events.
+- Admin | Admin controls | A company plan can see which zaps are on.
+- History | Task history | Shows each run and the error the app returned.

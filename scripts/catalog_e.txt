@@ -1,0 +1,640 @@
+@@ craft | Craft | Craft Docs | Knowledge
+summary: A notes and docs app with linked pages, aimed at personal and small-team writing.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A paid notes app used by people who want linked documents without a company wiki.
+license: Craft terms
+note: The apps and the sync service are proprietary.
+gap: An open notes app can link pages and sync a folder. Craft's hosted editor and the share links are the gap.
+url: https://www.craft.do/
+docs: https://support.craft.do/
+alt: AppFlowy | https://github.com/AppFlowy-IO/AppFlowy | AGPL-3.0 | An open workspace for docs and tasks.
+- Docs | Documents | A document is a page of blocks, such as text, a toggle, or an image.
+- Links | Page links | A page can link to another page in the same space.
+- Cards | Cards | A collection of cards can be viewed as a list or a gallery.
+- Share | Share links | A page can be shared on a link without inviting someone into the whole space.
+- Daily | Daily notes | A note can be tied to a date so the daily page collects what was written that day.
+- Offline | Offline edits | The native apps keep working and sync when the network returns.
+- Style | Style | A page can carry a cover and a style the app offers.
+- Export | Export | A page can be exported so it is not stuck in the account.
+@@ todoist | Todoist | Doist | Product work
+summary: A personal and team task list with projects, dates, and a natural-language date field.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default to-do app for people who want one list across work and home.
+license: Doist terms
+note: The service and the apps are proprietary.
+gap: An open task server can hold projects and due dates. Todoist's natural-language dates and the hosted reminders are the gap.
+url: https://todoist.com/
+docs: https://developer.todoist.com/rest/v2/
+alt: Vikunja | https://github.com/go-vikunja/vikunja | AGPL-3.0 | An open task list you host.
+- Inbox | Inbox | A task with no project yet lands in the inbox.
+- Projects | Projects | A project holds tasks, sections, and collaborators.
+- Dates | Dates | A task has a date, and the field accepts a phrase such as next Friday.
+- Priority | Priority | A flag marks a task as more urgent than the others due that day.
+- Labels | Labels | A label filters tasks across projects so one tag, such as waiting, shows work from every list.
+- Today | Today view | One view shows everything due today, from every project.
+- Reminders | Reminders | A reminder fires before the due time on the platforms that support it.
+- Comments | Comments | A task can hold a comment and a file for the people who share the project.
+@@ superhuman | Superhuman | Superhuman | Communications
+summary: A paid email client built for speed, snippets, and a split inbox.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A client used by people who live in email and will pay for a faster interface on top of Gmail or Outlook.
+license: Superhuman terms
+note: The client is proprietary. It sits on top of a mailbox the person already has.
+gap: An open mail client reads the same mailbox. Superhuman's snippets, the split inbox, and the hosted product are the gap.
+url: https://superhuman.com/
+docs: https://help.superhuman.com/
+alt: Thunderbird | https://www.thunderbird.net/ | MPL-2.0 | An open mail client from the Thunderbird project. You use your own mailbox.
+- Split | Split inbox | Mail is split into streams, such as important people and other mail.
+- Snippets | Snippets | A short key expands into a paragraph the person sends often.
+- Command | Command palette | Actions run from the keyboard without hunting through menus.
+- Remind | Reminders | A sent message can come back if nobody replies.
+- Undo | Undo send | A send can be stopped for a short moment after the key is pressed.
+- Read | Read status | The product can show when a recipient opened a message, where that feature is enabled.
+- Calendar | Calendar on the side | A calendar sits next to the inbox so a time can be picked in the reply.
+- Team | Team comments | Teammates can comment on a shared conversation inside the client.
+@@ webex | Webex | Cisco | Communications
+summary: Cisco's meetings, messaging, and calling suite for companies.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default meeting and calling system in companies that already buy from Cisco.
+license: Cisco terms
+note: The cloud service, the devices, and the apps are proprietary.
+gap: An open meeting server can host a call. Webex's phone system and the room devices are the gap.
+url: https://www.webex.com/
+docs: https://developer.webex.com/
+alt: Jitsi | https://github.com/jitsi/jitsi-meet | Apache-2.0 | An open video meeting you can host.
+- Meetings | Meetings | A link joins a video meeting with screen share.
+- Messaging | Messaging | Spaces hold team chat next to the meetings.
+- Calling | Calling | A company phone number can ring in the app where the calling product is bought.
+- Devices | Room devices | A hardware room system joins the same meeting.
+- Record | Recording | A meeting can be recorded and stored in the account.
+- Webinars | Webinars | A larger event has presenters and an audience.
+- Whiteboard | Whiteboard | A shared board can be used in the meeting.
+- Admin | Admin controls | An admin sets who may join, whether a lobby is on, and how recordings are kept.
+@@ ringcentral | RingCentral | RingCentral | Communications
+summary: A cloud phone system with team messaging and video meetings.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common replacement for an office PBX at mid-size companies.
+license: RingCentral terms
+note: The phone service, the numbers, and the apps are proprietary.
+gap: An open PBX can route calls on hardware you run. RingCentral's numbers, the carrier, and the apps are the gap.
+url: https://www.ringcentral.com/
+docs: https://developers.ringcentral.com/guide
+alt: Asterisk | https://github.com/asterisk/asterisk | GPL-2.0 | An open PBX. You bring the phone lines.
+- Phone | Cloud phone | An employee has an extension that rings the app or a desk phone.
+- SMS | Business SMS | Texts can be sent and received on the business number.
+- Meetings | Video meetings | A meeting link includes video and screen share.
+- Team | Team messaging | A team chat sits in the same app as the phone.
+- IVR | Auto attendant | A menu answers the main number and routes the caller.
+- Queues | Call queues | A sales or support queue rings a group of people.
+- Record | Call recording | Calls can be recorded under the account's rules.
+- Analytics | Analytics | The admin sees call volume and how long people waited.
+@@ sharepoint | SharePoint | Microsoft | Files
+summary: Microsoft's intranet for document libraries, sites, and pages inside a tenant.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The file and intranet layer behind a large share of Microsoft 365 companies.
+license: Microsoft terms
+note: SharePoint Online is a proprietary service. This card is that service, not a document format.
+gap: An open file server can store libraries and share links. SharePoint's tie to Microsoft 365 permissions is the gap.
+url: https://www.microsoft.com/microsoft-365/sharepoint/collaboration
+docs: https://learn.microsoft.com/en-us/sharepoint/
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open file server you host.
+- Libraries | Document libraries | Files live in a library with columns, versions, and permissions.
+- Sites | Sites | A team site holds libraries, pages, and news.
+- Pages | Pages | A page is built from web parts, such as a news list or a file viewer.
+- Sharing | Sharing | A file can be shared with a person or with anyone who has the link, under the tenant's rules.
+- Versions | Versions | An older copy of a file can be restored.
+- Search | Search | Search looks across sites the account is allowed to see.
+- Lists | Lists | A list is a table of items, separate from the files.
+- Sync | Sync client | The OneDrive sync client can keep a library on the desktop.
+@@ outlook | Outlook | Microsoft | Communications
+summary: Microsoft's mail, calendar, and contacts client for Microsoft 365 and Exchange.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The mail client on a very large number of work computers.
+license: Microsoft terms
+note: Outlook the app and Exchange Online are proprietary. This card is that product, not the mail protocol.
+gap: An open mail client can read a mailbox. Outlook's scheduling, the focused inbox, and the Exchange tie-in are the gap.
+url: https://www.microsoft.com/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
+docs: https://support.microsoft.com/outlook
+alt: Thunderbird | https://www.thunderbird.net/ | MPL-2.0 | An open mail and calendar client. It can talk to many mail servers.
+- Mail | Mail | Messages are filed in folders, with rules the user or the admin sets.
+- Calendar | Calendar | Meetings are scheduled with rooms and attendees.
+- Focus | Focused inbox | Mail is split into a focused pile and an other pile.
+- Search | Search | Search looks through the mailbox, including attachments the index covers.
+- Groups | Groups | A Microsoft 365 group has a mailbox and a calendar.
+- Addins | Add-ins | An add-in runs inside a message, such as a meeting poll.
+- Offline | Offline | The desktop client keeps a cache so mail opens without a network.
+- Shared | Shared mailboxes | A team reads a mailbox such as info@ without sharing one password.
+@@ onenote | OneNote | Microsoft | Knowledge
+summary: Microsoft's notebook app, with sections, pages, and free-form ink.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The notebook that ships with Microsoft 365 and with many school accounts.
+license: Microsoft terms
+note: The app and the notebook sync are proprietary.
+gap: An open notes app can hold notebooks and sync them. OneNote's ink and the Microsoft account sync are the gap.
+url: https://www.microsoft.com/microsoft-365/onenote/digital-note-taking-app
+docs: https://support.microsoft.com/onenote
+alt: Joplin | https://github.com/laurent22/joplin | AGPL-3.0 | An open notebook. Some bundled pieces use other free licenses. Read the repo.
+- Notebooks | Notebooks | A notebook contains sections, and a section contains pages.
+- Ink | Ink | A pen draws on the page, and the ink stays where it was placed.
+- Clip | Web clipper | A browser clipper sends a page or a selection into a notebook.
+- Tags | Tags | A tag marks a paragraph so it can be found later.
+- Share | Shared notebooks | A notebook can be shared with other people on the account.
+- Search | Search | Search looks through typed text and through ink the recognizer has read.
+- Insert | Inserts | A page holds images, files, and tables, not only paragraphs.
+- Offline | Offline | Pages edit offline and sync when the app reconnects.
+@@ onedrive | OneDrive | Microsoft | Files
+summary: Microsoft's file sync and sharing, for personal accounts and for work tenants.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The sync folder on a large share of Windows computers and Microsoft 365 accounts.
+license: Microsoft terms
+note: The sync client and the hosting are proprietary.
+gap: An open file server syncs a folder you host. OneDrive's place inside Windows and Microsoft 365 is the gap.
+url: https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage
+docs: https://learn.microsoft.com/en-us/onedrive/
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open file host with desktop sync clients.
+- Sync | Folder sync | A desktop folder stays in step with the cloud copy.
+- Files | Files On-Demand | A file can appear in the folder and download only when it is opened.
+- Share | Sharing | A link can be limited to people in the organization or open to anyone with the link.
+- Versions | Versions | An older version of a file can be restored from the web.
+- Photos | Photo backup | A phone can upload the camera roll into the account.
+- Office | Office files | A Word or Excel file in the folder opens in the web app.
+- Vault | Personal Vault | A folder can require a stronger sign-in before it opens.
+- Known | Known folder move | Desktop, Documents, and Pictures can be redirected into the sync folder on a work PC.
+@@ icloud | iCloud | Apple | Files
+summary: Apple's sync service for photos, files, and device backups.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The sync account on a very large number of iPhones and Macs.
+license: Apple terms
+note: The service is proprietary. This card is iCloud, not the device operating system.
+gap: An open file and photo server can sync folders you host. iCloud's silent backup of an Apple device is the gap.
+url: https://www.apple.com/icloud/
+docs: https://support.apple.com/icloud
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open file server. Photos can be added with a client. It is not an Apple device backup.
+- Drive | iCloud Drive | Files and the Desktop and Documents folders can sync across Apple devices.
+- Photos | iCloud Photos | The photo library syncs, including edits made on one device.
+- Backup | Device backup | An iPhone can back up to the account when it is locked and charging.
+- Share | Shared albums and folders | A folder or an album can be shared with another Apple account.
+- Hide | Hidden and recently deleted | Deleted photos stay recoverable for a period before they are gone.
+- Keychain | Passwords and keys | The account can sync passwords and other secrets between Apple devices.
+- Mail | iCloud Mail | An optional mailbox lives on the same account.
+- Family | Family sharing | A family organizer can share a plan and some purchases with other accounts.
+@@ power-automate | Power Automate | Microsoft | Automation
+summary: Microsoft's cloud flow product for connecting Microsoft 365 and other services.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The automation tool that shows up inside a Microsoft 365 tenant.
+license: Microsoft terms
+note: The cloud flows and the connector catalog are proprietary.
+gap: An open flow tool can call APIs you host. Power Automate's catalog of Microsoft 365 connectors is the gap.
+url: https://www.microsoft.com/power-platform/products/power-automate
+docs: https://learn.microsoft.com/en-us/power-automate/
+alt: Node-RED | https://github.com/node-red/node-red | Apache-2.0 | An open flow editor you host. You build the connections.
+- Cloud | Cloud flows | A flow starts from a trigger, such as a new file, and runs actions.
+- Desktop | Desktop flows | A desktop flow can click through a program on a machine, where that product is used.
+- Connect | Connectors | A connector talks to a Microsoft service or to another vendor's API.
+- Approve | Approvals | An approval step waits for a person before the flow continues.
+- Button | Buttons | A button in the mobile app starts a flow.
+- Variables | Variables and conditions | A flow branches and stores a value between steps.
+- Share | Shared flows | A flow can be owned by a team, not only by the person who made it.
+- Monitor | Run history | Each run shows which step succeeded or failed.
+@@ power-apps | Power Apps | Microsoft | Business
+summary: Microsoft's low-code app builder for forms and screens on top of business data.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The tool a Microsoft shop uses when a department wants an app without a full engineering team.
+license: Microsoft terms
+note: The maker studio and the hosting are proprietary.
+gap: An open flow tool is not a screen builder. Dataverse, the connectors, and the hosted player are the gap.
+url: https://www.microsoft.com/power-platform/products/power-apps
+docs: https://learn.microsoft.com/en-us/power-apps/
+alt: Node-RED | https://github.com/node-red/node-red | Apache-2.0 | An open flow tool. It does not host a gallery of business screens.
+- Canvas | Canvas apps | Screens are laid out by hand and bound to data.
+- Model | Model-driven apps | An app is generated from tables and forms in Dataverse.
+- Data | Dataverse | Tables, relationships, and permissions live in Microsoft's data service.
+- Connect | Connectors | The app reads and writes SharePoint, SQL, or another connected source.
+- Forms | Forms | A form creates or edits a row in the connected table and can require fields before save.
+- Logic | Power Fx | Formulas on a control compute a value or call an action.
+- Share | Sharing | An app is shared with people in the tenant.
+- Mobile | Mobile player | The same app opens in a player on a phone.
+@@ make | Make | Make | Automation
+summary: A visual automation product that runs scenarios across apps. Formerly Integromat.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common alternative to Zapier for teams that want a more detailed scenario builder.
+license: Make terms
+note: The hosted scenarios and the app catalog are proprietary.
+gap: An open flow editor can connect APIs you run. Make's hosted app catalog is the gap.
+url: https://www.make.com/
+docs: https://developers.make.com/
+alt: Node-RED | https://github.com/node-red/node-red | Apache-2.0 | An open flow editor. You host it and you write the connections it does not already have.
+- Scenarios | Scenarios | A scenario is a graph of modules that run in order.
+- Modules | App modules | A module talks to an app, such as a sheet or a mailbox.
+- Router | Routers | A path splits so different bundles take different branches.
+- Iterator | Iterators | A list is processed one item at a time so each element runs the following modules on its own.
+- Schedule | Scheduling | A scenario runs on a timer or when a webhook arrives.
+- Data | Data stores | A small store keeps a value between runs.
+- Errors | Error handlers | A failed module can take a fallback path.
+- History | Execution history | Each run shows the bundles that passed through each module.
+@@ workato | Workato | Workato | Automation
+summary: An enterprise automation platform for recipes that connect business systems.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The integration product at companies that want IT to govern every recipe.
+license: Workato terms
+note: The recipes, the connectors, and the hosting are proprietary.
+gap: An open integration engine can move data between systems you run. Workato's connector library and the governance are the gap.
+url: https://www.workato.com/
+docs: https://docs.workato.com/
+alt: Apache NiFi | https://github.com/apache/nifi | Apache-2.0 | An open data-flow system you operate.
+- Recipes | Recipes | A recipe starts with a trigger and runs a sequence of actions.
+- Connect | Connectors | A connector is provided for a business system such as an ERP or a CRM.
+- Lookup | Lookup tables | A table maps a value in one system to a value in another.
+- Callable | Callable recipes | One recipe can call another and pass input fields, then wait for the called recipe's result.
+- Roles | Roles | An admin decides who may edit a recipe in a workspace.
+- Onprem | On-prem agent | An agent reaches a system that is not on the public internet.
+- Test | Testing | A recipe can be tried with sample data before it is started.
+- Jobs | Job history | Each run is stored so a failure can be inspected.
+@@ boomi | Boomi | Boomi | Automation
+summary: An integration platform for processes that connect applications and data.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running integration product in IT departments that connect many internal systems.
+license: Boomi terms
+note: The platform and the connectors are proprietary.
+gap: An open flow system can route data you host. Boomi's connector catalog and the hosted runtime are the gap.
+url: https://boomi.com/
+docs: https://help.boomi.com/
+alt: Apache NiFi | https://github.com/apache/nifi | Apache-2.0 | An open system for data flows you run.
+- Process | Processes | A process is a graph of shapes that transform and send a document.
+- Connect | Connectors | A connector reads or writes a given application.
+- Map | Maps | A map translates fields from one profile to another.
+- Atom | Runtimes | A runtime executes the process in the cloud or on a machine the customer runs.
+- API | API management | An integration can be published as an API.
+- Queue | Queues | A document can wait in a queue between steps.
+- Track | Process reporting | Each execution shows where a document went.
+- Govern | Environments | A process is promoted from a test environment to production.
+@@ mulesoft | MuleSoft | Salesforce | Automation
+summary: Salesforce's integration product for APIs and for flows between systems.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The integration layer many Salesforce customers buy when the CRM has to talk to everything else.
+license: Salesforce terms
+note: Anypoint Platform, including the design and runtime consoles, is proprietary.
+gap: An open integration framework can expose APIs. Anypoint's design, management, and hosting are the gap.
+url: https://www.mulesoft.com/
+docs: https://docs.mulesoft.com/
+alt: Apache NiFi | https://github.com/apache/nifi | Apache-2.0 | An open data-flow system. It is not Anypoint.
+- Design | API design | An API specification is written and shared before the implementation.
+- Implement | Implementation | A flow implements the API and calls other systems.
+- Manage | API manager | Policies such as a rate limit are applied to a deployed API.
+- Connect | Connectors | A connector reaches a system such as a database or a SaaS app.
+- Exchange | Exchange | Assets such as connectors and templates are shared in a catalog.
+- Runtime | Runtimes | The implementation runs in a cloud or customer-hosted runtime.
+- Monitor | Monitoring | Calls, failures, and latency are visible for a deployed API.
+- Access | Access management | Teams are given rights to design or to deploy.
+@@ informatica | Informatica | Informatica | Data
+summary: A data-integration and data-management suite for moving and cleaning enterprise data.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-standing data-integration vendor in large IT organizations.
+license: Informatica terms
+note: The cloud platform and the transformation products are proprietary.
+gap: An open data-flow tool can move files and rows. Informatica's mappings, the catalog, and the operations console are the gap.
+url: https://www.informatica.com/
+docs: https://docs.informatica.com/
+alt: Apache NiFi | https://github.com/apache/nifi | Apache-2.0 | An open tool for flows you operate. It is not a full data-management suite.
+- Mappings | Mappings | A mapping reads a source, transforms rows, and writes a target.
+- Tasks | Tasks | A mapping task runs on a schedule or after another task and writes the target table.
+- Connections | Connections | A connection stores how to reach a database or an application.
+- Quality | Data quality | Rules can standardize or reject a row before it lands.
+- Catalog | Catalog | A catalog describes data sets the organization has.
+- Monitor | Monitoring | A run shows row counts and errors so a failed load can be restarted from the monitor.
+- Parameters | Parameters | A mapping can take a parameter so the same logic runs for more than one source.
+- Security | Access control | An admin decides who may edit a connection or run a task.
+@@ alteryx | Alteryx | Alteryx | Data
+summary: A desktop and cloud product for dragging data-prep and analytic steps into a workflow.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common tool for analysts who prepare data without writing a pipeline in code.
+license: Alteryx terms
+note: Designer and the cloud product are proprietary.
+gap: A notebook can prepare data in code. Alteryx's drag-and-drop workflow and the packaged tools are the gap.
+url: https://www.alteryx.com/
+docs: https://help.alteryx.com/
+alt: JupyterLab | https://github.com/jupyterlab/jupyterlab | BSD-3-Clause | An open notebook. You write the steps. It is not a drag-and-drop designer.
+- Canvas | Workflow canvas | Tools are placed on a canvas and wired together.
+- Input | Inputs | A workflow reads a file, a database, or another source.
+- Prep | Preparation | Filter, join, formula, and summarize tools reshape the rows.
+- Spatial | Spatial tools | Some workflows geocode or analyze a location.
+- Predictive | Predictive tools | A packaged statistical tool can run inside a workflow in the editions that include it.
+- Output | Outputs | The result is written to a file or a database.
+- Schedule | Scheduling | A finished workflow can be scheduled on a server product.
+- Macros | Macros | A group of tools can be saved and reused as one tool.
+@@ mathematica | Mathematica | Wolfram | Science
+summary: Wolfram's notebook for symbolic math, data, and the Wolfram Language.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A standard computer-algebra system in universities and in technical computing.
+license: Wolfram terms
+note: The notebook front end and the language implementation are proprietary.
+gap: An open computer-algebra system can do a large part of the math. Mathematica's curated data and the notebook product are the gap.
+url: https://www.wolfram.com/mathematica/
+docs: https://reference.wolfram.com/language/
+alt: SageMath | https://github.com/sagemath/sage | GPL-2.0 | An open mathematics system. It is not a Mathematica notebook.
+- Notebook | Notebooks | A notebook mixes text, input, and output on one page.
+- Symbol | Symbolic math | Expressions can be simplified, solved, and integrated symbolically.
+- Numeric | Numeric computing | Large numeric calculations run in the same language.
+- Plot | Graphics | Plots and interactive graphics are produced from expressions.
+- Data | Curated data | Built-in data sets, such as geographic or scientific data, can be queried.
+- Import | Import and export | Files and external data are brought into a notebook.
+- Parallel | Parallel computation | A calculation can be spread across kernels.
+- Deploy | Deployment | A notebook can be published as a document or an interactive object under Wolfram's hosting options.
+@@ sas | SAS | SAS | Science
+summary: A statistical and data-management system used heavily in regulated industries.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default analytics platform in insurance, banking, and government shops that standardized on it years ago.
+license: SAS terms
+note: The language runtime and the visual products are proprietary.
+gap: R is a language for statistics. It is not a SAS runtime, and it does not include SAS's support contract.
+url: https://www.sas.com/
+docs: https://documentation.sas.com/
+alt: R | https://www.r-project.org/ | GPL-2.0 | An open language for statistics. It does not run SAS programs unchanged.
+- Data | Data steps | Rows are read, transformed, and written in a data step.
+- Procedures | Procedures | A procedure runs a named analysis, such as a regression or a frequency table.
+- SQL | SQL | Queries run against SAS data sets with PROC SQL and can join them to a database table.
+- Graph | Graphics | Charts are produced from the same data with ODS graphics and can be saved into a report.
+- Macro | Macros | A macro generates repeated code so one parameter change rebuilds a block of steps.
+- Access | Data access | Engines read databases and files so a LIBNAME can point at a warehouse or a spreadsheet.
+- Visual | Visual tools | A point-and-click product sits on the same platform in the editions that include it.
+- Publish | Publishing | A result can be saved as a report or a data set for someone else.
+@@ spss | SPSS Statistics | IBM | Science
+summary: IBM's statistical application with menus for tests, models, and charts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default statistics program in social science and in survey shops.
+license: IBM terms
+note: The application and the syntax language are proprietary.
+gap: JASP and R can run the same families of tests. SPSS's menus, the syntax, and the support are the gap.
+url: https://www.ibm.com/products/spss-statistics
+docs: https://www.ibm.com/docs/en/spss-statistics
+alt: JASP | https://github.com/jasp-stats/jasp-desktop | AGPL-3.0 | An open statistics application with a spreadsheet and analyses.
+- Data | Data editor | Cases and variables are edited in a spreadsheet view.
+- Dialogs | Analysis dialogs | A test or a model is chosen from a menu and configured in a dialog.
+- Syntax | Syntax | The same analysis can be written as syntax and rerun.
+- Output | Output viewer | Tables and charts land in an output document.
+- Chart | Chart editor | A chart can be adjusted after it is created.
+- Missing | Missing values | A variable can define which codes count as missing.
+- Weight | Weighting | Cases can be weighted before a procedure runs.
+- Export | Export | Tables can be copied or exported for a paper.
+@@ stata | Stata | StataCorp | Science
+summary: A statistical package and command language used widely in economics and epidemiology.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default tool in empirical economics and in many public-health groups.
+license: StataCorp terms
+note: The application and the ado language are proprietary.
+gap: R can fit the same classes of models. It does not run Stata ado files unchanged.
+url: https://www.stata.com/
+docs: https://www.stata.com/manuals/
+alt: R | https://www.r-project.org/ | GPL-2.0 | An open statistical language. It is not a Stata runtime.
+- Data | Data in memory | A data set is loaded into memory and then transformed with commands.
+- Commands | Commands | An analysis is a command with options, typed or picked from a menu.
+- Do | Do-files | A script of commands can be rerun from a do-file so the same analysis is repeatable.
+- Regression | Estimation | Regression and other estimators return coefficients, errors, and tests.
+- Graph | Graphs | A graph command draws from the data in memory.
+- Frames | Frames | More than one data set can be open at once in current versions.
+- Community | Community packages | Extra commands are installed from a community archive Stata can reach.
+- Reports | Reports | Estimates and tables are exported for a paper.
+@@ hex | Hex | Hex | Data
+summary: A collaborative data workspace that mixes SQL, Python, and a published app.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A notebook used by data teams that want SQL and a shareable app in one project.
+license: Hex terms
+note: The workspace and the publishing are proprietary.
+gap: JupyterLab is an open notebook. Hex's hosted SQL, the app builder, and the permissions are the gap.
+url: https://hex.tech/
+docs: https://learn.hex.tech/
+alt: JupyterLab | https://github.com/jupyterlab/jupyterlab | BSD-3-Clause | An open notebook you run. You bring the warehouse connection.
+- Notebook | Notebook cells | SQL and Python cells share a project and can pass a query result into the next cell.
+- Warehouse | Warehouse connections | A project runs SQL on a warehouse the workspace is connected to.
+- Charts | Charts | A cell's result can be charted without leaving the project.
+- App | Published apps | Inputs and outputs can be published as an app for someone who does not edit the notebook.
+- Share | Sharing | A project has permissions for editors and viewers.
+- Schedule | Scheduled runs | A project can refresh on a schedule and write the new result to the published app.
+- Version | History | Earlier versions of the project can be opened.
+- Secrets | Secrets | A connection's credentials are stored for the project rather than pasted in a cell.
+@@ jmp | JMP | JMP Statistical Discovery | Science
+summary: A visual statistics application from the SAS family, aimed at scientists and engineers.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common desktop statistics tool in labs and in industrial quality groups.
+license: JMP terms
+note: The JMP application and its analysis platforms are proprietary.
+gap: R and an open GUI can explore a table. JMP's linked graphs and the design-of-experiments tools are the gap.
+url: https://www.jmp.com/
+docs: https://www.jmp.com/support/help/
+alt: JASP | https://github.com/jasp-stats/jasp-desktop | AGPL-3.0 | An open statistics application. It does not include JMP's industrial toolkit.
+- Tables | Data tables | A table holds columns with types and properties.
+- Graph | Linked graphs | Selecting points in one graph highlights them in another.
+- Analyze | Analysis platforms | A distribution, a fit, or a model opens as a platform of reports.
+- DOE | Design of experiments | An experiment can be designed and then analyzed in the editions that include it.
+- Recode | Recode and formula | A column is recoded or computed from a formula.
+- Journal | Journals | A report is saved into a journal to share the steps.
+- Script | Scripting | A script reruns an analysis so the same platforms and graphs can be rebuilt from a table.
+- Import | Import | Spreadsheets and databases are imported into a table.
+@@ datarobot | DataRobot | DataRobot | AI
+summary: An enterprise product that trains and deploys many models against a table of data.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A platform sold to companies that want automated model training with governance around it.
+license: DataRobot terms
+note: The product and the hosted training are proprietary.
+gap: An open experiment tracker records runs you launch. DataRobot's automated search over models and the deployment product are the gap.
+url: https://www.datarobot.com/
+docs: https://docs.datarobot.com/
+alt: MLflow | https://github.com/mlflow/mlflow | Apache-2.0 | An open tracker for experiments and models. It does not search a catalog of algorithms for you.
+- Projects | Projects | A project starts from a data set and a target column.
+- Autopilot | Autopilot | The product trains many models and ranks them.
+- Leader | Leaderboard | Models are compared on a metric the user chose.
+- Explain | Explanations | A prediction can show which features pushed it.
+- Deploy | Deployment | A chosen model is deployed to an endpoint.
+- Monitor | Monitoring | A deployment tracks drift and accuracy after it is live.
+- Notebooks | Notebooks | A notebook in the platform can use the same data.
+- Access | Access control | An admin decides who may see a project or a deployment.
+@@ browserstack | BrowserStack | BrowserStack | Developer tools
+summary: A cloud of real browsers and devices for manual and automated testing.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default device cloud for front-end teams that cannot own every phone.
+license: BrowserStack terms
+note: The device cloud and the dashboards are proprietary.
+gap: An open browser automation library drives browsers you install. The farm of real devices is the gap.
+url: https://www.browserstack.com/
+docs: https://www.browserstack.com/docs
+alt: Playwright | https://github.com/microsoft/playwright | Apache-2.0 | An open browser automation library. You run the browsers.
+- Live | Live testing | A person opens a site in a remote browser or device and clicks around.
+- Automate | Automate | A test suite drives those browsers through an automation grid.
+- Devices | Real devices | Phones and tablets in the cloud are the thing being rented.
+- Local | Local testing | A tunnel reaches a site that is not on the public internet.
+- Screenshots | Screenshots | A set of browsers can each capture the same page.
+- Logs | Logs | Console logs and network logs come back with the session.
+- CI | CI integration | A pipeline starts the automated run and reports the browser result back to the build.
+- Access | Access control | A team shares one account with separate users.
+@@ saucelabs | Sauce Labs | Sauce Labs | Developer tools
+summary: A cloud for cross-browser and mobile tests, with a dashboard of results.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running device and browser cloud used in large test organizations.
+license: Sauce Labs terms
+note: The cloud and the analytics are proprietary.
+gap: Playwright or Selenium can drive a browser on a machine you own. Sauce's cloud and its result history are the gap.
+url: https://saucelabs.com/
+docs: https://docs.saucelabs.com/
+alt: Selenium | https://github.com/SeleniumHQ/selenium | Apache-2.0 | An open browser-automation project. You provide the machines.
+- VMs | Virtual machines and devices | Tests run on browsers and devices Sauce hosts.
+- Frameworks | Framework support | Suites written with common automation libraries can point at the cloud.
+- Live | Live testing | A person can also open a manual session.
+- Tunnel | Tunnels | A tunnel tests a private environment so a job on Sauce can reach an app that is not public.
+- Results | Results dashboard | Videos, logs, and pass or fail status are stored per run.
+- Parallel | Parallel runs | Many sessions run at the same time, up to the account's limit.
+- CI | CI plugins | A build system starts the suite and collects the result.
+- Analytics | Analytics | Failure trends are reported across builds.
+@@ lambdatest | LambdaTest | LambdaTest | Developer tools
+summary: A browser and device cloud for manual checks and automated tests.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A lower-priced device cloud many teams try beside BrowserStack.
+license: LambdaTest terms
+note: The LambdaTest cloud and its browser grid are proprietary.
+gap: An open automation library does not include the rented devices. That cloud is the gap.
+url: https://www.lambdatest.com/
+docs: https://www.lambdatest.com/support/docs/
+alt: Playwright | https://github.com/microsoft/playwright | Apache-2.0 | An open library that automates browsers you install.
+- Realtime | Real-time testing | A site is opened in a chosen browser from the dashboard.
+- Automation | Automation grid | A test runner points at the cloud instead of a local browser.
+- Mobile | Mobile devices | Phone and tablet sessions are part of the same account.
+- Screenshot | Screenshot testing | The same URL is captured in many browsers.
+- Tunnel | Local tunnel | A private site can be reached from the cloud session.
+- Logs | Session logs | Console and network detail come back with the test.
+- Integrations | Integrations | A pipeline or an issue tracker can be connected.
+- Parallel | Parallel sessions | Several tests run together, within the plan's concurrency.
+@@ jfrog | JFrog Platform | JFrog | Developer tools
+summary: A binary repository and security platform. Artifactory stores the artifacts. Xray scans them.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default artifact manager at companies that publish more than container images.
+license: JFrog terms
+note: The platform is proprietary. This card is Artifactory and the commercial platform, not an open client.
+gap: An open registry covers container images well. A single store for Maven, npm, and the rest, plus the scan policy, is the gap.
+url: https://jfrog.com/
+docs: https://jfrog.com/help/r/jfrog-artifactory-documentation
+alt: Harbor | https://github.com/goharbor/harbor | Apache-2.0 | An open container registry. It is not a universal package server.
+- Repos | Repositories | A repository stores artifacts of a given package type.
+- Proxy | Remote repositories | A remote repository caches a public registry.
+- Virtual | Virtual repositories | One URL can front several repositories so a client resolves a package without knowing which repo holds it.
+- Promote | Promotion | A build's artifacts can be moved from a snapshot repo to a release repo.
+- Xray | Xray scanning | A scan looks for known vulnerabilities in what was stored.
+- Policy | Policies | A watch can block a download that violates a rule.
+- Access | Permissions | A permission target decides who may read or write a repository.
+- Replication | Replication | Repositories can be replicated to another site.
+@@ sonarcloud | SonarCloud | SonarSource | Developer tools
+summary: SonarSource's hosted code-quality service. The community server build is a different license.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The hosted scanner many GitHub and Azure DevOps repos run on every pull request.
+license: SonarCloud terms
+note: SonarCloud the service is proprietary. SonarQube Community Build is a separate edition under the LGPL.
+gap: The community server can scan code you host. SonarCloud's hosted project, the automatic analysis, and the commercial languages are the gap.
+url: https://www.sonarsource.com/products/sonarcloud/
+docs: https://docs.sonarsource.com/sonarqube-cloud/
+alt: SonarQube Community Build | https://github.com/SonarSource/sonarqube | LGPL-3.0 | The community server is LGPL-3.0. Commercial editions add languages and enterprise gates.
+- Analysis | Analysis | A scanner reads the repo and reports bugs, vulnerabilities, and smells.
+- Quality | Quality gate | A gate fails the analysis when new issues cross a threshold.
+- PR | Pull request decoration | Findings are posted back on the pull request.
+- Issues | Issues | Each issue has a file, a line, and a rule.
+- Hotspots | Security hotspots | A hotspot is a security-sensitive spot a person reviews.
+- Coverage | Coverage | Test coverage from a report is shown on the same lines.
+- Languages | Languages | The service lists which languages it analyzes.
+- Org | Organizations | Projects are grouped under an organization with members.
+@@ socket | Socket | Socket | Security
+summary: A supply-chain firewall that scores open-source packages before a team installs them.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A dependency scanner teams add to GitHub to catch a malicious or risky package.
+license: Socket terms
+note: The service and the rules are proprietary.
+gap: An open scanner can compare a lockfile to a vulnerability database. Socket's behavioral scoring of a package is the gap.
+url: https://socket.dev/
+docs: https://docs.socket.dev/
+alt: OSV-Scanner | https://github.com/google/osv-scanner | Apache-2.0 | An open scanner against the OSV database. It does not sell a package-behavior score.
+- Scan | Pull request scan | A change to a lockfile is scanned when the pull request opens.
+- Issues | Issues | A new or upgraded dependency can raise an issue in the pull request.
+- Score | Package scores | A package page shows signals such as install scripts or network use, as Socket defines them.
+- Alerts | Alerts | The account lists issues across repositories.
+- Firewall | Firewall | A setting can block an install that fails a rule, where that product is enabled.
+- Reach | Reachability | The product tries to say whether a vulnerable function is used.
+- License | License view | A dependency's license is shown next to the security signals.
+- Org | Org settings | Rules can be set for the whole organization.
+@@ graphite | Graphite | Graphite | Developer tools
+summary: A stacked pull-request workflow and review inbox for GitHub.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A tool teams adopt when one feature is split into a stack of small pull requests.
+license: Graphite terms
+note: The hosted workflow and the client are proprietary.
+gap: A forge and git can hold branches. The stacked workflow, the restack command, and the review inbox are the gap.
+url: https://graphite.dev/
+docs: https://graphite.dev/docs
+alt: Forgejo | https://codeberg.org/forgejo/forgejo | MIT | An open forge. Stacked pull requests are a habit you do by hand.
+- Stacks | Stacks | A branch depends on another branch, and each one is a pull request.
+- Restack | Restack | After the bottom of the stack changes, the branches above are rebased.
+- Submit | Submit | The command pushes the stack and opens or updates the pull requests.
+- Inbox | Review inbox | Pull requests waiting on you are listed as an inbox.
+- Merge | Merge | A stack can be merged from the bottom so each pull request lands after the one it depends on.
+- CI | CI on the stack | Each pull request still runs the forge's checks.
+- Comments | Review comments | Review happens on the GitHub pull request the tool is driving.
+- Insights | Insights | The product reports how the team's pull requests are moving.

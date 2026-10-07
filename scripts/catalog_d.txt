@@ -1,0 +1,701 @@
+@@ expensify | Expensify | Expensify | Finance
+summary: Expense reports, receipt capture, and reimbursement for employees and finance teams.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running expense tool, especially where a photo of a receipt is the whole workflow.
+license: Expensify terms
+note: The app, the receipt scanning, and the reimbursement service are proprietary.
+gap: An open finance app can store an expense you type in. The scanning service and the company card feed are the gap.
+url: https://www.expensify.com/
+docs: https://integrations.expensify.com/Integration-Server/doc/
+alt: Firefly III | https://github.com/firefly-iii/firefly-iii | AGPL-3.0 | An open finance app. You enter or import the transactions yourself.
+- Reports | Expense reports | An employee groups expenses into a report and submits it.
+- Scan | Receipt scan | A photo of a receipt is read for the amount and the merchant.
+- Approve | Approvals | A manager approves or rejects the report before anyone is paid.
+- Reimburse | Reimbursement | Approved out-of-pocket spend is paid back to the employee.
+- Cards | Company cards | Card charges can land in the same report as cash expenses.
+- Policy | Policy | A workspace sets categories, required receipts, and limits.
+- Export | Accounting export | A finished report exports to the ledger the company uses.
+- Categories | Categories | Each line is coded to a category the finance team defined.
+@@ bill-com | BILL | BILL | Finance
+summary: Accounts-payable software for vendor invoices, approvals, and payments.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common bill-pay system for companies that have outgrown paying vendors from a bank website.
+license: BILL terms
+note: The payment network and the approval product are proprietary.
+gap: An open ERP can record a vendor bill. Sending the payment and the approval chain are the gap.
+url: https://www.bill.com/
+docs: https://developer.bill.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with vendor bills. You still move the money yourself.
+- Inbox | Invoice inbox | Vendor invoices arrive by email or upload and wait to be coded.
+- Vendors | Vendor records | Each vendor has a name, a payment method, and a history of bills.
+- Approvals | Approvals | A bill cannot be paid until the people in the chain approve it.
+- Pay | Payments | Approved bills are paid by ACH or another method the product supports.
+- Sync | Accounting sync | Coded bills sync to the ledger so the books match the payments.
+- Recurring | Recurring bills | A regular vendor can be set to repeat without a new upload.
+- Roles | Roles | A clerk, an approver, and a payer can be different people.
+- Audit | Audit trail | The product keeps who approved a bill and when it was paid.
+@@ netsuite | NetSuite | Oracle | Business
+summary: Oracle's cloud ERP for the ledger, orders, inventory, and financial close.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default cloud ERP for mid-market companies that have outgrown a small-business ledger.
+license: Oracle terms
+note: The application, SuiteScript customizations as a hosted product, and the data are proprietary.
+gap: An open ERP covers a ledger, inventory, and orders. NetSuite's hosted scale and the partner ecosystem are the gap.
+url: https://www.netsuite.com/
+docs: https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP you host, with a ledger, stock, and orders.
+- Ledger | General ledger | Journal entries, accounts, and subsidiaries live in one ledger.
+- Order | Order management | A sales order becomes an invoice and a fulfillment.
+- Stock | Inventory | Items, warehouses, and on-hand counts are tracked with the orders.
+- Close | Financial close | The period is closed after reconciliations and adjusting entries.
+- Roles | Roles | An accountant, a warehouse clerk, and a salesperson see different screens.
+- Script | SuiteScript | Custom logic runs on records inside the account.
+- Consolidate | Consolidation | Results from more than one subsidiary can be combined.
+- CRM | Customer records | Accounts and contacts sit next to the orders they place.
+@@ freshbooks | FreshBooks | FreshBooks | Finance
+summary: Invoicing, expenses, and time tracking for freelancers and small firms.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common first ledger for a freelancer who needs to send an invoice today.
+license: FreshBooks terms
+note: The service and the apps are proprietary.
+gap: An open ledger can send an invoice. FreshBooks' payment links and the hosted client portal are the gap.
+url: https://www.freshbooks.com/
+docs: https://www.freshbooks.com/api/start
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with invoices and expenses. You host it.
+- Invoices | Invoices | A client receives an invoice and can pay from the link.
+- Estimates | Estimates | An estimate can be turned into an invoice after the client accepts it.
+- Expenses | Expenses | A receipt is attached to an expense and coded to a category.
+- Time | Time tracking | Hours on a project can be billed onto an invoice.
+- Clients | Clients | Each client has contact details and a history of invoices.
+- Payments | Online payments | A card or bank payment can be taken on the invoice where enabled.
+- Reports | Reports | Profit, expenses, and tax summaries come from the same books.
+- Projects | Projects | Time and expenses can be grouped under a project for one client.
+@@ sage-intacct | Sage Intacct | Sage | Finance
+summary: Sage's cloud accounting system for multi-entity companies and dimensions.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common ledger when a finance team needs dimensions and more than one entity.
+license: Sage terms
+note: The application and the close tools are proprietary.
+gap: An open ERP can keep a ledger. Intacct's dimensions, the close, and the accountant workflow are the gap.
+url: https://www.sage.com/en-us/products/sage-intacct/
+docs: https://developer.intacct.com/api/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ledger and ERP. It is not Intacct's dimension model.
+- Ledger | General ledger | Accounts, journals, and entities are the core of the books.
+- Dimensions | Dimensions | A transaction can be tagged with more than one dimension, such as a department and a project.
+- AP | Accounts payable | Vendor bills are entered, approved, and paid.
+- AR | Accounts receivable | Customer invoices are issued and cash is applied.
+- Close | Close | A checklist walks the team through the period close.
+- Dash | Dashboards | Finance dashboards read from the same ledger.
+- Audit | Audit trail | Changes to a transaction are kept for later review.
+- Consolidate | Consolidation | More than one entity can be rolled into one set of statements.
+@@ concur | SAP Concur | SAP | Finance
+summary: SAP's travel and expense product for requests, receipts, and reimbursement.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The expense system at a large number of big companies that already buy from SAP.
+license: SAP terms
+note: The travel booking, the expense product, and the policy engine are proprietary.
+gap: An open finance app stores receipts. Concur's travel inventory and the corporate card feeds are the gap.
+url: https://www.concur.com/
+docs: https://developer.concur.com/
+alt: Firefly III | https://github.com/firefly-iii/firefly-iii | AGPL-3.0 | An open finance app. It does not book flights or pull a corporate card feed.
+- Request | Travel requests | A trip is requested and approved before the tickets are bought.
+- Expense | Expense reports | After the trip, charges are collected into a report.
+- Receipts | Receipts | A photo is attached to a line and checked against policy.
+- Policy | Policy checks | A line that breaks a rule is flagged before approval.
+- Cards | Card feeds | Corporate card charges arrive in the report without retyping.
+- Approve | Approvals | A manager approves the report, then finance reimburses it.
+- Itinerary | Itineraries | Flights and hotels from the booking tool show on the trip.
+- Export | Export | Approved spend is sent to the company's ledger.
+@@ lever | Lever | Lever | People
+summary: An applicant tracking system for postings, interviews, and offers.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common hiring system at technology companies that want the pipeline in one place.
+license: Lever terms
+note: The hiring workspace and the candidate data are proprietary.
+gap: An open applicant tracker can list candidates. Lever's scheduling, the career site, and the reporting are the gap.
+url: https://www.lever.co/
+docs: https://hire.lever.co/developer/documentation
+alt: OpenCATS | https://github.com/opencats/OpenCATS | MPL-2.0 | An open applicant tracker. The project also carries a second license. Read both. It is an older codebase.
+- Posts | Job postings | A job has a description, a department, and a public posting.
+- Pipeline | Pipeline | Candidates move through stages from application to offer.
+- Score | Scorecards | Interviewers submit structured feedback after a conversation.
+- Schedule | Scheduling | Interview times are proposed against the interviewers' calendars.
+- Offers | Offers | An offer is drafted and approved before it is sent.
+- Site | Career site | The public job list is hosted from the same account.
+- Source | Sources | The pipeline can show which board or referral produced a candidate.
+- Reports | Reports | Time in stage and source quality are reported for the jobs.
+@@ ashby | Ashby | Ashby | People
+summary: A hiring platform that combines the applicant pipeline with scheduling and analytics.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A newer default ATS at many startups that want one system for the whole interview loop.
+license: Ashby terms
+note: The product and the candidate data are proprietary.
+gap: An open tracker stores candidates. Ashby's scheduling and the hiring analytics are the gap.
+url: https://www.ashbyhq.com/
+docs: https://developers.ashbyhq.com/
+alt: OpenCATS | https://github.com/opencats/OpenCATS | MPL-2.0 | An open applicant tracker under MPL-2.0 plus a second license. Read both.
+- Jobs | Jobs | A job has a team, a location, and an interview plan.
+- Plan | Interview plans | The plan names the stages and which interview happens at each one.
+- Schedule | Scheduling | Candidates pick a time that fits every interviewer on that stage.
+- Feedback | Feedback forms | Each interviewer fills a form tied to the interview they ran.
+- Offers | Offers | An offer letter is generated and sent from the candidate's record.
+- Analytics | Analytics | The account reports pass-through rates by stage and by source.
+- CRM | Nurture | A person who is not hired can be kept for a later role.
+- Permissions | Permissions | A hiring manager sees their jobs, not every search in the company.
+@@ lattice | Lattice | Lattice | People
+summary: Performance reviews, goals, and engagement surveys for managers and HR.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common performance suite at companies that want reviews off a spreadsheet.
+license: Lattice terms
+note: The review cycles, the surveys, and the people data are proprietary.
+gap: An open survey tool can ask questions. Lattice's review cycle tied to the org chart is the gap.
+url: https://lattice.com/
+docs: https://developers.lattice.com/
+alt: LimeSurvey | https://github.com/LimeSurvey/LimeSurvey | GPL-2.0 | An open survey server. It is not a performance-review product.
+- Reviews | Review cycles | A cycle asks employees and managers to write reviews in a window.
+- Goals | Goals | A person sets goals and updates progress during the cycle.
+- Feedback | Feedback | A coworker can leave feedback outside the formal review.
+- Surveys | Engagement surveys | HR sends a survey and reads results by team.
+- Org | Org chart | The product knows who manages whom, and routes the review that way.
+- One | One-on-ones | A manager keeps an agenda for recurring meetings with a report.
+- Updates | Updates | A short weekly update can be requested from each person.
+- Calibration | Calibration | Managers compare ratings in a session before they are shared.
+@@ adp | ADP | ADP | People
+summary: A payroll and HR service that calculates pay and files payroll taxes.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: One of the largest payroll processors, especially for companies that do not want to file payroll tax themselves.
+license: ADP terms
+note: The payroll service, the filings, and the HR screens are proprietary.
+gap: An open ERP can calculate a pay run on data you enter. Filing taxes and the bank disbursement are the gap.
+url: https://www.adp.com/
+docs: https://developers.adp.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with a payroll module. You remain the employer of record.
+- Payroll | Payroll | A pay run calculates gross pay, deductions, and net pay.
+- Tax | Tax filing | Payroll taxes are calculated and filed where the service includes that.
+- Direct | Direct deposit | Net pay is sent to employee bank accounts.
+- Time | Time | Hours from a time clock can feed the pay run.
+- HR | Employee records | Hire date, job, and pay rate live on the employee.
+- Benefits | Benefits | Deductions for benefits can be taken in the same pay run.
+- Self | Self-service | An employee can view a pay stub and change tax withholding.
+- Reports | Reports | Payroll registers and tax reports download for the books.
+@@ ukg | UKG | UKG | People
+summary: A workforce suite for time, scheduling, payroll, and HR, from the company formed by Ultimate and Kronos.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common system for hourly workforces that need a schedule and a time clock tied to payroll.
+license: UKG terms
+note: The suite and the time clocks' cloud service are proprietary.
+gap: An open ERP can store employees and a simple pay run. UKG's scheduling for a large hourly workforce is the gap.
+url: https://www.ukg.com/
+docs: https://developer.ukg.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with employees and payroll. It is not a workforce-management suite.
+- Schedule | Scheduling | Managers build a schedule of shifts for an hourly team.
+- Time | Timekeeping | Punches from a clock or an app become hours on the timesheet.
+- Payroll | Payroll | Approved hours flow into a pay run so payroll uses the time that managers already signed off.
+- Accrual | Accruals | Vacation and sick balances increment under a rule.
+- HR | HR records | Jobs, pay, and personal data sit on the employee.
+- Labor | Labor rules | The schedule can warn when a shift would break a labor rule the account configured.
+- Self | Employee self-service | A worker can see the schedule and request a swap.
+- Analytics | Analytics | Labor cost and attendance are reported by location.
+@@ deel | Deel | Deel | People
+summary: A platform for hiring and paying people in other countries, including contractor payments.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common way for a company to employ or contract someone in a country where it has no entity.
+license: Deel terms
+note: The contracts, the local employment service, and the payments are proprietary.
+gap: An open HR app can store a person and a salary. Being the employer of record in another country is the gap.
+url: https://www.deel.com/
+docs: https://developer.deel.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open HR and payroll record. It does not employ people for you.
+- Contracts | Contracts | A contractor or employee agreement is generated from a template.
+- Pay | Global payroll | Pay is calculated under the local rules the service claims to handle.
+- Contractors | Contractor invoices | A contractor submits an invoice and is paid through the platform.
+- Compliance | Compliance documents | Identity and tax documents are collected on the person.
+- Equipment | Equipment | A laptop order can be tracked for a remote hire where that feature is offered.
+- Time | Time off | Employees request leave in the same account that holds the contract.
+- Expenses | Expenses | A remote employee submits an expense for reimbursement.
+- Reports | Cost reports | The company sees the cost of each person, including the service fees.
+@@ remote | Remote | Remote | People
+summary: An employer-of-record and contractor-payment service for hiring outside your own country.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A competitor to Deel, used by companies that want payroll in a country where they have no legal entity.
+license: Remote terms
+note: The employment service and the payroll are proprietary.
+gap: Open HR software records an employee. It does not become the legal employer in another country.
+url: https://remote.com/
+docs: https://remote.com/resources
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open employee and payroll record you run yourself.
+- EOR | Employer of record | Remote employs the person locally and the client company directs the work.
+- Payroll | Local payroll | Pay, tax, and statutory contributions are run in that country.
+- Contractors | Contractors | A contractor is paid against an invoice without an employment contract.
+- Onboard | Onboarding | Documents and a start date are collected before the first pay.
+- Benefits | Benefits | Local benefits can be attached to the employment where the country product includes them.
+- Time | Time off | Leave requests follow the local policy the employment uses.
+- Deposit | Deposits | The client funds payroll before Remote pays the employee.
+- Support | Local support | The employee can ask the service about local payroll questions.
+@@ workable | Workable | Workable | People
+summary: A recruiting tool for job posts, an applicant pipeline, and interview kits.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common ATS for small and mid-size companies that hire in more than one country.
+license: Workable terms
+note: The product and the job-board distribution are proprietary.
+gap: An open tracker keeps candidates. Posting out to many job boards from one form is the gap.
+url: https://www.workable.com/
+docs: https://workable.readme.io/reference/generate-an-access-token
+alt: OpenCATS | https://github.com/opencats/OpenCATS | MPL-2.0 | An open applicant tracker. Read the second license the repository also carries.
+- Jobs | Job editor | A job description is written once and can be sent to more than one board.
+- Pipeline | Pipeline | Applicants move through stages the team defined.
+- Profiles | Candidate profiles | A profile collects the resume, the source, and the messages.
+- Kits | Interview kits | Interviewers get a scorecard for the conversation they are about to have.
+- Schedule | Scheduling | A candidate books a time from a set of slots.
+- Careers | Careers page | The company's open jobs render on a careers page.
+- Reports | Reports | The account shows how many candidates each source produced.
+- Messages | Messages | Email to a candidate is kept on the profile.
+@@ freshdesk | Freshdesk | Freshworks | Support
+summary: A support desk for email tickets, a help center, and automations.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common help desk for small and mid-size support teams.
+license: Freshworks terms
+note: The desk, the help center, and the automations are proprietary.
+gap: An open desk can take email tickets. Freshdesk's help-center themes and the marketplace are the gap.
+url: https://www.freshworks.com/freshdesk/
+docs: https://developers.freshdesk.com/
+alt: Zammad | https://github.com/zammad/zammad | AGPL-3.0 | An open help desk you host.
+- Tickets | Tickets | An email from a customer becomes a ticket with a status and an assignee.
+- Help | Help center | Articles are published so a customer can solve a question without a ticket.
+- Automations | Automations | A rule assigns a ticket or sets a priority when it arrives.
+- Collision | Collision detection | An agent can see when a teammate is already replying.
+- SLA | SLA policies | A timer tracks whether the first reply landed inside the promise.
+- Portal | Customer portal | A customer signs in to see their own tickets.
+- Apps | Apps | A marketplace app adds a side panel, such as an order lookup.
+- Reports | Reports | Volume, first-response time, and resolution time are reported.
+@@ front | Front | Front | Support
+summary: A shared inbox that treats email, chat, and SMS as one queue for a team.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common inbox for teams that live in email and do not want a classic ticket number.
+license: Front terms
+note: The inbox, the routing, and the integrations are proprietary.
+gap: An open help desk can share an email box. Front's comment-behind-the-message workflow is the gap.
+url: https://front.com/
+docs: https://dev.frontapp.com/reference/introduction
+alt: FreeScout | https://github.com/freescout-help-desk/freescout | AGPL-3.0 | An open shared inbox you host.
+- Inboxes | Shared inboxes | A team reads and replies from one address, such as support@ or billing@.
+- Comments | Internal comments | A teammate comments on a message without the customer seeing it.
+- Assign | Assignment | A conversation is assigned to a person or left in a queue.
+- Rules | Rules | A rule routes a message by the sender, the subject, or a tag.
+- Channels | Channels | Email, chat, and SMS can land in the same conversation list where connected.
+- Collision | Collision | The inbox shows when someone else is looking at or replying to the same thread.
+- Analytics | Analytics | Response time and volume are reported by inbox and by teammate.
+- Contacts | Contacts | A contact record collects every conversation with that person.
+@@ helpscout | Help Scout | Help Scout | Support
+summary: A help desk built around an email-like inbox and a docs site.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common desk for small support teams that want to sound like a person, not a ticket system.
+license: Help Scout terms
+note: The inbox, the beacon widget, and the docs hosting are proprietary.
+gap: An open desk covers shared email. Help Scout's docs site and the in-app beacon are the gap.
+url: https://www.helpscout.com/
+docs: https://developer.helpscout.com/
+alt: Zammad | https://github.com/zammad/zammad | AGPL-3.0 | An open help desk with email and a knowledge base.
+- Inbox | Inbox | Customer email is a conversation a teammate can assign and reply to.
+- Docs | Docs | A docs site is edited in the same account and published on your domain.
+- Beacon | Beacon | A widget on your site lets a customer search docs or start a conversation.
+- Saved | Saved replies | A reply can be inserted from a library of answers.
+- Workflows | Workflows | A rule tags or assigns a conversation when it arrives.
+- Reports | Reports | The account reports conversations and response times.
+- Customers | Customer profiles | Previous conversations with the same person are one click away.
+- Satisfaction | Ratings | A customer can rate the reply after the conversation closes.
+@@ gorgias | Gorgias | Gorgias | Support
+summary: A support desk built for online stores, with the order visible next to the ticket.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common inbox for Shopify stores that want the order, the ticket, and a macro in one screen.
+license: Gorgias terms
+note: The desk and the store integrations are proprietary.
+gap: An open inbox can answer email. Pulling the live order into the reply box is the gap.
+url: https://www.gorgias.com/
+docs: https://developers.gorgias.com/
+alt: Chatwoot | https://github.com/chatwoot/chatwoot | MIT | The project publishes a mixed license header. Read LICENSE. It is an inbox, not a store desk.
+- Tickets | Tickets | Email, chat, and social messages become tickets in one queue.
+- Orders | Order sidebar | The customer's recent orders from the store show beside the ticket.
+- Macros | Macros | A macro inserts a reply and can perform an action, such as adding a tag.
+- Rules | Rules | A rule auto-tags or closes a ticket that matches a pattern.
+- Intent | Intents | The product can suggest what the customer is asking, such as a refund or an order status.
+- Help | Help center | Articles can deflect a question before it becomes a ticket.
+- Revenue | Revenue stats | The account attributes some orders to a conversation the team handled.
+- Users | Team assignments | Tickets are assigned to agents and teams.
+@@ kustomer | Kustomer | Kustomer | Support
+summary: A customer-service CRM that keeps a timeline of every conversation with a person.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A support platform used by brands that want one timeline instead of a pile of tickets.
+license: Kustomer terms
+note: The timeline, the routing, and the product are proprietary.
+gap: An open desk stores conversations. Kustomer's single customer timeline across channels is the gap.
+url: https://www.kustomer.com/
+docs: https://developer.kustomer.com/
+alt: Zammad | https://github.com/zammad/zammad | AGPL-3.0 | An open help desk. Conversations are tickets, not one lifelong timeline.
+- Timeline | Customer timeline | Orders, chats, and emails for one person appear on one timeline.
+- Conversations | Conversations | A new message continues the person, rather than starting from zero.
+- Routing | Routing | A conversation is sent to a queue by channel or by a field on the customer.
+- Shortcuts | Shortcuts | Agents insert a saved reply so a common answer goes out with the customer's details filled in.
+- Assist | Assist | Suggested replies can be offered from the knowledge the account has, where enabled.
+- Reporting | Reporting | Handle time and volume are reported by queue.
+- Channels | Channels | Email, chat, and messaging channels feed the same timeline.
+- Objects | Custom objects | The account can store an object, such as an order, next to the person.
+@@ genesys | Genesys | Genesys | Support
+summary: A contact-center platform for voice, chat, and the routing that decides who answers.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default cloud contact center for large support and sales operations.
+license: Genesys terms
+note: The cloud contact center, the routing, and the agent desktop are proprietary.
+gap: An open PBX can ring a queue. Genesys' workforce routing and the omnichannel desktop are the gap.
+url: https://www.genesys.com/
+docs: https://developer.genesys.cloud/
+alt: Asterisk | https://github.com/asterisk/asterisk | GPL-2.0 | An open PBX. It is also offered under other terms. It is not a full contact-center suite.
+- Voice | Voice | Inbound and outbound calls are handled by agents in a queue.
+- Digital | Digital channels | Chat and messaging can land in the same agent desktop.
+- Routing | Routing | A rule sends the interaction to a queue based on skill or intent.
+- IVR | IVR | A caller hears a menu before an agent is involved.
+- Desktop | Agent desktop | The agent sees the customer and the script in one workspace.
+- WFM | Workforce management | Forecasts and schedules staff the queues.
+- Quality | Quality | A supervisor can review a recorded interaction.
+- Reports | Reports | Service level, handle time, and abandon rate are reported.
+@@ indesign | InDesign | Adobe | Design
+summary: Adobe's page-layout program for books, magazines, and other long documents.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default layout tool in professional publishing and in many marketing studios.
+license: Adobe terms
+note: The application is proprietary. It is sold in Adobe's apps subscription.
+gap: An open desktop-publishing program can set type on a page. InDesign's production tools and the industry file format are the gap.
+url: https://www.adobe.com/products/indesign.html
+docs: https://helpx.adobe.com/indesign/user-guide.html
+alt: Scribus | https://www.scribus.net/ | GPL-2.0-or-later | An open page-layout program. It does not open every InDesign package.
+- Pages | Master pages | A master page holds the page number, the margins, and items that repeat.
+- Type | Typography | Styles control paragraphs and characters across a long document.
+- Frames | Frames | Text and images sit in frames that can be linked so a story flows.
+- Links | Linked images | A placed image stays linked to the file on disk and can be updated.
+- Export | PDF export | A press-ready or interactive PDF is exported from the layout.
+- Tables | Tables | A table is styled and can flow with the text.
+- Books | Books | Several documents can be combined into one book with a shared style source.
+- Preflight | Preflight | The program warns about missing fonts, low-resolution images, and overflow.
+@@ davinci-resolve | DaVinci Resolve | Blackmagic Design | Design
+summary: A video editor and color tool. The free download is still proprietary. Studio is paid.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A widely used editor, especially for color, in film and in online video.
+license: Blackmagic terms
+note: Both the free application and Resolve Studio are proprietary. A no-cost download is not an open-source license.
+gap: An open editor can cut a timeline. Resolve's color page and the industry install base are the gap.
+url: https://www.blackmagicdesign.com/products/davinciresolve
+docs: https://www.blackmagicdesign.com/products/davinciresolve/training
+alt: Kdenlive | https://invent.kde.org/multimedia/kdenlive | GPL-2.0-or-later | An open timeline editor from KDE.
+- Cut | Cut and edit pages | A timeline holds video and audio clips with trims and transitions.
+- Color | Color page | Nodes grade a shot. A still can be saved and compared.
+- Fairlight | Fairlight | Audio is mixed on its own page with tracks and effects.
+- Fusion | Fusion | Motion graphics and compositing are done on a node page.
+- Media | Media pool | Bins organize source clips before they go on a timeline.
+- Deliver | Deliver | A timeline is exported to a codec and a destination.
+- Collab | Project libraries | A project can be stored for more than one editor, in the editions that include it.
+- Studio | Studio features | The paid Studio edition adds features such as additional noise reduction and collaboration tools Blackmagic lists for that edition.
+@@ pro-tools | Pro Tools | Avid | Design
+summary: Avid's digital audio workstation, a default in commercial music and film sound.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The session format many commercial studios still expect to receive.
+license: Avid terms
+note: The application and the session format are proprietary.
+gap: An open workstation can record and mix. Pro Tools' session format and the studio install base are the gap.
+url: https://www.avid.com/pro-tools
+docs: https://www.avid.com/resource-center/pro-tools-documentation
+alt: Ardour | https://github.com/Ardour/ardour | GPL-2.0 | An open digital audio workstation. Read the license on the tag you build.
+- Sessions | Sessions | A session holds tracks, the tempo, and the audio files.
+- Record | Recording | Audio is recorded onto a track while other tracks play.
+- Edit | Editing | Clips are trimmed, faded, and moved on the timeline.
+- Mix | Mixing | Each track has a fader, pan, inserts, and sends.
+- MIDI | MIDI | MIDI tracks can drive a virtual instrument.
+- Plugins | Plugins | AAX plugins process audio on a track and can automate their parameters with the session.
+- Video | Video | A picture can be locked to the session so sound is edited to it.
+- Bounce | Bounce | A mix is rendered to a file to leave the session.
+@@ ableton | Ableton Live | Ableton | Design
+summary: A music workstation with a clip view for playing ideas and an arrangement view for the song.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default instrument for electronic music and for performers who launch clips on stage.
+license: Ableton terms
+note: The application, the instruments, and the packs are proprietary.
+gap: An open workstation can sequence audio. Live's clip launcher and the stock devices are the gap.
+url: https://www.ableton.com/en/live/
+docs: https://help.ableton.com/
+alt: Ardour | https://github.com/Ardour/ardour | GPL-2.0 | An open recorder and arranger. It does not have Live's session view.
+- Session | Session view | Clips are launched in a grid, which is how a set is played live.
+- Arrange | Arrangement view | The same clips are laid out on a timeline as a finished song.
+- Devices | Devices | Instruments and effects ship with the program and sit on a track.
+- Warp | Warping | An audio clip is stretched to the project tempo.
+- MIDI | MIDI editing | Notes are drawn and quantized in a piano roll.
+- Racks | Racks | Several devices can be grouped into one instrument rack.
+- Push | Hardware control | Ableton's Push controller drives the session. The hardware is a separate product.
+- Export | Export | The arrangement is rendered to an audio file.
+@@ logic-pro | Logic Pro | Apple | Design
+summary: Apple's music production application for recording, MIDI, and mixing on the Mac.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default full studio app for a large number of musicians who already use a Mac.
+license: Apple terms
+note: The application and the included sound library are proprietary.
+gap: An open workstation records and mixes. Logic's sound library and the Mac integration are the gap.
+url: https://www.apple.com/logic-pro/
+docs: https://support.apple.com/logic-pro
+alt: Ardour | https://github.com/Ardour/ardour | GPL-2.0 | An open workstation that runs on more than one operating system.
+- Tracks | Tracks | Audio and software-instrument tracks are recorded into a project.
+- Library | Sound library | Drummer, synths, and patches ship with the application.
+- Piano | Piano roll | MIDI notes are edited on a grid with quantization.
+- Mixer | Mixer | Channel strips have EQ, compression, and sends.
+- Plugins | Audio Units | Third-party Audio Unit plugins load on a channel.
+- Flex | Flex Time | An audio region is stretched so a performance lands on the grid.
+- Score | Score | MIDI can be viewed as notation and printed or edited as a score inside the same project.
+- Bounce | Bounce | A project is bounced to a stereo file or to stems.
+@@ solidworks | SOLIDWORKS | Dassault Systèmes | Design
+summary: A mechanical CAD program for parts, assemblies, and drawings.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default mechanical CAD tool in machine design and in many engineering schools.
+license: Dassault terms
+note: The application and the models' native format are proprietary.
+gap: An open parametric modeler can build parts. SOLIDWORKS' assembly performance and the drawing tools are the gap.
+url: https://www.solidworks.com/
+docs: https://help.solidworks.com/
+alt: FreeCAD | https://github.com/FreeCAD/FreeCAD | LGPL-2.1 | An open parametric modeler. It is not a drop-in SOLIDWORKS replacement.
+- Parts | Part modeling | A part is built from sketches and features such as extrudes and cuts.
+- Assemblies | Assemblies | Parts are mated together into an assembly.
+- Drawings | Drawings | A 2D drawing with dimensions is generated from the model.
+- Config | Configurations | One file can hold variations, such as two lengths of the same part.
+- Toolbox | Toolbox | Standard fasteners can be dropped into an assembly from a library.
+- Simulation | Simulation | A study can check stress on a part in the editions that include it.
+- PDM | Data management | Versions of files can be stored in a vault product sold alongside.
+- Import | Import and export | STEP and other exchange files move geometry to another CAD tool.
+@@ revit | Revit | Autodesk | Design
+summary: Autodesk's building-design application for a model shared by architecture, structure, and MEP.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default building-information model on a large share of commercial architecture projects.
+license: Autodesk terms
+note: The application and the project file are proprietary.
+gap: Open BIM tools can read and write IFC. Revit's single parametric building model is the gap.
+url: https://www.autodesk.com/products/revit/
+docs: https://help.autodesk.com/view/RVT/2025/ENU/
+alt: FreeCAD | https://github.com/FreeCAD/FreeCAD | LGPL-2.1 | An open modeler. It is not a multi-discipline building model.
+- Model | Building model | Walls, floors, roofs, and rooms are objects in one model, not separate drawings.
+- Views | Views | Plans, sections, and schedules are views of that same model.
+- Families | Families | A door or a window is a family with parameters.
+- Worksets | Worksharing | More than one person works in a central model through local copies.
+- Sheets | Sheets | Drawings are placed on sheets for issue.
+- Discipline | Disciplines | Architecture, structure, and systems can live in linked models.
+- Schedules | Schedules | A door schedule is a report of the doors in the model, not a table typed by hand.
+- IFC | IFC exchange | The model can be exported to IFC for someone who does not have Revit.
+@@ fusion-360 | Fusion | Autodesk | Design
+summary: Autodesk's cloud-connected CAD and CAM program for parts and toolpaths.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common CAD tool for startups, hardware teams, and hobbyists who want one program for design and machining.
+license: Autodesk terms
+note: The application and the cloud document storage are proprietary. A free personal license is still not open source.
+gap: An open parametric modeler can design a part. Fusion's cloud documents and the CAM toolpaths are the gap.
+url: https://www.autodesk.com/products/fusion-360/
+docs: https://help.autodesk.com/view/fusion360/ENU/
+alt: FreeCAD | https://github.com/FreeCAD/FreeCAD | LGPL-2.1 | An open parametric modeler with a path workbench. You keep the files.
+- Design | Parametric design | A timeline of sketches and features builds the part.
+- Assemble | Assemblies | Components are jointed into an assembly.
+- Cloud | Cloud documents | The file is stored in Autodesk's cloud and opened from there.
+- Render | Rendering | A visual is rendered from the model with materials and a camera, then saved as an image.
+- CAM | Manufacturing | Toolpaths are generated from the model for a mill or a printer.
+- Draw | Drawings | A 2D drawing is created from the design.
+- Sim | Simulation | A study can be run on the model in the workspaces that include it.
+- Share | Share links | A view-only link can be sent to someone who does not have the file.
+@@ rhino | Rhino | Robert McNeel & Associates | Design
+summary: A 3D modeler known for NURBS surfaces, used in architecture, jewelry, and industrial design.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The modeler many designers open when the shape is freer than a mechanical part.
+license: McNeel terms
+note: Rhino and the Grasshopper environment it ships are proprietary.
+gap: An open modeler can build surfaces. Rhino's NURBS tools and Grasshopper are the gap.
+url: https://www.rhino3d.com/
+docs: https://developer.rhino3d.com/
+alt: FreeCAD | https://github.com/FreeCAD/FreeCAD | LGPL-2.1 | An open modeler. Its surface tools are not Rhino's.
+- NURBS | NURBS modeling | Curves and surfaces are edited by their control points.
+- Meshes | Meshes | A mesh can be created or imported next to the NURBS model.
+- Draft | Drafting | 2D curves and dimensions sit in the same file.
+- Grasshopper | Grasshopper | A visual script builds geometry from components without writing the whole program.
+- Plugins | Plugins | A plugin adds an analysis or a fabrication tool.
+- Render | Rendering | A viewport or a renderer shows materials on the model.
+- Layouts | Layouts | A layout sheet prints a view of the model with a scale.
+- Exchange | File exchange | STEP, IGES, and other formats move the geometry to another tool.
+@@ unity | Unity | Unity | Design
+summary: A proprietary game engine and editor for real-time 3D projects.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: One of the two engines most commercial game studios and many interactive projects still choose between.
+license: Unity terms
+note: The editor and the runtime license are proprietary. This card is the engine product, not a game made with it.
+gap: An open engine can ship a real-time 3D project. Unity's asset store, the editor, and the company runtime terms are the gap.
+url: https://unity.com/
+docs: https://docs.unity.com/
+alt: Godot | https://github.com/godotengine/godot | MIT | An open game engine under the MIT license.
+- Editor | Editor | Scenes, objects, and components are edited in a visual editor.
+- Script | Scripting | Gameplay is written in C# against the engine API.
+- Assets | Asset pipeline | Models, textures, and audio are imported into the project.
+- Physics | Physics | Colliders and rigid bodies are simulated by the engine.
+- UI | UI toolkit | In-game and editor interfaces are built from the UI tools.
+- Platforms | Platform export | A project is built for the platforms the license allows.
+- Services | Online services | Optional company services cover ads, multiplayer helpers, and similar add-ons.
+- Store | Asset store | Packages are bought from Unity's store and imported.
+@@ unreal | Unreal Engine | Epic Games | Design
+summary: Epic's real-time 3D engine. The source can be read. The license is not an OSI license.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The other default commercial engine, especially for high-detail games and virtual production.
+license: Unreal Engine EULA
+kind: source-available
+note: Epic publishes the engine source under its own EULA. That is source-available. It is not an OSI-approved open-source license. This card is not marked proprietary for that reason.
+gap: Godot is an OSI-licensed engine. Unreal's editor, the marketplace, and the EULA's terms are the gap.
+url: https://www.unrealengine.com/
+docs: https://dev.epicgames.com/documentation/en-us/unreal-engine
+alt: Godot | https://github.com/godotengine/godot | MIT | An MIT-licensed engine. It is not covered by the Unreal EULA.
+- Editor | Editor | Levels, actors, and components are placed in the editor.
+- Blueprint | Blueprints | Gameplay can be scripted in a visual graph as well as in C++.
+- Source | Readable source | The engine source is available to read and modify under the EULA.
+- Render | Rendering | The renderer targets high-detail real-time scenes.
+- Animation | Animation | Skeletal meshes, sequences, and control rigs are edited in the engine.
+- Niagara | Niagara | Particle effects are built in Niagara and spawned from a Blueprint or a level actor.
+- Platforms | Platform builds | A project is packaged for the platforms the license allows.
+- Marketplace | Marketplace | Assets and code plugins are sold through Epic's marketplace.
+@@ sketchup | SketchUp | Trimble | Design
+summary: A 3D modeler aimed at architects and makers who want to push and pull a form quickly.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A widely used early-design modeler in architecture and in woodworking.
+license: Trimble terms
+note: The application and the 3D Warehouse are proprietary. A free web tier is still not open source.
+gap: An open modeler can push and pull solids. SketchUp's component warehouse and the architectural workflow are the gap.
+url: https://www.sketchup.com/
+docs: https://help.sketchup.com/
+alt: FreeCAD | https://github.com/FreeCAD/FreeCAD | LGPL-2.1 | An open modeler. The workflow is not SketchUp's.
+- Push | Push and pull | A face is extruded by pulling it, which is the basic modeling move.
+- Components | Components | A repeating object, such as a window, is a component used many times.
+- Groups | Groups | Geometry is grouped so later edits do not stick to everything else.
+- Materials | Materials | A face gets a color or a texture so the model reads as a material, not only a wire outline.
+- Scenes | Scenes | A scene saves a camera for a presentation.
+- LayOut | LayOut | A companion tool places model views on a sheet. It ships with the paid products.
+- Warehouse | 3D Warehouse | Models are downloaded from Trimble's public library.
+- Extension | Extensions | An extension adds a tool, such as a renderer.
+@@ cinema-4d | Cinema 4D | Maxon | Design
+summary: Maxon's 3D application for modeling, animation, and motion graphics.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common 3D tool in motion-graphics studios, often next to After Effects.
+license: Maxon terms
+note: The application and its file format are proprietary.
+gap: Blender is an open 3D suite. Cinema 4D's motion-graphics tools and the studio pipeline around it are the gap.
+url: https://www.maxon.net/en/cinema-4d
+docs: https://help.maxon.net/c4d/
+alt: Blender | https://projects.blender.org/blender/blender | GPL-2.0-or-later | An open 3D suite. The source is GPL.
+- Model | Modeling | Polygon and other modeling tools build a mesh.
+- MoGraph | MoGraph | Cloner and effector objects build motion-graphics setups.
+- Materials | Materials | A material controls the look of a surface.
+- Animate | Animation | Keys on a timeline move objects and parameters.
+- Render | Rendering | A frame or a sequence is rendered in the built-in renderer.
+- Simulate | Simulation | Dynamics such as cloth or particles can be simulated.
+- UV | UVs | A mesh is unwrapped so a texture lands correctly.
+- Exchange | Exchange | Files move to and from other 3D and compositing tools.
+@@ gitbook | GitBook | GitBook | Knowledge
+summary: A hosted docs site with a Git sync and a visual editor for product documentation.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common docs host for software teams that want something quieter than a wiki free-for-all.
+license: GitBook terms
+note: The hosted product and the editor are proprietary.
+gap: An open wiki or a static docs generator can publish the same pages. GitBook's hosted editor and the visitor auth are the gap.
+url: https://www.gitbook.com/
+docs: https://gitbook.com/docs
+alt: BookStack | https://github.com/BookStackApp/BookStack | MIT | An open wiki of books, chapters, and pages you host.
+- Spaces | Spaces | A space holds the docs for one product or one audience.
+- Editor | Editor | Pages are written in a visual editor, with Markdown underneath.
+- Git | Git sync | The pages can sync with a Git repository.
+- Search | Search | Readers search across the space and open the page that contains the matching heading.
+- Customize | Customization | The published site takes a logo, a domain, and some layout choices.
+- Permissions | Permissions | A space can be public or limited to members.
+- API | API | Content can be read or updated through the API.
+- Insights | Insights | The account can see which pages readers open.
+@@ slite | Slite | Slite | Knowledge
+summary: A team knowledge base of channels, docs, and a search box.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A smaller company wiki used by teams that found a full intranet too heavy.
+license: Slite terms
+note: The workspace and the search are proprietary.
+gap: An open wiki holds the same pages. Slite's hosted search and the editor are the gap.
+url: https://slite.com/
+docs: https://slite.com/api
+alt: Docmost | https://github.com/docmost/docmost | AGPL-3.0 | An open wiki and doc space you host.
+- Channels | Channels | Docs are grouped into channels so a team has a home.
+- Docs | Docs | A doc is written with headings, lists, and embeds.
+- Search | Search | Search looks across the workspace, not one channel.
+- Comments | Comments | A teammate comments on a doc without changing the text.
+- Templates | Templates | A new doc can start from a template, such as a meeting note.
+- Permissions | Permissions | A channel can be open to the company or to one group.
+- Import | Import | Pages can be brought in from another tool.
+- Ask | Ask | A question can be answered from the docs the workspace already has, where that feature is on.

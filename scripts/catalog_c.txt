@@ -1,0 +1,680 @@
+@@ linkedin | LinkedIn | Microsoft | Social
+summary: A professional network for profiles, posts, jobs, and company pages.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default public resume and hiring network for office workers in many countries.
+license: LinkedIn terms
+note: The network, the feed, the jobs product, and the recruiter tools are proprietary.
+gap: A federated social server can host profiles and posts. LinkedIn's hiring graph and the ranked feed are the gap.
+url: https://www.linkedin.com/
+docs: https://www.linkedin.com/help/linkedin
+alt: Mastodon | https://github.com/mastodon/mastodon | AGPL-3.0 | A federated social server you can host. It is not a job network.
+- Profile | Public profile | A member page lists work history, education, and a headline that other members can open.
+- Feed | Home feed | Posts from people and companies you follow, plus suggested posts, land in one scroll.
+- Jobs | Job posts | An employer publishes a role, and a member can apply with the profile already on the site.
+- Search | People search | Search filters people by title, company, and location from the public profile fields.
+- Inbox | Messaging | Members message each other. Recruiter mail sits in the same inbox as ordinary messages.
+- Pages | Company pages | A company page holds a description, posts, and people who list that employer on their profile.
+- Groups | Groups | A group collects posts on one professional topic, with its own members and moderators.
+- Alerts | Notifications | The product reports invitations, replies, and profile views, according to the settings on the account.
+@@ x | X | X Corp | Social
+summary: A public short-post network with replies, reposts, direct messages, and ads.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default public square for news, sports, and running commentary in many countries.
+license: X terms
+note: The service, the ranking, and the ad system are proprietary. Some older client code was open. This card is the service.
+gap: A federated server can host short posts and replies. X's ranking, ads, and the single global namespace are the gap.
+url: https://x.com/
+docs: https://help.x.com/
+alt: Mastodon | https://github.com/mastodon/mastodon | AGPL-3.0 | A federated short-post server. Each server chooses its own rules.
+- Posts | Posts | A post is a short public text, with images or video when the composer allows them.
+- Replies | Replies | A reply hangs under the post, and the thread can be opened as its own page.
+- Reposts | Reposts | A repost puts someone else's post onto your profile and into your followers' feeds.
+- Messages | Direct messages | A private conversation stays off the public profile, between the accounts you choose.
+- Lists | Lists | A list is a feed of accounts you pick, separate from the ranked home timeline.
+- Bookmarks | Bookmarks | A private bookmark keeps a post so you can open it later without liking it.
+- Audio | Spaces | A live audio room has speakers and listeners, and the room ends when the host closes it.
+- Ads | Ads | Promoted posts are sold to advertisers and labeled in the timeline.
+@@ reddit | Reddit | Reddit | Social
+summary: A network of topic communities with posts, comments, votes, and moderators.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default place many people go to ask strangers who already care about one narrow topic.
+license: Reddit terms
+note: The site, the apps, and the ad system are proprietary. Some public data has been reachable by API under Reddit's own terms.
+gap: A federated forum can host communities and votes. Reddit's single account, the apps, and the ad load are the gap.
+url: https://www.reddit.com/
+docs: https://support.reddithelp.com/
+alt: Lemmy | https://github.com/LemmyNet/lemmy | AGPL-3.0 | A federated link-and-discussion server you can host.
+- Communities | Communities | Each community has a name, a description, rules, and its own list of posts.
+- Posts | Posts | A post is a link, a text, or an image, and it belongs to one community.
+- Comments | Comment threads | Comments nest under the post, and a reader can collapse a branch.
+- Votes | Votes | Members vote a post or a comment up or down, and the sort uses that score.
+- Mods | Moderator tools | Moderators remove posts, ban accounts, and set the rules shown on the community.
+- Profiles | Profiles and karma | A profile collects the posts and comments one account has made.
+- Chat | Chat | Direct and group chat sits beside the public communities.
+- Ads | Ads | Promoted posts appear in the feed and are sold through Reddit's ad tools.
+@@ pinterest | Pinterest | Pinterest | Social
+summary: A visual bookmarking network of pins, boards, and shopping ideas.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default place to save recipes, clothes, and rooms, and a large ad surface for retailers.
+license: Pinterest terms
+note: The site, the recommendations, and the ads are proprietary.
+gap: A federated photo server can host images and follows. Pinterest's boards, visual search, and shopping tags are the gap.
+url: https://www.pinterest.com/
+docs: https://help.pinterest.com/
+alt: Pixelfed | https://github.com/pixelfed/pixelfed | AGPL-3.0 | A federated photo server. It is not a shopping pin board.
+- Pins | Pins | A pin is an image, a link, and a short description saved from the web or uploaded.
+- Boards | Boards | A board groups pins. A board can be secret or visible on the profile.
+- Home | Home feed | The home feed recommends pins from boards and topics the account has touched.
+- Search | Visual search | Search takes words or an image and returns similar pins.
+- Shop | Product pins | A pin can carry a price and a link to a retailer when the catalog is connected.
+- Ideas | Idea Pins | A multi-page pin tells a short how-to without leaving the app.
+- Collab | Group boards | More than one account can save pins onto a shared board.
+- Ads | Ads | An advertiser promotes a pin into the home feed and search results.
+@@ snapchat | Snapchat | Snap | Social
+summary: A camera-first messaging app for disappearing chats, stories, and lenses.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default camera and chat app for younger users in the United States and several other countries.
+license: Snap terms
+note: The app, the lenses, and the ad system are proprietary.
+gap: An open messenger can send photos that expire. Snap's lenses, the map, and the ad machine are the gap.
+url: https://www.snapchat.com/
+docs: https://help.snapchat.com/
+alt: Signal-Server | https://github.com/signalapp/Signal-Server | AGPL-3.0 | An open messaging server. It does not provide lenses or a public story feed.
+- Snaps | Snaps | A photo or a short video is sent to selected friends and is meant to disappear after viewing.
+- Chat | Chat | Text chat can sit under a snap, with its own retention setting.
+- Stories | Stories | A story is a sequence of snaps that friends can watch for a limited time.
+- Lenses | Lenses | The camera applies a face or world effect before the snap is sent.
+- Spotlight | Spotlight | A public short-video feed shows snaps the creator chose to publish beyond friends.
+- Map | Snap Map | Friends can share a location on a map, and the map also shows public snaps from a place.
+- Memories | Memories | Snaps the account saves are kept in a private archive instead of disappearing.
+- Ads | Ads | Video ads run between stories and in Spotlight.
+@@ telegram | Telegram | Telegram | Communications
+summary: A cloud messaging service with large groups, channels, and bots. The server is closed.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default messenger for large public channels in many countries, alongside a private chat.
+license: Telegram terms
+note: Official clients are published as open source. The server that stores cloud chats is not. This card is the service.
+gap: Matrix or Signal can host chat you run. Telegram's cloud history, the channels, and the scale of the service are the gap.
+url: https://telegram.org/
+docs: https://core.telegram.org/
+alt: Element | https://github.com/element-hq/element-web | AGPL-3.0 | An open Matrix client. You still need a homeserver you trust.
+- Chats | Cloud chats | A chat history is stored on Telegram's servers and shows up on each device signed into the account.
+- Secret | Secret chats | A device-to-device chat is not part of the cloud history.
+- Groups | Large groups | A group holds a large number of members, with admins and permissions.
+- Channels | Broadcast channels | A channel has a few publishers and a large number of subscribers.
+- Bots | Bots | A bot account answers commands and can post into a group or a channel.
+- Voice | Voice chats | A voice chat or video chat can run inside a group.
+- Files | Large files | The service accepts files far larger than a typical SMS attachment.
+- Stickers | Stickers | Sticker packs install onto the account and can be sent in any chat.
+@@ messenger | Messenger | Meta | Communications
+summary: Meta's messaging app for chats, calls, and business conversations tied to Facebook accounts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The chat app that rides along with a Facebook account for a very large number of people.
+license: Meta terms
+note: The app and the service are proprietary.
+gap: An open messenger can do one-to-one chat and calls. Messenger's tie to Facebook profiles and business inboxes is the gap.
+url: https://www.messenger.com/
+docs: https://www.facebook.com/help/messenger-app
+alt: Element | https://github.com/element-hq/element-web | AGPL-3.0 | An open Matrix client for chat and calls. It is not tied to a Facebook profile.
+- Chats | Chats | A one-to-one or group thread holds text, photos, and voice notes.
+- Calls | Calls | Voice and video calls start from the same thread.
+- Stories | Stories | A story is a short-lived photo or video shown to friends.
+- Encryption | Encrypted chats | Some chats can be switched to an end-to-end encrypted mode the product offers.
+- Reactions | Reactions | A tap adds a reaction to a message without sending a new line of text.
+- Business | Business inbox | A business can answer a customer from a page inbox connected to Messenger.
+- Rooms | Rooms | A room link lets people join a video call without being friends first.
+- Apps | Chat extensions | A conversation can open a small app, such as a poll or a game, inside the thread.
+@@ wecom | WeCom | Tencent | Communications
+summary: Tencent's work chat for company directories, approvals, and customer contacts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default work messenger at a large number of companies in China.
+license: WeCom terms
+note: The app and the company admin console are proprietary.
+gap: An open team chat can hold channels and files. WeCom's company directory, check-in, and customer tools are the gap.
+url: https://work.weixin.qq.com/
+docs: https://developer.work.weixin.qq.com/document
+alt: Zulip | https://github.com/zulip/zulip | Apache-2.0 | An open team chat with topics. It is not a company HR directory.
+- Chat | Work chat | Employees message in direct chats and groups that an admin can govern.
+- Directory | Directory | The company address book lists people, departments, and titles.
+- Meetings | Meetings | A meeting can be started from a chat, with a link for the people invited.
+- Approvals | Approvals | A leave or expense request moves through a chain the admin configured.
+- Clock | Check-in | The app can record that someone checked in at a workplace.
+- Customers | Customer contacts | A salesperson keeps an external contact separate from the internal directory.
+- Docs | Shared files | Files and short docs live next to the chat that discusses them.
+- Announce | Announcements | An admin posts a notice that reaches the company or one department.
+@@ lark | Lark | ByteDance | Collaboration
+summary: ByteDance's work suite of chat, docs, sheets, meetings, and approvals. Also sold as Feishu.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default all-in-one office suite at many companies in China and at some international teams.
+license: Lark terms
+note: The suite, the clients, and the admin console are proprietary.
+gap: Open docs, chat, and calendars exist as separate servers. Lark's single account across all of them is the gap.
+url: https://www.larksuite.com/
+docs: https://open.larksuite.com/
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open file, calendar, and office server you host. Chat is a separate app.
+- Messenger | Messenger | Work chat has threads, groups, and a directory of coworkers.
+- Docs | Docs | A document is edited by several people, with comments on a passage.
+- Sheets | Sheets | A spreadsheet lives in the same account as the doc and the chat.
+- Meetings | Meetings | Video meetings start from a calendar event or from a chat.
+- Calendar | Calendar | Events, rooms, and invitations sit on the company calendar.
+- Approval | Approval | A form such as a purchase or a leave request routes to the people the admin named.
+- Wiki | Wiki | A wiki space holds longer pages the team treats as the record.
+- Minutes | Meeting notes | A meeting can produce notes and a transcript inside the same suite.
+@@ kakaotalk | KakaoTalk | Kakao | Communications
+summary: Kakao's messenger, the default chat app for a large share of people in South Korea.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The chat app a phone in South Korea is expected to have, plus open chats and channels.
+license: Kakao terms
+note: The app and the service are proprietary.
+gap: An open messenger can replace one-to-one chat. KakaoTalk's open chats, channels, and the national default status are the gap.
+url: https://www.kakaocorp.com/page/service/service/KakaoTalk
+docs: https://developers.kakao.com/
+alt: Element | https://github.com/element-hq/element-web | AGPL-3.0 | An open Matrix client. It is not a national default messenger.
+- Chats | One-to-one chat | Two accounts exchange text, photos, and voice notes.
+- Groups | Group chats | A group has members, a name, and a shared photo roll.
+- Open | Open chat | A link lets strangers join a room that is not limited to the address book.
+- Calls | Voice and video | A call starts from a chat without a separate phone number.
+- Profile | Profiles | A profile shows a photo, a status, and a background to friends.
+- Channels | Channels | A brand or a creator posts to followers who added the channel.
+- Emoticons | Emoticons | Paid and free emoticon sets send inside a chat.
+- Albums | Photo albums | Photos shared in a chat can be browsed as an album later.
+@@ threads | Threads | Meta | Social
+summary: Meta's public text network, tied to an Instagram account.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A text feed for people who already have Instagram, offered by Meta as a public conversation app.
+license: Meta terms
+note: The app and the ranking are proprietary.
+gap: A federated text server covers posts and follows. Threads' tie to Instagram and the ranking are the gap.
+url: https://www.threads.net/
+docs: https://help.instagram.com/
+alt: Mastodon | https://github.com/mastodon/mastodon | AGPL-3.0 | A federated text server. An account there is not an Instagram login.
+- Posts | Text posts | A post is a short public text, with images or a link when the composer allows them.
+- Replies | Replies | Replies nest under a post, and the author can limit who may reply.
+- Reposts | Reposts | A repost puts another account's post onto your profile.
+- Feed | Following feed | The following feed shows posts from accounts you chose, separate from a ranked view.
+- Profile | Profile | The profile reuses the Instagram identity and shows the posts from this app.
+- Search | Search | Search finds accounts and posts by words.
+- Activity | Activity | Likes, replies, and follows show up in an activity list.
+- Links | Link posts | A post can carry a link out to a page on the web.
+@@ nextdoor | Nextdoor | Nextdoor | Social
+summary: A neighborhood social network that checks an address before a person can post.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The local feed many neighborhoods in the United States use for lost pets, recommendations, and alerts.
+license: Nextdoor terms
+note: The network and the verification process are proprietary.
+gap: A local forum you host can cover a street. Nextdoor's address check and the national neighborhood graph are the gap.
+url: https://nextdoor.com/
+docs: https://help.nextdoor.com/
+alt: Mastodon | https://github.com/mastodon/mastodon | AGPL-3.0 | A federated social server. It does not verify a street address.
+- Feed | Neighborhood feed | Posts are limited to people the product has placed in the same neighborhood.
+- Verify | Address check | A new member confirms an address before posting in that neighborhood.
+- Recs | Recommendations | Neighbors ask for and leave recommendations for a local business.
+- Sale | For sale | A post lists an item for sale to nearby members.
+- Alerts | Alerts | Urgent posts, such as a safety notice, are marked differently from ordinary chatter.
+- Business | Business pages | A local business can have a page and reply to recommendations.
+- Groups | Groups | A group inside the neighborhood collects posts on one interest.
+- Events | Events | A neighbor posts a local event with a time and a place.
+@@ google-ads | Google Ads | Google | Advertising
+summary: Google's ad system for search keywords, display, YouTube, and Performance Max.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product. Google reports advertising revenue for the company, not a user count for this tool.
+reach: The default place a business buys ads on Google Search and on a large share of the web.
+license: Google Ads terms
+note: The auction, the editor, and the measurement tags are proprietary.
+gap: An open ad server can store creatives and count clicks on sites you run. Google's search auction is the gap.
+url: https://ads.google.com/
+docs: https://developers.google.com/google-ads/api/docs/start
+alt: Revive Adserver | https://github.com/revive-adserver/revive-adserver | GPL-2.0 | An open ad server you host. It is not a search auction.
+- Search | Search campaigns | An advertiser bids on keywords and writes the text ad that can show on search.
+- Display | Display campaigns | Image ads run on sites that sell inventory through Google's display network.
+- Video | Video campaigns | Video ads can run on YouTube from the same account.
+- PMax | Performance Max | One campaign lets Google place ads across its properties from the assets you upload.
+- Conv | Conversion tags | A tag on the site reports a purchase or a signup back to the campaign.
+- Audiences | Audiences | A list of site visitors or customer emails can be used to limit who sees an ad.
+- Editor | Editor | Bulk changes to campaigns can be staged and uploaded.
+- Billing | Billing | The account charges a payment method and shows what each campaign spent.
+@@ meta-ads | Meta Ads | Meta | Advertising
+summary: Meta's ads manager for Facebook, Instagram, and the rest of its placements.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default paid distribution tool for brands that already have a Facebook or Instagram page.
+license: Meta terms
+note: Ads Manager, the pixel, and the delivery system are proprietary.
+gap: An open ad server counts impressions on sites you control. Meta's social placements and the pixel are the gap.
+url: https://www.facebook.com/business/ads
+docs: https://developers.facebook.com/docs/marketing-apis/
+alt: Revive Adserver | https://github.com/revive-adserver/revive-adserver | GPL-2.0 | An open ad server you host. It does not buy Facebook inventory.
+- Manager | Ads Manager | Campaigns, ad sets, and ads are edited in one account shared by a business.
+- Pixel | Pixel | A snippet on a website reports views and purchases back to the ad account.
+- Audiences | Custom audiences | A file of customers, or people who visited the site, becomes an audience.
+- Placements | Placements | One ad can run in the feed, in stories, and in other Meta placements.
+- Catalog | Catalog ads | A product catalog feeds ads that show a specific item and its price.
+- Lead | Lead forms | A form opens inside the app so a person can submit contact details without a landing page.
+- Tests | Experiments | The account can split delivery to compare two creatives or two audiences.
+- Billing | Billing | Spend, a payment method, and a daily or lifetime budget sit on the ad account.
+@@ linkedin-ads | LinkedIn Ads | Microsoft | Advertising
+summary: LinkedIn's ad product for sponsored posts, message ads, and lead forms aimed at job titles.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The ad account business-to-business teams use when they want to reach a job title rather than a hobby.
+license: LinkedIn terms
+note: Campaign Manager and the matched audiences are proprietary.
+gap: An open ad server does not know a member's employer. That professional graph is the gap.
+url: https://business.linkedin.com/marketing-solutions/ads
+docs: https://learn.microsoft.com/en-us/linkedin/marketing/
+alt: Revive Adserver | https://github.com/revive-adserver/revive-adserver | GPL-2.0 | An open ad server. It has no professional-profile graph.
+- Sponsored | Sponsored content | A post from a company page is paid to reach people beyond its followers.
+- Message | Message ads | A sponsored message arrives in a member's LinkedIn inbox.
+- Leads | Lead gen forms | A form is prefilled from the member profile and sent to the advertiser.
+- Match | Matched audiences | The account can target people who visited the site or who are in an uploaded list.
+- Titles | Job targeting | Targeting can name a job title, a company, or an industry from the profile.
+- Conv | Conversion tracking | A site tag reports a signup or a demo request back to the campaign.
+- Budget | Budgets | Each campaign has a budget and a schedule.
+- Reports | Reporting | The account shows impressions, clicks, and leads by campaign.
+@@ tiktok-ads | TikTok Ads | ByteDance | Advertising
+summary: TikTok's ad manager for in-feed video ads, a pixel, and shop campaigns.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The paid side of a very large short-video app, used by brands that need that audience.
+license: TikTok terms
+note: Ads Manager, the pixel, and the delivery system are proprietary.
+gap: An open ad server cannot place a video inside TikTok's feed. The placement and the pixel are the gap.
+url: https://ads.tiktok.com/
+docs: https://ads.tiktok.com/help/
+alt: Revive Adserver | https://github.com/revive-adserver/revive-adserver | GPL-2.0 | An open ad server you host. It does not sell TikTok inventory.
+- Infeed | In-feed ads | A video ad runs between organic posts in the For You feed.
+- Spark | Spark ads | An existing organic post can be authorized and run as an ad.
+- Pixel | Pixel | A site tag reports a view or a purchase so the campaign can optimize for it.
+- Audiences | Audiences | Lookalike and retargeting audiences are built from pixel events or a customer file.
+- Objectives | Objectives | A campaign starts from a goal such as traffic, app installs, or catalog sales.
+- Creative | Creative tools | The manager can trim a video and add a caption before it is submitted.
+- Shop | Shop ads | A catalog from a TikTok shop can feed product ads.
+- Reports | Reporting | Spend, views, and conversions are reported by campaign and by ad.
+@@ the-trade-desk | The Trade Desk | The Trade Desk | Advertising
+summary: A demand-side platform for buying ads across many publishers from one seat.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A widely used buying tool for agencies that bid on display, video, and connected TV.
+license: The Trade Desk terms
+note: The bidder, the seat, and the audience tools are proprietary.
+gap: An open ad server stores ads you own. A cross-publisher bidder and its identity graph are the gap.
+url: https://www.thetradedesk.com/
+docs: https://partner.thetradedesk.com/v3/portal
+alt: Revive Adserver | https://github.com/revive-adserver/revive-adserver | GPL-2.0 | An open ad server for inventory you control. It is not a demand-side bidder.
+- Bids | Bidding | The platform answers bid requests from many supply sources on the advertiser's behalf.
+- Inventory | Inventory | A buyer can include or exclude publishers, apps, and connected-TV sources.
+- Audiences | Audience segments | Third-party and first-party segments limit which impressions are bought.
+- Frequency | Frequency caps | A campaign can cap how often one person is shown the same ad.
+- Pacing | Pacing | Spend is spread across the flight instead of exhausting the budget on the first day.
+- Creatives | Creatives | Display, video, and other creative files are checked and attached to ad groups.
+- Identity | Identity | The platform offers its own identity tools for reaching a person across sites.
+- Reports | Reporting | Buyers pull delivery, reach, and conversion reports from the seat.
+@@ braze | Braze | Braze | Marketing
+summary: A customer-engagement suite for email, push, in-app messages, and canvases.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common messaging platform at consumer apps that send more than a newsletter.
+license: Braze terms
+note: The workspace, the SDKs' hosted features, and the canvases are proprietary.
+gap: An open marketing app can send email and track clicks. Braze's cross-channel canvas and the mobile SDKs are the gap.
+url: https://www.braze.com/
+docs: https://www.braze.com/docs
+alt: Mautic | https://github.com/mautic/mautic | GPL-3.0 | An open marketing app. Confirm the current license file. It is not a hosted mobile SDK.
+- Campaigns | Campaigns | A campaign sends one message, or a short series, to a segment.
+- Canvas | Canvas | A canvas is a branching journey across email, push, and in-app steps.
+- Push | Push | The mobile SDK receives a push notification targeted at a segment.
+- Inapp | In-app messages | A message appears inside the app when a person opens a screen.
+- Email | Email | An email template is sent to a segment, with clicks reported back.
+- Segments | Segments | A segment filters users by events and attributes the app has sent.
+- Cards | Content cards | A feed inside the app shows messages a person can open later.
+- Analytics | Analytics | The workspace reports sends, opens, and conversions for each step.
+@@ customer-io | Customer.io | Customer.io | Marketing
+summary: Event-triggered messaging for email and push, aimed at product teams.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common tool when a product wants a message to fire because a user did, or did not do, something.
+license: Customer.io terms
+note: The workspace and the delivery service are proprietary.
+gap: An open mailer can send a campaign on a schedule. Firing a message from your own product events is the gap people pay for.
+url: https://customer.io/
+docs: https://docs.customer.io/
+alt: Mautic | https://github.com/mautic/mautic | GPL-3.0 | An open marketing app you host. You wire the events yourself.
+- People | People | Each person has attributes and a list of events the product has sent in.
+- Events | Event triggers | A campaign can start when an event arrives, or when an expected event does not.
+- Segments | Segments | A segment is a saved filter over attributes and events.
+- Email | Email | A template with liquid-style fields is sent through Customer.io's mail path.
+- Push | Push | The same campaign can send a mobile push to a device token.
+- Workflows | Workflows | Delays, branches, and sends are drawn as a workflow on the person.
+- Snippets | Snippets | A reusable block of content can be dropped into more than one template.
+- Metrics | Metrics | Sends, opens, clicks, and conversions are counted per campaign.
+@@ attentive | Attentive | Attentive | Marketing
+summary: A text-message marketing platform for retail sign-up units and SMS journeys.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common SMS vendor for online stores that want a phone number at the moment of a visit.
+license: Attentive terms
+note: The sign-up units, the messaging, and the compliance tooling are proprietary.
+gap: An open mailer is not an SMS carrier. The sign-up unit and the carrier relationship are the gap.
+url: https://www.attentive.com/
+docs: https://docs.attentive.com/
+alt: Listmonk | https://github.com/knadh/listmonk | AGPL-3.0 | An open mailing-list manager. It does not send carrier SMS.
+- Signup | Sign-up units | A popup or a landing unit asks for a phone number and records consent.
+- Segments | Segments | Subscribers are split by what they bought or which unit they used.
+- Journeys | Journeys | A welcome series and a browse reminder are timed text messages.
+- Two | Two-way text | A subscriber can reply, and a person at the brand can answer in the inbox.
+- Quiet | Quiet hours | Sending can be held overnight so a text does not arrive at a bad hour.
+- Offers | Offers | A message can include a discount code the store created.
+- Compliance | Compliance records | The account keeps the consent record attached to the number.
+- Reports | Reporting | The account shows sends, clicks, and revenue it attributes to a text.
+@@ bigcommerce | BigCommerce | BigCommerce | Commerce
+summary: A hosted store for a catalog, checkout, themes, and apps.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common store platform for brands that want a hosted checkout without running Magento.
+license: BigCommerce terms
+note: The control panel, the checkout, and the theme runtime are proprietary.
+gap: An open commerce backend can run a catalog and a checkout on a server you host. BigCommerce's hosted panel is the gap.
+url: https://www.bigcommerce.com/
+docs: https://developer.bigcommerce.com/docs
+alt: Medusa | https://github.com/medusajs/medusa | MIT | The core repository is MIT aside from enterprise files called out in its license. Read LICENSE.
+- Catalog | Catalog | Products have variants, prices, and images managed in the control panel.
+- Checkout | Checkout | A hosted checkout takes payment and shipping details.
+- Themes | Themes | A theme controls the storefront. Developers can edit the theme files.
+- Apps | Apps | An app from the marketplace adds a feature and calls the store API.
+- Promos | Promotions | A coupon or an automatic discount applies at checkout.
+- Multi | Multi-storefront | One catalog can feed more than one storefront.
+- Orders | Orders | An order moves through payment, fulfillment, and refund states.
+- Tax | Tax and shipping | Shipping zones and tax rules are configured in the panel.
+@@ adobe-commerce | Adobe Commerce | Adobe | Commerce
+summary: Adobe's paid commerce suite on the Magento line, including cloud hosting and B2B features.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The commerce suite large catalogs use when they want Adobe's cloud edition rather than the open Magento release.
+license: Adobe terms
+note: Adobe Commerce is the paid product. Magento Open Source is a separate edition under the Open Software License.
+gap: Magento Open Source already runs a catalog and checkout. Adobe's cloud operations and the paid B2B modules are the gap.
+url: https://business.adobe.com/products/magento/magento-commerce.html
+docs: https://developer.adobe.com/commerce/docs/
+alt: Magento Open Source | https://github.com/magento/magento2 | OSL-3.0 | The open Magento edition. Adobe Commerce is the paid product on that line.
+- Catalog | Catalog | Products, categories, and price rules are managed in the admin.
+- Checkout | Checkout | The storefront checkout collects shipping, tax, and payment.
+- Admin | Admin roles | Staff accounts have roles that limit which admin screens they can open.
+- B2B | Company accounts | A B2B module can give a buyer company its own roles and shared catalogs.
+- Staging | Content staging | A merchandiser can schedule a catalog or a page change.
+- Page | Page Builder | A page is laid out in a visual builder instead of only in code.
+- Cloud | Cloud hosting | Adobe's cloud edition runs the store on infrastructure Adobe operates.
+- API | APIs | Headless clients call the store through the documented APIs.
+@@ etsy | Etsy | Etsy | Commerce
+summary: A marketplace where independent sellers list handmade, vintage, and craft-supply goods.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default marketplace many small makers use instead of opening their own store.
+license: Etsy terms
+note: The marketplace, search, and the seller tools are proprietary.
+gap: An open store can sell your own goods. Etsy's buyer traffic and the shared search are the gap.
+url: https://www.etsy.com/
+docs: https://developers.etsy.com/documentation/
+alt: WooCommerce | https://github.com/woocommerce/woocommerce | GPL-2.0 | An open store plugin for WordPress. It does not bring Etsy's buyers.
+- Listings | Listings | A seller writes a title, a price, photos, and variations for an item.
+- Shop | Shop | The shop page collects that seller's listings and policies.
+- Search | Search | Buyers search the whole marketplace, not one shop.
+- Checkout | Checkout | Etsy takes payment and pays the seller under its seller terms.
+- Ads | Etsy Ads | A seller can pay to promote a listing inside Etsy search.
+- Reviews | Reviews | A buyer leaves a review on a listing after a purchase.
+- Messages | Messages | A buyer and a seller write to each other about an order.
+- Labels | Shipping labels | A seller can buy a shipping label from inside the order.
+@@ amazon-seller | Amazon Seller Central | Amazon | Commerce
+summary: The seller console for listing products, fulfilling orders, and advertising on Amazon.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The console a large share of online retail brands open every morning.
+license: Amazon terms
+note: Seller Central, Fulfillment by Amazon, and the ad console are proprietary. This card is the seller tool, not the shopping site.
+gap: An open store sells on a site you own. Amazon's buyer demand and its warehouses are the gap.
+url: https://sellercentral.amazon.com/
+docs: https://developer-docs.amazon.com/sp-api/
+alt: Medusa | https://github.com/medusajs/medusa | MIT | An open commerce backend for a store you own. It is not a marketplace.
+- Listings | Listings | A seller creates a product detail page or offers an item on a page that already exists.
+- Orders | Orders | New orders appear in a queue with the buyer shipping address.
+- FBA | Fulfillment by Amazon | Inventory sent to Amazon's warehouses is picked and shipped by Amazon.
+- Ads | Advertising | Sponsored product ads are bought from the same seller account.
+- Payments | Payments | Amazon disburses sales on its payment schedule and shows the fees.
+- Cases | Cases | A buyer message or a policy notice opens a case the seller answers.
+- Inventory | Inventory | Stock levels are tracked per warehouse, including FBA stock.
+- Reports | Reports | Business reports show sessions, conversion, and fees by product.
+@@ ebay | eBay | eBay | Commerce
+summary: A marketplace for fixed-price listings and auctions, with a seller hub.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running marketplace for used goods, collectibles, and small sellers.
+license: eBay terms
+note: The marketplace and Seller Hub are proprietary.
+gap: An open store does not include a global auction marketplace. The buyer pool is the gap.
+url: https://www.ebay.com/
+docs: https://developer.ebay.com/
+alt: WooCommerce | https://github.com/woocommerce/woocommerce | GPL-2.0 | An open store on WordPress. It does not include eBay's buyers.
+- Listings | Listings | A listing has a title, item specifics, photos, and a price or an auction start.
+- Auctions | Auctions | Bidders raise the price until the listing ends.
+- Fixed | Buy It Now | A fixed-price listing sells immediately at the stated price.
+- Hub | Seller Hub | Orders, messages, and listings are managed from one seller home.
+- Messages | Messages | Buyers ask questions on the listing, and the seller answers there.
+- Feedback | Feedback | After a sale, each side can leave feedback on the account.
+- Promoted | Promoted listings | A seller can pay to have a listing shown more often in search.
+- Shipping | Shipping | The seller sets a service and can buy a label through the order.
+@@ wix | Wix | Wix | Design
+summary: A hosted website builder with templates, a visual editor, apps, and a store.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default website builder for small businesses that do not want to run a server.
+license: Wix terms
+note: The editor, the hosting, and the app market are proprietary.
+gap: WordPress the software is open and can build a similar site. Wix's hosted editor is the thing people pay for.
+url: https://www.wix.com/
+docs: https://dev.wix.com/
+alt: WordPress | https://github.com/WordPress/WordPress | GPL-2.0 | The open CMS. WordPress.com hosting is a separate service.
+- Editor | Visual editor | Pages are built by dragging sections, with no requirement to write the HTML.
+- Templates | Templates | A new site starts from a template for a restaurant, a portfolio, or another type.
+- Apps | App market | An app adds bookings, a chat, or another feature inside the site.
+- Store | Store | Products, checkout, and orders can be turned on for the same site.
+- Blog | Blog | Posts are written in the same account as the pages.
+- Domains | Domains | A custom domain connects to the hosted site.
+- SEO | SEO tools | Each page has a title, a description, and other fields the editor exposes for search.
+- Members | Members | A members area can require a login before a page is shown.
+@@ wordpress-com | WordPress.com | Automattic | Design
+summary: Automattic's hosted WordPress. The software is GPL. This card is the hosting service.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The hosted way to run WordPress when a person does not want to administer a server.
+license: WordPress.com terms
+note: WordPress the software is GPL. WordPress.com, the hosting plans, and some hosted features are a proprietary service.
+gap: The same software can be hosted by anyone. The managed platform, the domain upsell, and the support are the gap.
+url: https://wordpress.com/
+docs: https://wordpress.com/support/
+alt: WordPress | https://github.com/WordPress/WordPress | GPL-2.0 | The software itself. You bring the hosting.
+- Sites | Hosted sites | A site is created on Automattic's servers from the dashboard.
+- Themes | Themes | A theme is chosen from the ones the plan allows.
+- Plugins | Plugins | Paid plans can install plugins. The free hosted tier is more limited.
+- Domain | Domains | A domain can be registered or connected in the same dashboard.
+- Stats | Stats | A simple stats view shows visits without installing a separate analytics plugin.
+- Editor | Block editor | Pages and posts are edited with the block editor on the hosted site.
+- Commerce | Commerce | A store can be added on plans that include those features.
+- Reader | Reader | The account can follow other WordPress.com blogs in a reader.
+@@ ecwid | Ecwid | Lightspeed | Commerce
+summary: A store that embeds into an existing site, with a catalog and checkout.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common add-on when a site already exists and only the cart is missing.
+license: Ecwid terms
+note: The control panel and the embedded storefront are proprietary.
+gap: WooCommerce or Medusa can add a cart to a site you host. Ecwid's embed and the hosted catalog are the gap.
+url: https://www.ecwid.com/
+docs: https://docs.ecwid.com/
+alt: WooCommerce | https://github.com/woocommerce/woocommerce | GPL-2.0 | An open store for WordPress. You host it with the site.
+- Embed | Embeddable store | A snippet drops the catalog and cart into a page on another site.
+- Catalog | Catalog | Products, options, and stock are edited in Ecwid's panel.
+- Checkout | Checkout | Checkout runs through Ecwid, including the payment step.
+- Social | Social selling | The same catalog can be pointed at a social shop where that integration exists.
+- Shipping | Shipping | Rates and zones are configured once for the embedded store.
+- Tax | Taxes | Tax rules apply at checkout based on the settings in the panel.
+- Apps | Apps | An app extends the panel or the storefront.
+- Orders | Orders | Orders from every embed show up in one order list.
+@@ square | Square | Block | Finance
+summary: Block's point-of-sale and payments products for in-person and online selling.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default card reader and register for small shops, cafes, and sellers.
+license: Square terms
+note: The reader, the point-of-sale app, and the payment service are proprietary.
+gap: An open ERP can record a sale. The card reader, the payment network, and the hardware are the gap.
+url: https://squareup.com/
+docs: https://developer.squareup.com/docs
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP with a point of sale. It does not include a card network.
+- Register | Point of sale | A tablet register rings up items, tax, and a tender type.
+- Reader | Card reader | A reader takes a card or a phone tap and sends the charge to Square.
+- Online | Online checkout | A payment link or an online store charges a card without the counter.
+- Items | Item library | Items, modifiers, and prices are shared by the register and the online store.
+- Staff | Staff | Employees clock in and are limited to the register functions a manager allows.
+- Inventory | Inventory | Stock can decrement when an item is sold.
+- Payouts | Payouts | Card sales are deposited on Square's payout schedule.
+- Reports | Sales reports | The dashboard shows sales by item, by tender, and by time.
+@@ paypal | PayPal | PayPal | Finance
+summary: An online wallet and checkout used to pay and to get paid.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default way to pay on the web when a buyer does not want to type a card into the store.
+license: PayPal terms
+note: The wallet, the checkout, and the risk systems are proprietary.
+gap: An open billing engine can invoice and record a payment. PayPal's consumer wallet and buyer protection program are the gap.
+url: https://www.paypal.com/
+docs: https://developer.paypal.com/docs/
+alt: Kill Bill | https://github.com/killbill/killbill | Apache-2.0 | An open billing engine. It is not a consumer wallet.
+- Checkout | Checkout buttons | A button sends the buyer to PayPal to approve a payment, then back to the store.
+- Wallet | Balance | A person can hold a balance and pay from it.
+- Invoices | Invoices | A seller sends an invoice and the buyer pays it through PayPal.
+- Payouts | Payouts | A platform can send money to a batch of receivers.
+- Subscriptions | Subscriptions | A recurring charge bills a buyer on a schedule.
+- Disputes | Disputes | A buyer can open a dispute, and the seller answers with evidence.
+- Protection | Seller protection | Eligible transactions can be covered by PayPal's seller protection rules.
+- Api | APIs | A store charges and refunds through the documented APIs.
+@@ adyen | Adyen | Adyen | Finance
+summary: A payments company for online checkout, in-person terminals, and marketplace payouts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The payments stack at many large retailers that want one company for online and in-store.
+license: Adyen terms
+note: The platform, the risk tools, and the terminals are proprietary.
+gap: An open billing engine does not acquire card payments worldwide. The acquiring and the risk tools are the gap.
+url: https://www.adyen.com/
+docs: https://docs.adyen.com/
+alt: Kill Bill | https://github.com/killbill/killbill | Apache-2.0 | An open subscription-billing engine. You still need a payment provider.
+- Checkout | Checkout | Drop-in components or an API take a payment on the merchant's site.
+- Methods | Payment methods | The same integration can offer cards and local methods Adyen supports.
+- Terminals | Terminals | An in-person terminal talks to the same merchant account as the website.
+- Risk | Risk rules | Rules score a payment and can block it before capture.
+- Platforms | Platforms | A marketplace can split a payment and pay out sellers.
+- Payouts | Payouts | Funds are paid to the merchant's bank on Adyen's schedule.
+- Reports | Reports | Settlement and accounting reports download from the customer area.
+- Tokens | Stored details | A shopper's card can be stored as a token for a later charge.
+@@ plaid | Plaid | Plaid | Finance
+summary: A data network that lets an app read bank-account data the account holder approves.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The link many United States finance apps use when they ask to connect a bank.
+license: Plaid terms
+note: The network, the connections, and the dashboard are proprietary.
+gap: A budget app you host can store transactions you import yourself. A network of live bank connections is the gap.
+url: https://plaid.com/
+docs: https://plaid.com/docs/
+alt: Actual | https://github.com/actualbudget/actual | MIT | A local-first budget app. It is not a bank-data network.
+- Link | Link | A popup lets a person pick a bank and sign in, then hand the app a token.
+- Accounts | Accounts | The app can list accounts and balances the person approved.
+- Transactions | Transactions | The app can pull transactions from the linked account.
+- Auth | Auth | Account and routing numbers can be retrieved where that product is enabled.
+- Identity | Identity | The connection can return name and address data the product exposes.
+- Balance | Balance | A call reads the current balance without downloading every transaction.
+- Items | Items | Each linked login is an item the developer can see in the dashboard.
+- Webhooks | Webhooks | Plaid notifies the app when new transactions are ready.
+@@ brex | Brex | Brex | Finance
+summary: Corporate cards, reimbursements, and bill pay for startups and finance teams.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common finance stack at venture-backed companies that do not want a traditional bank card.
+license: Brex terms
+note: The cards, the underwriting, and the spend software are proprietary.
+gap: An open finance app can record expenses. Issuing a card and underwriting the company are the gap.
+url: https://www.brex.com/
+docs: https://developer.brex.com/
+alt: Firefly III | https://github.com/firefly-iii/firefly-iii | AGPL-3.0 | An open finance app. It does not issue cards.
+- Cards | Employee cards | An admin issues a card with a limit to an employee.
+- Limits | Spend limits | A limit can be tied to a merchant category or a budget.
+- Reimburse | Reimbursements | An employee submits an out-of-pocket expense and is paid back.
+- Bills | Bill pay | A vendor invoice is approved and paid from the account.
+- Receipts | Receipts | A photo of a receipt is matched to a card charge.
+- Export | Accounting export | Coded transactions export to the ledger the company uses.
+- Travel | Travel | Trips can be booked and the charges land on the same card program.
+- Rewards | Rewards | Card spend can earn rewards under the program's own rules.
+@@ ramp | Ramp | Ramp | Finance
+summary: Corporate cards and spend software that pushes coded expenses into an accounting system.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A widely used card-and-spend product at finance teams that want controls before the charge, not after.
+license: Ramp terms
+note: The cards, the controls, and the accounting sync are proprietary.
+gap: An open ledger records what already happened. Issuing the card and blocking a charge in real time are the gap.
+url: https://ramp.com/
+docs: https://docs.ramp.com/
+alt: Firefly III | https://github.com/firefly-iii/firefly-iii | AGPL-3.0 | An open finance app for money you already have. It does not issue cards.
+- Cards | Cards | Employees get cards with limits set by an admin.
+- Controls | Spend controls | A rule can block a merchant category or require a receipt.
+- Bills | Bill pay | Vendor bills are approved and scheduled for payment.
+- Sync | Accounting sync | Transactions are coded and pushed to the company's ledger.
+- Reimburse | Reimbursements | Out-of-pocket spend is submitted and approved in the same product.
+- Procurement | Procurement | A purchase request can be approved before the money is spent.
+- Receipts | Receipt matching | A receipt is attached to the card line it explains.
+- Insights | Spend insights | The dashboard groups spend by vendor, team, and category.

@@ -1,0 +1,1280 @@
+@@ codesandbox | CodeSandbox | CodeSandbox | Developer tools
+summary: A browser IDE and cloud development environment for web projects.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A place teams open a repository in the browser instead of cloning it first.
+license: CodeSandbox terms
+note: The hosted environments and the editor service are proprietary.
+gap: An open VS Code server can edit a repo on a machine you run. CodeSandbox's hosted boot and the share links are the gap.
+url: https://codesandbox.io/
+docs: https://codesandbox.io/docs
+alt: code-server | https://github.com/coder/code-server | MIT | An open VS Code server you host.
+- Editor | Browser editor | A project opens in a VS Code-style editor in the browser.
+- Dev | Dev environments | Dependencies install in a cloud environment tied to the project.
+- Preview | Previews | A running web app gets a URL from the environment.
+- Share | Share links | A link opens the same project for a teammate.
+- Import | Git import | A repository can be imported and kept in sync with its branch.
+- Terminal | Terminal | A terminal runs inside the environment so you can install a package or start a server next to the editor.
+- Templates | Templates | A new project can start from a template.
+- Collab | Live collaboration | More than one cursor can edit, where that feature is enabled.
+@@ stackblitz | StackBlitz | StackBlitz | Developer tools
+summary: A browser IDE that boots web projects quickly, including a local-looking Node environment.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common way to open a runnable example from a docs page.
+license: StackBlitz terms
+note: The hosted boot environment and the editor service are proprietary.
+gap: An open IDE framework can be hosted by anyone. StackBlitz's instant environment is the gap.
+url: https://stackblitz.com/
+docs: https://developer.stackblitz.com/
+alt: Eclipse Theia | https://github.com/eclipse-theia/theia | EPL-2.0 | An open IDE framework. You host it.
+- Editor | Editor | Files, a terminal, and a preview open in the browser.
+- Boot | Fast boot | A project is presented as already running, which is the product's main trick.
+- Node | Node projects | Server-side JavaScript projects run in the environment, not only static pages.
+- Git | GitHub projects | A public repository can be opened as a project.
+- Embed | Embeds | A project can be embedded in a documentation page.
+- Share | Share | A link hands someone the same environment.
+- Secrets | Secrets | Environment variables can be set for the project.
+- NPM | Package install | Dependencies install inside the environment from the project file.
+@@ sourcegraph | Sourcegraph | Sourcegraph | Developer tools
+summary: A code search and intelligence product across many repositories.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The search box large engineering orgs put over the whole company's code.
+license: Sourcegraph terms
+note: The current product is proprietary. Older releases used a different license. This card is the product as sold now.
+gap: An open code indexer can search a tree you host. Sourcegraph's cross-repo intelligence and the hosted product are the gap.
+url: https://sourcegraph.com/
+docs: https://sourcegraph.com/docs
+alt: OpenGrok | https://github.com/oracle/opengrok | CDDL-1.0 | An open code search index. Read the license file in the repo.
+- Search | Code search | A query searches symbols and text across the repositories connected to the instance.
+- Diff | Diff search | A search can be limited to what changed.
+- Nav | Go to definition | A symbol can be followed to its definition across repos.
+- Insights | Insights | The product can chart a pattern, such as a deprecated call, over time.
+- Batch | Batch changes | A change can be opened as pull requests across many repos.
+- Cody | Cody | An assistant in the product answers questions about the indexed code. It is part of the commercial product.
+- Perms | Permissions | Results are limited to repositories the person may see.
+- Self | Self-hosted option | A large customer can run an instance. The license is still the company's, not an OSI license.
+@@ overleaf | Overleaf | Overleaf | Science
+summary: A hosted LaTeX editor with collaboration. The public server code is a separate grant from the website.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The default place academics write a paper together in LaTeX.
+license: Overleaf terms
+note: overleaf.com the service is proprietary. A public server repository exists under the AGPL. This card is the hosted product.
+gap: The public server code and a TeX distribution can edit a paper you host. The hosted compile service and the collaboration on overleaf.com are the gap.
+url: https://www.overleaf.com/
+docs: https://www.overleaf.com/learn
+alt: Overleaf public server | https://github.com/overleaf/overleaf | AGPL-3.0 | The public server repository is AGPL-3.0. Hosted overleaf.com is a different service. Read the tag you run.
+- Editor | Source editor | A LaTeX source is edited beside a preview.
+- Compile | Compile | The service compiles the project and shows the log.
+- Collab | Collaboration | More than one person edits the same project.
+- History | History | Older versions of the project can be restored.
+- Track | Track changes | A suggested edit can be accepted in the modes that include it.
+- Comments | Comments | A comment sits on a passage so a coauthor can reply without changing the LaTeX source.
+- Files | Project files | Figures and bibliographies live in the project.
+- Submit | Journal submit | Some journals accept a submission straight from a project.
+@@ semgrep-cloud | Semgrep Cloud | Semgrep | Security
+summary: The hosted Semgrep product. The scan engine in the public repository is LGPL.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A code-security scan many teams run in pull requests.
+license: Semgrep terms
+note: Semgrep Cloud, the managed rules, and the dashboard are proprietary. The engine in the public repository is LGPL-2.1.
+gap: The engine can run rules you write. The cloud dashboard, the managed rules, and the supply-chain product are the gap.
+url: https://semgrep.dev/
+docs: https://semgrep.dev/docs
+alt: Semgrep | https://github.com/semgrep/semgrep | LGPL-2.1 | The engine. Semgrep Cloud is a separate product.
+- Scan | Pull request scans | A scan runs on a pull request and reports findings.
+- Rules | Rules | A finding comes from a rule, which can be one you wrote or one the platform provides.
+- Editor | Rule editor | A rule can be tried against sample code in the product.
+- Supply | Supply chain | A dependency finding is reported alongside code findings, where that product is on.
+- Secrets | Secrets | A scan can look for a committed credential.
+- Policies | Policies | A policy decides which findings block a pull request.
+- Triage | Triage | A finding can be ignored or marked fixed.
+- Dashboard | Dashboard | Open findings are listed by repository so a team can see which projects still have a rule firing.
+@@ checkmarx | Checkmarx | Checkmarx | Security
+summary: A commercial application-security scanner for source code and dependencies.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A scanner security teams at large companies mandate in the build.
+license: Checkmarx terms
+note: The scanners and the results platform are proprietary.
+gap: An open engine can run rules you have. Checkmarx's managed queries and the enterprise results platform are the gap.
+url: https://checkmarx.com/
+docs: https://docs.checkmarx.com/
+alt: Semgrep | https://github.com/semgrep/semgrep | LGPL-2.1 | An open scan engine. It is not Checkmarx's query set.
+- SAST | Static analysis | Source is scanned for vulnerability patterns.
+- SCA | Dependencies | Open-source dependencies are matched to known vulnerabilities.
+- Results | Results viewer | A finding shows the file, the line, and a description.
+- Query | Queries | The product ships queries, and a customer can add one.
+- Policy | Policies | A threshold can fail a build when a new scan crosses a severity or a count you set.
+- Triage | Triage | A finding is marked as a risk to fix or as not exploitable.
+- Integrations | Integrations | Results can be sent to a pull request or a ticket.
+- Reports | Reports | A report summarizes findings for a release.
+@@ pycharm | PyCharm Professional | JetBrains | Developer tools
+summary: JetBrains' paid Python IDE. The Community edition is a separate, free product.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default Python IDE in companies that want the paid web, data, and remote tools.
+license: JetBrains terms
+note: PyCharm Professional is proprietary. PyCharm Community is free to use. The IntelliJ platform source is Apache-2.0. This card is the paid edition.
+gap: The Community edition and the Apache-licensed platform cover editing and debugging. Professional's web frameworks, databases, and remote development are the gap.
+url: https://www.jetbrains.com/pycharm/
+docs: https://www.jetbrains.com/help/pycharm/
+alt: IntelliJ Community | https://github.com/JetBrains/intellij-community | Apache-2.0 | The open platform. PyCharm Professional is a paid product built beside it.
+- Editor | Editor | Code completion, refactoring, and navigation are built for Python.
+- Debug | Debugger | A breakpoint can stop a process and show variables.
+- Test | Test runner | A test framework runs from the gutter so one test or the whole file starts without a separate command.
+- Venv | Environments | The IDE creates and selects a virtual environment or a conda env.
+- Web | Web frameworks | The paid edition adds framework-specific tools JetBrains lists for Professional.
+- Data | Database tools | A database console is part of the paid edition.
+- Jupyter | Jupyter | A notebook can be edited inside the IDE.
+- Remote | Remote development | A project can run on a remote machine from the local UI.
+@@ webstorm | WebStorm | JetBrains | Developer tools
+summary: JetBrains' paid IDE for JavaScript and TypeScript.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common IDE for front-end teams that want JetBrains' refactoring on JavaScript.
+license: JetBrains terms
+note: WebStorm is proprietary. There is no community edition of this product.
+gap: A build of Code-OSS edits JavaScript. WebStorm's framework refactorings and the debugger integrations are the gap.
+url: https://www.jetbrains.com/webstorm/
+docs: https://www.jetbrains.com/help/webstorm/
+alt: VSCodium | https://github.com/VSCodium/vscodium | MIT | A build of the MIT-licensed Code-OSS. It is not the Microsoft build of VS Code.
+- Editor | Editor | Completion and navigation understand JavaScript and TypeScript projects.
+- Refactor | Refactoring | A rename or an extract updates the references the IDE found.
+- Frameworks | Frameworks | The IDE has specific support for frameworks it lists, such as React or Angular.
+- Debug | Debugger | The IDE attaches to a browser or a Node process.
+- Test | Tests | A test runner shows results in the IDE and jumps to the assertion that failed.
+- Lint | Linters | ESLint and similar tools surface in the editor.
+- VCS | Version control | Diffs, commits, and pull requests are available in the IDE.
+- Terminal | Terminal | A terminal opens in the project directory.
+@@ datagrip | DataGrip | JetBrains | Developer tools
+summary: JetBrains' database IDE for querying and altering schemas.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common SQL tool for people who already live in JetBrains IDEs.
+license: JetBrains terms
+note: DataGrip, the JetBrains database IDE, is proprietary commercial software.
+gap: An open database tool can run SQL against the servers you reach. DataGrip's schema tools and the JetBrains editor are the gap.
+url: https://www.jetbrains.com/datagrip/
+docs: https://www.jetbrains.com/help/datagrip/
+alt: DBeaver | https://github.com/dbeaver/dbeaver | Apache-2.0 | The community edition is Apache-2.0. The commercial edition is separate.
+- Console | Query console | SQL runs against a saved data source, with results in a grid.
+- Complete | Completion | Table and column names complete from the schema the IDE introspected.
+- Edit | Data editor | A row in the grid can be edited and the change submitted.
+- Schema | Schema diff | Two schemas can be compared and the difference written as SQL you can review before it runs.
+- Export | Export | A result exports to a file such as CSV or JSON from the grid of the query.
+- Diagram | Diagrams | A diagram shows tables and foreign keys.
+- Source | Data sources | Each connection has a driver, a host, and credentials stored in the IDE.
+- History | Query history | Past queries can be recalled from the local history and run again against the same source.
+@@ phpstorm | PhpStorm | JetBrains | Developer tools
+summary: JetBrains' paid IDE for PHP, with debugging, Composer, and framework support in the editor.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default PHP IDE in agencies and product teams that still ship a lot of PHP.
+license: JetBrains terms
+note: PhpStorm is proprietary. There is no community edition.
+gap: An open editor can highlight PHP. PhpStorm's framework integrations and the debugger are the gap.
+url: https://www.jetbrains.com/phpstorm/
+docs: https://www.jetbrains.com/help/phpstorm/
+alt: VSCodium | https://github.com/VSCodium/vscodium | MIT | An MIT build of Code-OSS. It is not PhpStorm.
+- Editor | Editor | Completion and navigation understand PHP projects and Composer.
+- Frameworks | Frameworks | Laravel, Symfony, and other frameworks have dedicated support the product documents.
+- Debug | Debugger | Xdebug sessions stop in the IDE so you can inspect variables on a line of PHP.
+- Test | Tests | PHPUnit and similar runners show results in the IDE.
+- Database | Database | SQL can be run from the IDE against a configured source.
+- Quality | Quality tools | PHP_CodeSniffer and similar tools surface as inspections.
+- Deploy | Deployment | A project can be uploaded to a remote host from the IDE.
+- VCS | Version control | Git operations run inside the IDE, including commit, branch, and a side-by-side diff.
+@@ goland | GoLand | JetBrains | Developer tools
+summary: JetBrains' paid IDE for Go, with a debugger, tests, and module tools in one window.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common Go IDE beside VS Code for people who want JetBrains' debugger and refactoring.
+license: JetBrains terms
+note: GoLand is a proprietary JetBrains IDE sold separately from the Go toolchain.
+gap: An open editor plus the Go tools can build and test. GoLand's integrated debugger and refactorings are the gap.
+url: https://www.jetbrains.com/go/
+docs: https://www.jetbrains.com/help/go/
+alt: VSCodium | https://github.com/VSCodium/vscodium | MIT | An MIT editor. The Go tools themselves are separate and mostly open.
+- Editor | Editor | Completion uses the Go toolchain's knowledge of the module.
+- Refactor | Refactoring | Renames and extracts update references across the module instead of a single file.
+- Debug | Debugger | A breakpoint stops the Delve session the IDE started.
+- Test | Tests | A test function runs from the gutter and the IDE shows the failure next to the assertion.
+- Modules | Modules | go.mod dependencies are understood by the project view.
+- Profiler | Profiler | A profile can be captured and viewed in the editions that include it.
+- Database | Database tools | SQL tools ship in the IDE so a query can run against a database without leaving GoLand.
+- Run | Run configurations | A run configuration sets the package, the arguments, and the environment.
+@@ clion | CLion | JetBrains | Developer tools
+summary: JetBrains' paid IDE for C and C++, with CMake, a debugger, and code analysis.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common C++ IDE on top of CMake for teams that do not want to live only in a debugger frontend.
+license: JetBrains terms
+note: CLion is a proprietary JetBrains IDE and is separate from the compilers it drives.
+gap: An open editor can call CMake and a debugger. CLion's integrated refactoring and the embedded tools are the gap.
+url: https://www.jetbrains.com/clion/
+docs: https://www.jetbrains.com/help/clion/
+alt: VSCodium | https://github.com/VSCodium/vscodium | MIT | An MIT editor. You bring a compiler and a debugger.
+- CMake | CMake projects | A CMake project loads as the IDE's model of the build.
+- Editor | Editor | Completion and navigation use the project's compile commands.
+- Debug | Debugger | GDB or LLDB stops on a breakpoint inside the IDE.
+- Sanitizers | Sanitizers | Address and other sanitizer output can be shown in the IDE.
+- Embedded | Embedded | Some toolchains for devices are supported as the product documents.
+- Test | Tests | A CTest or other test target runs from the IDE.
+- VCS | Version control | Git is integrated in the same window so a diff and a commit happen beside the editor.
+- Remote | Remote toolchains | A build can run on a remote machine configured as a toolchain.
+@@ rubymine | RubyMine | JetBrains | Developer tools
+summary: JetBrains' paid IDE for Ruby and Rails, with debugging, tests, and gem support.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common Rails IDE in teams that want more than a text editor and a terminal.
+license: JetBrains terms
+note: RubyMine is a proprietary JetBrains IDE sold separately from Ruby itself.
+gap: An open editor can edit Ruby. RubyMine's Rails navigation and the integrated tools are the gap.
+url: https://www.jetbrains.com/ruby/
+docs: https://www.jetbrains.com/help/ruby/
+alt: VSCodium | https://github.com/VSCodium/vscodium | MIT | An MIT editor. Rails itself is open. This IDE is not.
+- Editor | Editor | Completion and go-to-definition work across a Rails app.
+- Rails | Rails navigation | A controller, a view, and a route can be jumped between.
+- Debug | Debugger | A request can be stopped in the debugger.
+- Test | Tests | RSpec or Minitest runs from the IDE and a failure jumps back to the example.
+- Database | Database | The IDE can show the tables Rails is using.
+- RuboCop | RuboCop | Style inspections appear in the editor so a RuboCop offense is marked on the line.
+- Bundler | Bundler | Gem dependencies are visible in the project.
+- Deploy | Capistrano and similar | Deployment tools the product supports can be run from the IDE.
+@@ canvas-lms | Canvas LMS | Instructure | Education
+summary: A learning management system for courses, assignments, grades, and quizzes.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The learning system at a large number of universities and school districts.
+license: Instructure terms
+note: Canvas the hosted product is proprietary. This card is that service.
+gap: Moodle is an open learning system you host. Canvas's hosted operations and the product surface are the gap.
+url: https://www.instructure.com/canvas
+docs: https://developerdocs.instructure.com/services/canvas
+alt: Moodle | https://github.com/moodle/moodle | GPL-3.0 | An open learning system. You host it.
+- Courses | Courses | A course has modules, files, and people in roles.
+- Assign | Assignments | A student submits work and a teacher grades it.
+- Grade | Gradebook | Scores collect in a gradebook the teacher can export.
+- Quiz | Quizzes | A quiz is timed and scored inside the course.
+- Discuss | Discussions | A discussion is graded or left as a conversation.
+- Speed | SpeedGrader | A teacher moves through submissions in one viewer.
+- Roster | Rosters | Students arrive from a student-information system or are added by hand.
+- Mobile | Mobile apps | Students open the course from a phone app.
+@@ blackboard | Blackboard Learn | Anthology | Education
+summary: A long-running learning system for courses, grades, and content at universities.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: Still the system of record for courses at many campuses that adopted it years ago.
+license: Anthology terms
+note: The hosted learning system is proprietary.
+gap: Moodle covers courses and grades. Blackboard's hosted product and the campus integrations are the gap.
+url: https://www.anthology.com/products/teaching-and-learning/learning-effectiveness/blackboard-learn
+docs: https://help.anthology.com/
+alt: Moodle | https://github.com/moodle/moodle | GPL-3.0 | An open learning system you can run.
+- Courses | Courses | Content, assignments, and people live in a course.
+- Content | Content areas | Files, links, and folders are organized for the term.
+- Grade | Grade center | The instructor records scores and calculates a grade.
+- Test | Tests | A test is delivered and scored in the course.
+- Discuss | Discussions | Students post in a forum the instructor created.
+- Groups | Groups | A class is split into groups with their own tools.
+- Integrate | Campus integration | Rosters can arrive from the campus identity system.
+- App | Apps | An external tool can be added to a course.
+@@ google-classroom | Google Classroom | Google | Education
+summary: Google's class tool for assignments, materials, and grades on top of Google accounts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The class layer on a large number of school Google accounts.
+license: Google terms
+note: Classroom is proprietary. It depends on Google accounts.
+gap: Moodle is a full learning system you host. Classroom's tie to Google Drive and school accounts is the gap.
+url: https://classroom.google.com/
+docs: https://developers.google.com/classroom
+alt: Moodle | https://github.com/moodle/moodle | GPL-3.0 | An open learning system. It does not require a Google account.
+- Classes | Classes | A teacher creates a class and invites students with a code or a roster.
+- Work | Classwork | Assignments, questions, and materials are posted in a stream.
+- Drive | Drive files | An assignment can hand each student a copy of a Doc.
+- Grade | Grades | Points are recorded and returned to the student.
+- Announce | Stream | An announcement posts to the class stream so every student sees it on the class page.
+- Roster | Rosters | Students and teachers have roles, and a teacher invites or removes people from the class.
+- Topics | Topics | Classwork is grouped by topic so assignments sit under a unit instead of one long list.
+- Guardian | Guardians | A guardian can be invited to see a summary, where the school allows it.
+@@ kahoot | Kahoot | Kahoot | Education
+summary: A live quiz game a teacher or a presenter runs from a screen while the room answers on phones.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default live quiz in classrooms and in a lot of corporate training sessions.
+license: Kahoot terms
+note: The service and the apps are proprietary.
+gap: An open learning system can hold a quiz. Kahoot's live game, the pin, and the public library are the gap.
+url: https://kahoot.com/
+docs: https://support.kahoot.com/
+alt: Moodle | https://github.com/moodle/moodle | GPL-3.0 | An open learning system with quizzes. It is not a live phone game.
+- Kahoots | Kahoots | A quiz is a list of questions with answers and a timer.
+- Live | Live game | A pin on the screen lets phones join the same game.
+- Answers | Answers | Each phone picks an answer and the score updates.
+- Podium | Podium | A leaderboard is shown between questions.
+- Library | Discover | Public kahoots can be found and reused so a host can start a game someone else already wrote.
+- Reports | Reports | The host sees who answered what after the game.
+- Assign | Assignments | A kahoot can also be assigned for someone to play alone.
+- Business | Business training | The same format is sold for company training, as a separate audience.
+@@ quizlet | Quizlet | Quizlet | Education
+summary: Flashcards and study sets, with games and a paid study mode.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default flashcard site for secondary and university students.
+license: Quizlet terms
+note: The site and the study modes are proprietary.
+gap: An open flashcard program stores a deck and schedules review. Quizlet's public library and the hosted games are the gap.
+url: https://quizlet.com/
+docs: https://quizlet.com/help
+alt: Anki | https://github.com/ankitects/anki | AGPL-3.0 | An open flashcard program. Decks stay on your devices.
+- Sets | Study sets | A set is a list of terms and definitions.
+- Cards | Flashcards | A card flips from term to definition, and a study mode repeats the ones that were missed.
+- Learn | Learn | A mode repeats the cards the person is missing.
+- Test | Test | A test mixes written and multiple-choice questions from the set.
+- Match | Match | A game matches terms to definitions against a clock.
+- Library | Public sets | Sets other people published can be studied.
+- Class | Classes | A teacher can send a set to a class so students open the same cards without a public link.
+- Audio | Audio | A term can be played aloud so a learner hears the pronunciation while studying the card.
+@@ typeform | Typeform | Typeform | Research
+summary: A form product that shows one question at a time and records the answers.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default form when a team wants something that feels like a conversation rather than a spreadsheet grid.
+license: Typeform terms
+note: The form hosting and the results are proprietary.
+gap: An open survey server can ask the same questions. Typeform's hosted design and the integrations are the gap.
+url: https://www.typeform.com/
+docs: https://www.typeform.com/developers/
+alt: LimeSurvey | https://github.com/LimeSurvey/LimeSurvey | GPL-2.0 | An open survey server you host.
+- Forms | Forms | Questions are ordered, and the respondent sees them one at a time.
+- Logic | Logic | A later question can depend on an earlier answer.
+- Design | Design | A theme sets type, color, and images so the form matches a brand before it is shared.
+- Responses | Responses | Each submission is stored and can be exported.
+- Embed | Embeds | A form can be embedded in a page or opened from a link.
+- Hidden | Hidden fields | A link can carry a value, such as a campaign name, into the response.
+- Integrate | Integrations | A response can be sent to a sheet or another tool.
+- Video | Video questions | A question can include a video the respondent watches.
+@@ surveymonkey | SurveyMonkey | SurveyMonkey | Research
+summary: An online survey tool for questions, collectors, and result charts.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default survey link for teams that do not want to run a survey server.
+license: SurveyMonkey terms
+note: The survey hosting and the analysis are proprietary.
+gap: LimeSurvey can run the questionnaire on a server you host. SurveyMonkey's collectors and the hosted charts are the gap.
+url: https://www.surveymonkey.com/
+docs: https://developer.surveymonkey.com/api/v3/
+alt: LimeSurvey | https://github.com/LimeSurvey/LimeSurvey | GPL-2.0 | An open survey server.
+- Design | Survey design | Questions include choices, matrices, and open text.
+- Logic | Skip logic | An answer sends the respondent to a later page.
+- Collect | Collectors | A link, an email, or an embedded form collects responses.
+- Results | Results | Charts summarize answers as they arrive.
+- Export | Export | Responses download as a spreadsheet so the answers can be opened outside SurveyMonkey.
+- Theme | Themes | A logo and colors brand the survey so the page shows the organization, not only the default theme.
+- Quota | Quotas | Collection can stop after a number of responses.
+- Share | Shared surveys | Teammates can be given access to the results.
+@@ qualtrics | Qualtrics | Qualtrics | Research
+summary: An experience-management suite for surveys, panels, and dashboards.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The survey platform at many universities and large customer-experience teams.
+license: Qualtrics terms
+note: The Qualtrics experience-management suite is proprietary.
+gap: An open survey server covers a questionnaire. Qualtrics' panels, the stats, and the dashboards are the gap.
+url: https://www.qualtrics.com/
+docs: https://api.qualtrics.com/
+alt: LimeSurvey | https://github.com/LimeSurvey/LimeSurvey | GPL-2.0 | An open survey server. It is not a panel-management suite.
+- Survey | Survey builder | A survey has blocks, questions, and display logic.
+- Distribute | Distribution | A mailing list or an anonymous link collects responses.
+- Stats | Stats iQ | Analysis tools in the product run tests on the responses.
+- Dashboard | Dashboards | A dashboard shows results to people who do not build the survey.
+- Panel | Panels | A panel of respondents can be managed for more than one study.
+- Workflow | Workflows | A response can trigger a ticket or a message.
+- Roles | Roles | A brand admin decides who may edit a survey.
+- Export | Export | Raw data leaves the project as a file so a response set can be analyzed in another tool.
+@@ hotjar | Hotjar | Hotjar | Analytics
+summary: Heatmaps, recordings, and on-site surveys for a website.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common first tool when a marketing team wants to see where people click.
+license: Hotjar terms
+note: The script, the recordings, and the dashboard are proprietary.
+gap: An open analytics tool counts visits. Hotjar's heatmaps and the session recordings are the gap.
+url: https://www.hotjar.com/
+docs: https://help.hotjar.com/
+alt: Matomo | https://github.com/matomo-org/matomo | GPL-3.0 | An open analytics server. Heatmaps are not the core product.
+- Heat | Heatmaps | A page shows where clicks and scrolling concentrate.
+- Record | Recordings | A session can be replayed as a video of the page.
+- Survey | Surveys | A survey pops up on the site after a visit or a click and stores the answer with the session.
+- Feedback | Feedback widgets | A visitor can leave a note on a page and the team sees the comment next to a screenshot.
+- Funnels | Funnels | A funnel shows how many sessions reached each step.
+- Events | Events | A click or a page view is available to filter recordings.
+- Suppress | Suppression | Fields can be masked so a recording does not keep a password.
+- Share | Sharing | A recording link can be sent to a teammate.
+@@ productboard | Productboard | Productboard | Product work
+summary: A product-management system for feedback, a feature board, and a roadmap.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common system of record for product managers who collect feedback from many channels.
+license: Productboard terms
+note: The Productboard workspace and its feedback inbox are proprietary.
+gap: An open issue tracker holds features. Productboard's feedback inbox tied to those features is the gap.
+url: https://www.productboard.com/
+docs: https://developer.productboard.com/
+alt: Plane | https://github.com/makeplane/plane | AGPL-3.0 | An open issue tracker. It is not a feedback repository.
+- Insights | Insights | A note of customer feedback is stored and can be linked to a feature.
+- Portal | Portal | Customers can submit an idea on a public portal.
+- Board | Features board | Features are columns of a hierarchy the team edits.
+- Score | Prioritization | A score can rank features by the inputs the team chose.
+- Roadmap | Roadmap | A roadmap shows what is planned, for an audience the team picks.
+- Releases | Releases | A feature is assigned to a release so the roadmap shows what is planned for that ship date.
+- Integrations | Integrations | Notes can arrive from a support tool or a call recorder.
+- Share | Shareable views | A view of the roadmap can be shared without giving edit rights.
+@@ aha | Aha! | Aha! | Product work
+summary: A product-strategy suite for goals, roadmaps, and ideas.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A roadmap tool at product organizations that want strategy and delivery in one system.
+license: Aha terms
+note: The Aha! product-strategy suite and its roadmaps are proprietary.
+gap: An open tracker can list work. Aha's strategy objects and the published roadmaps are the gap.
+url: https://www.aha.io/
+docs: https://www.aha.io/api
+alt: Plane | https://github.com/makeplane/plane | AGPL-3.0 | An open issue tracker with cycles. It is not a strategy suite.
+- Goals | Goals | A goal sits above the features that are supposed to serve it.
+- Ideas | Ideas | An idea is captured and can be promoted to a feature.
+- Roadmaps | Roadmaps | A roadmap is a view of initiatives over time.
+- Features | Features | A feature has a description, a score, and a release.
+- Whiteboard | Whiteboards | A whiteboard is used to sketch a flow next to the record.
+- Publish | Publishing | A roadmap can be published to a page for people outside the team.
+- Capacity | Capacity | Work can be compared with the capacity the team entered.
+- Develop | Development links | A feature can link to a ticket in a delivery tool.
+@@ pendo | Pendo | Pendo | Analytics
+summary: A product-analytics and in-app guidance tool for web and mobile products.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common tool when a product team wants usage data and a walkthrough in the same vendor.
+license: Pendo terms
+note: The analytics, the guides, and the snippet are proprietary.
+gap: An open analytics tool can count events you send. Pendo's in-app guides and the retroactive product analytics are the gap.
+url: https://www.pendo.io/
+docs: https://developers.pendo.io/
+alt: Plausible | https://github.com/plausible/analytics | AGPL-3.0 | An open page-analytics tool. It does not inject product walkthroughs.
+- Track | Event tracking | A snippet or a mobile SDK sends the events the team defined.
+- Pages | Page analytics | Views and feature clicks are reported for a tagged page so a team can see which controls are used.
+- Funnels | Funnels | A funnel shows drop-off between steps so you can see where people leave a flow.
+- Retention | Retention | A chart shows who came back after a first visit, grouped by the week they started.
+- Guides | Guides | A walkthrough or a tooltip is targeted at a segment.
+- Feedback | Feedback | An in-app poll asks a question and stores each answer against the visitor's account.
+- Segments | Segments | A segment filters the charts and who sees a guide.
+- Replay | Replay | Session replay is offered as part of the product where enabled.
+@@ optimizely | Optimizely | Optimizely | Analytics
+summary: An experimentation platform for feature flags and for tests on a site or an app.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running experimentation vendor, now also a content and feature-flag product.
+license: Optimizely terms
+note: The experimentation service and the snippet are proprietary.
+gap: An open flag server can ship a flag. Optimizely's stats engine and the visual editor are the gap.
+url: https://www.optimizely.com/
+docs: https://docs.developers.optimizely.com/
+alt: Unleash | https://github.com/Unleash/unleash | AGPL-3.0 | An AGPL feature-flag server. It is not a full experimentation suite.
+- Flags | Feature flags | A flag turns a feature on for a percentage or a segment.
+- Experiments | Experiments | A visitor is bucketed and a metric is compared between variations.
+- Visual | Visual editor | A variation of a page can be edited without a full deploy, in the web product.
+- Events | Events | A conversion event is sent from the site or the app.
+- Stats | Statistics | The product reports whether a difference looks real under its own stats.
+- Audiences | Audiences | An audience limits who is in the test so only visitors who match a rule see the variation.
+- SDK | SDKs | An SDK evaluates flags in the application.
+- Recommend | Recommendations | A recommendations product exists beside experimentation. It is a separate capability.
+@@ fullstory | FullStory | FullStory | Analytics
+summary: A session-replay and product-analytics tool that records what people did in a web app.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A replay tool support and product teams use to see a bug instead of reading a ticket.
+license: FullStory terms
+note: The recording script and the search are proprietary.
+gap: An open analytics tool does not reconstruct a session. The replay index is the gap.
+url: https://www.fullstory.com/
+docs: https://developer.fullstory.com/
+alt: Matomo | https://github.com/matomo-org/matomo | GPL-3.0 | An open analytics server for visits you track. It is not a session-replay index.
+- Replay | Session replay | A session plays back as the page changed, including clicks.
+- Search | Search | Sessions can be searched for a click, a page, or an error.
+- Heat | Heatmaps | Clicks on a page are aggregated into a heatmap so the team sees where people press.
+- Funnel | Funnels | A funnel is built from the events the snippet saw.
+- Frustration | Frustration signals | Rage clicks and similar signals are called out.
+- Privacy | Privacy controls | Elements can be masked before they are stored.
+- Segments | Segments | A segment is a saved search over sessions, such as rage clicks on one URL.
+- Integrate | Integrations | A session link can be attached to a support ticket.
+@@ logrocket | LogRocket | LogRocket | Developer tools
+summary: Session replay plus front-end logs, aimed at debugging production.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A replay tool engineering teams add next to their error tracker.
+license: LogRocket terms
+note: The SDK and the hosted replay are proprietary.
+gap: An open error tracker stores exceptions. LogRocket's replay of the network and the UI is the gap.
+url: https://logrocket.com/
+docs: https://docs.logrocket.com/
+alt: Matomo | https://github.com/matomo-org/matomo | GPL-3.0 | Open visit analytics. It does not replay a JavaScript session.
+- Replay | Replay | The UI is replayed alongside console and network logs.
+- Errors | Exceptions | A JavaScript exception is tied to the session where it happened.
+- Network | Network | Requests and responses, with redaction, show in the replay.
+- Identify | Identify | A user id links sessions to a person the app named.
+- Search | Search | Sessions are filtered by an event, a URL, or an error.
+- Release | Releases | A release marker shows whether a bug started with a deploy.
+- Funnels | Funnels | Product funnels are built from the same events.
+- Galileo | Issues | The product groups sessions that look like the same problem.
+@@ eventbrite | Eventbrite | Eventbrite | Business
+summary: A marketplace and a tool for publishing an event and selling tickets.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default place to sell a ticket for a public event without building a checkout.
+license: Eventbrite terms
+note: The marketplace and the organizer tools are proprietary.
+gap: An open event server can publish an event you host. Eventbrite's buyer marketplace and the ticket payments are the gap.
+url: https://www.eventbrite.com/
+docs: https://www.eventbrite.com/platform/api
+alt: Mobilizon | https://framagit.org/framasoft/mobilizon | AGPL-3.0 | An open event server from Framasoft. It is not a ticket marketplace.
+- Events | Event pages | An event has a date, a place, a description, and a ticket.
+- Tickets | Tickets | Paid and free tickets are sold, with a capacity.
+- Checkout | Checkout | The buyer pays on Eventbrite and receives a ticket.
+- Promote | Promotion | An event can be listed where Eventbrite shows public events.
+- Check | Check-in | The organizer scans a ticket at the door.
+- Email | Emails | Order confirmations and updates go to attendees.
+- Reports | Reports | Sales and attendance are reported so an organizer can see tickets sold and who checked in.
+- Organizer | Organizer page | A repeating organizer has a page of their events.
+@@ luma | Luma | Luma | Business
+summary: An event page and guest list, widely used for tech meetups and small conferences.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The registration page on a large share of startup and AI community events.
+license: Luma terms
+note: The hosted pages and the guest management are proprietary.
+gap: An open event server can take registrations you host. Luma's hosted pages and the calendar subscriptions are the gap.
+url: https://lu.ma/
+docs: https://help.lu.ma/
+alt: Mobilizon | https://framagit.org/framasoft/mobilizon | AGPL-3.0 | An open event platform you can host.
+- Pages | Event pages | A page shows the time, the place, and a registration button.
+- Guests | Guest list | The host sees who registered and can approve them.
+- Calendar | Calendars | A community calendar lists more than one event.
+- Tickets | Tickets | A paid event can charge for a ticket and the host sees the order on the guest list.
+- Check | Check-in | Hosts check guests in on a phone by scanning a ticket or marking the name present.
+- Blast | Blasts | A message goes to the guests of an event.
+- Subscribe | Subscriptions | A person can subscribe to a calendar so later events from that host show up for them.
+- Discover | Discover | Public events can be found in Luma's own discovery surface.
+@@ substack | Substack | Substack | Writing
+summary: A hosted newsletter and publication, with subscriptions and a recommendation network.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default place an independent writer charges for a newsletter.
+license: Substack terms
+note: The hosting, the payments, and the network are proprietary.
+gap: An open publishing platform can send a newsletter you host. Substack's recommendations and the subscriber payments are the gap.
+url: https://substack.com/
+docs: https://support.substack.com/
+alt: Ghost | https://github.com/TryGhost/Ghost | MIT | An open publishing platform. You host it and you handle payments.
+- Posts | Posts | A post is emailed and published on the web.
+- Pay | Paid subscriptions | A reader pays for a publication, and the writer sets the price.
+- Notes | Notes | A short post exists beside the long letters.
+- Comments | Comments | Readers comment on a post, if the writer allows it.
+- Recommend | Recommendations | A publication recommends another, which is how growth works on the network.
+- Podcast | Podcasts | An audio post can be part of the publication.
+- Chat | Chat | A publication can have a chat for subscribers.
+- Stats | Stats | Opens, subscribers, and revenue are shown to the writer.
+@@ beehiiv | beehiiv | beehiiv | Writing
+summary: A newsletter platform aimed at operators who want growth tools and a website.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common Substack alternative for writers who want more control over growth and ads.
+license: beehiiv terms
+note: The beehiiv newsletter platform and its growth tools are proprietary.
+gap: An open list manager sends a newsletter. beehiiv's growth tools, the ad network, and the site are the gap.
+url: https://www.beehiiv.com/
+docs: https://developers.beehiiv.com/
+alt: Listmonk | https://github.com/knadh/listmonk | AGPL-3.0 | An open mailing-list manager you host.
+- Posts | Posts | A newsletter is written, scheduled, and sent.
+- Web | Website | The same posts render as a site so a newsletter issue is also a public web page.
+- Grow | Growth tools | Recommendations and referral mechanics are part of the product.
+- Pay | Paid subscriptions | Readers can pay for a tier so some posts stay behind a subscription.
+- Ads | Ad network | A newsletter can carry an ad the platform sold, where the writer opts in.
+- Segment | Segments | A send can go to a segment of subscribers.
+- Automate | Automations | A welcome series can send after someone subscribes.
+- Stats | Stats | Opens, clicks, and subscriber growth are reported.
+@@ medium | Medium | Medium | Writing
+summary: A hosted publishing network where writers post essays and readers follow publications.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A large general-interest place to publish an essay without opening a site.
+license: Medium terms
+note: The network and the membership are proprietary.
+gap: An open blogging server publishes an essay. Medium's network, the membership, and the distribution are the gap.
+url: https://medium.com/
+docs: https://help.medium.com/
+alt: WriteFreely | https://github.com/writefreely/writefreely | AGPL-3.0 | An open writing platform you can host.
+- Stories | Stories | An essay is published on the writer's profile.
+- Publications | Publications | A publication has editors and a home page.
+- Follow | Follows | A reader follows a writer or a publication.
+- Member | Membership | A paid membership unlocks reading the member library.
+- Partner | Partner program | A writer in the program can be paid from member reading, under Medium's rules.
+- Highlight | Highlights | A reader highlights a passage and can leave a note.
+- Responses | Responses | A response sits under the story so a reader can reply in public on the same page.
+- Stats | Stats | The writer sees views and reads for a story, including how far people scrolled.
+@@ patreon | Patreon | Patreon | Business
+summary: A membership platform where a creator charges fans on a recurring basis.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default way for a podcaster, a musician, or a writer to charge a monthly membership.
+license: Patreon terms
+note: The platform and the payments are proprietary.
+gap: An open publishing tool can put posts behind an account you run. Patreon's member payments and the discovery are the gap.
+url: https://www.patreon.com/
+docs: https://docs.patreon.com/
+alt: Ghost | https://github.com/TryGhost/Ghost | MIT | An open site with paid memberships. You host it. It is not Patreon's creator network.
+- Tiers | Tiers | A creator sets monthly tiers with different benefits.
+- Posts | Posts | A post can be public or limited to a tier.
+- Pay | Payments | A member is billed on a schedule and the creator is paid out.
+- Benefits | Benefits | A tier lists what the member receives, such as a post, a file, or a Discord role.
+- Messages | Messages | The creator can message members in a tier without exporting the mailing list.
+- Shop | Shop | A one-time product can be sold beside the membership, where enabled.
+- App | Creator page | The public page explains the membership.
+- Insights | Insights | The creator sees members, growth, and earnings.
+@@ teachable | Teachable | Teachable | Education
+summary: A hosted school for selling an online course, with students, lectures, and payments.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common storefront for an independent teacher selling a course.
+license: Teachable terms
+note: The school hosting and the payments are proprietary.
+gap: Moodle can deliver a course you host. Teachable's checkout and the student storefront are the gap.
+url: https://teachable.com/
+docs: https://docs.teachable.com/
+alt: Moodle | https://github.com/moodle/moodle | GPL-3.0 | An open learning system. You bring the students and the payments.
+- Curriculum | Curriculum | A course is sections of video, text, and quizzes.
+- Students | Students | A student enrolls and sees their courses.
+- Pay | Checkout | A price, a coupon, and a payment sit on the course.
+- Drip | Drip | A lecture can unlock on a schedule so a student sees the next lesson only after a set date.
+- Certificate | Certificates | A completion certificate can be issued when a student finishes the required lessons.
+- Quiz | Quizzes | A quiz grades itself from the answer key.
+- Coach | Coaching products | A coaching offer can be sold beside a course.
+- Site | School site | The school has a domain, a theme, and a catalog of courses.
+@@ factset | FactSet | FactSet | Finance
+summary: A financial-data workstation for research, models, and market data.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A standard terminal beside Bloomberg in many investment teams.
+license: FactSet terms
+note: The workstation, the data, and the Excel tools are proprietary.
+gap: An open data library can analyze prices you already have. FactSet's licensed data and the workstation are the gap.
+url: https://www.factset.com/
+docs: https://developer.factset.com/
+alt: pandas | https://github.com/pandas-dev/pandas | BSD-3-Clause | An open data library. It is not a market-data terminal.
+- Workstation | Workstation | A desktop holds the apps an analyst opens during the day.
+- Screen | Company screens | A company page shows financials, filings, and estimates the license includes.
+- Excel | Excel add-in | Formulas pull data into a spreadsheet so a cell stays linked to a FactSet identifier.
+- Chart | Charting | A price series is charted inside the product.
+- Portfolio | Portfolios | A portfolio is valued from the data license.
+- News | News | A news wire the license includes is searchable.
+- Screening | Screening | A screen filters a universe by a fundamental or a market field.
+- API | APIs | A program can request data the contract allows.
+@@ pitchbook | PitchBook | PitchBook | Finance
+summary: A private-market database of companies, deals, investors, and funds.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default source when a venture or private-equity team looks up a company or a fund.
+license: PitchBook terms
+note: The database and the research are proprietary.
+gap: Public filings and an open database can describe a public company. PitchBook's private deal data is the gap.
+url: https://pitchbook.com/
+docs: https://pitchbook.com/pitchbook-platform
+alt: pandas | https://github.com/pandas-dev/pandas | BSD-3-Clause | An open library for tables you already have. It does not include private-market data.
+- Companies | Company profiles | A profile collects investors, funding rounds, and a description.
+- Deals | Deals | A financing or an acquisition is a record with a date and the parties.
+- Investors | Investors | A fund or a firm has a portfolio and a contact list.
+- Funds | Funds | A fund has a size, a vintage, and the investments attributed to it.
+- Screen | Screening | A search filters companies by round, location, or industry.
+- News | News | Editorial coverage sits next to the data.
+- Excel | Excel plugin | A list can be pulled into a spreadsheet.
+- Monitor | Alerts | An alert fires when a followed company has a new deal.
+@@ westlaw | Westlaw | Thomson Reuters | Legal
+summary: A legal research service for cases, statutes, and secondary sources.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: One of the two research systems a large share of United States law firms still buy.
+license: Thomson Reuters terms
+note: The database, the citator, and the search are proprietary.
+gap: Free case law exists for a slice of United States opinions. Westlaw's citator and the licensed secondary sources are the gap.
+url: https://legal.thomsonreuters.com/en/products/westlaw
+docs: https://legal.thomsonreuters.com/en/support
+alt: CourtListener | https://github.com/freelawproject/courtlistener | see-repository | Free Law Project publishes the code. Read LICENSE. It is case law, not a citator.
+- Search | Search | A query searches cases, statutes, and the other libraries the contract includes.
+- Citator | KeyCite | A citator shows later cases that cite an opinion and how they treated it.
+- Docs | Document display | A case is read with the headnotes and the citing references.
+- Folders | Folders | A researcher saves documents into a folder for a matter.
+- Alerts | Alerts | An alert watches a search or a case and emails you when a new result or a new decision appears.
+- Secondary | Secondary sources | Treatises and articles are in the libraries the firm licensed.
+- History | Research history | Past searches can be reopened from the research history so a query does not have to be rebuilt.
+- Download | Download | A document can be downloaded or sent to a brief.
+@@ ironclad | Ironclad | Ironclad | Legal
+summary: A contract lifecycle product for generating, negotiating, and storing agreements.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common contract system at companies that sign too many agreements for a shared drive.
+license: Ironclad terms
+note: The workflow product and the repository are proprietary.
+gap: An open signature tool can collect a signature. Ironclad's workflow from template to signed repository is the gap.
+url: https://ironcladapp.com/
+docs: https://developer.ironcladhq.com/
+alt: Documenso | https://github.com/documenso/documenso | AGPL-3.0 | An open e-signature app. It is not a full contract-lifecycle system.
+- Workflow | Workflows | A contract moves through review, approval, and signature.
+- Template | Templates | A template fills from answers the business user gives.
+- Editor | Editor | Clauses are edited and commented on before signature.
+- Sign | Signature | The other party signs in the product or through a connected signature tool.
+- Repo | Repository | The signed file is stored and can be searched.
+- Playbook | Playbooks | A clause has a preferred position and a fallback.
+- Dashboard | Dashboard | Legal sees which contracts are stuck, who holds them, and how long that step has been open.
+- Report | Reports | Cycle time and volume are reported so a team can see how long contracts take to finish.
+@@ athenahealth | athenaOne | athenahealth | Health
+summary: A cloud electronic health record and practice-management system for outpatient clinics.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common ambulatory record in United States clinics that do not run a hospital EHR.
+license: athenahealth terms
+note: The record, the billing service, and the network are proprietary.
+gap: An open medical-record platform can store a chart you host. athenahealth's billing network and the hosted clinic workflow are the gap.
+url: https://www.athenahealth.com/
+docs: https://docs.athenahealth.com/
+alt: OpenMRS | https://github.com/openmrs/openmrs-core | MPL-2.0 | An open medical-record platform. Read its license and healthcare notes. It is not a billing network.
+- Chart | Chart | Problems, medications, and notes live on the patient.
+- Schedule | Schedule | Appointments are booked and checked in on the clinic schedule for that provider and day.
+- Orders | Orders | A lab or an image is ordered from the encounter.
+- Prescribe | Prescribing | A prescription is sent to a pharmacy on the networks the product supports.
+- Bill | Billing | A claim is created from the visit and followed up.
+- Portal | Patient portal | A patient sees results and messages the clinic.
+- Quality | Quality measures | The product reports measures used in payment programs.
+- Network | Network services | Rules and payer connections are part of what the company sells with the record.
+@@ veeva | Veeva Vault | Veeva | Health
+summary: A content and data cloud for life sciences, including regulatory documents and a CRM for field teams.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default system at pharmaceutical companies for regulated content and for the field team's CRM.
+license: Veeva terms
+note: Vault and the CRM, including the regulated document workflows, are proprietary.
+gap: An open ERP can store customers and documents. Veeva's regulated lifecycle and the life-sciences data model are the gap.
+url: https://www.veeva.com/
+docs: https://developer.veevacrm.com/
+alt: ERPNext | https://github.com/frappe/erpnext | GPL-3.0 | An open ERP. It is not a life-sciences regulatory system.
+- Docs | Document management | A controlled document has versions, approvals, and a status.
+- Quality | Quality | A quality process such as a deviation can be tracked in a Vault application.
+- Clinical | Clinical | Trial documents can live in the clinical application.
+- Regulatory | Regulatory | A submission's documents are assembled and tracked.
+- CRM | CRM | A field rep records a call with a health professional.
+- Approved | Approved content | The rep sends only the content medical and legal have approved.
+- Audit | Audit trail | Changes to a regulated record are kept so a reviewer can see who edited a document and when.
+- Access | Access control | A role decides who may see a document in a given state.
+@@ palo-alto | Palo Alto Networks | Palo Alto Networks | Security
+summary: Firewalls and a security platform for traffic, threats, and remote access.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default enterprise firewall vendor in a large number of corporate networks.
+license: Palo Alto terms
+note: The firewall software, the subscriptions, and the cloud console are proprietary.
+gap: An open firewall can filter traffic you route through it. Palo Alto's threat subscriptions and the management plane are the gap.
+url: https://www.paloaltonetworks.com/
+docs: https://docs.paloaltonetworks.com/
+alt: OPNsense | https://github.com/opnsense/core | BSD-2-Clause | An open firewall. It is not PAN-OS.
+- Firewall | Firewall policy | Rules allow or deny traffic between zones.
+- Threat | Threat prevention | A subscription identifies known threats in the traffic, as the product describes it.
+- App | App identification | Traffic is classified as an application, not only a port.
+- VPN | VPN | A remote user or a site connects through a tunnel.
+- Decrypt | Decryption | TLS can be decrypted for inspection where the organization deploys that.
+- Manage | Management | Firewalls are managed from a console, including Panorama where it is used.
+- Log | Logging | Traffic and threat logs are stored and searched.
+- Wildfire | WildFire | An unknown file can be detonated in the company's sandbox service.
+@@ tenable | Tenable | Tenable | Security
+summary: A vulnerability-management product that scans assets and ranks the findings.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default vulnerability scanner in many security programs, especially the Nessus line.
+license: Tenable terms
+note: The scanners and the cloud platform are proprietary.
+gap: An open scanner can check a host for known issues. Tenable's coverage, the ranking, and the asset view are the gap.
+url: https://www.tenable.com/
+docs: https://docs.tenable.com/
+alt: OpenVAS | https://github.com/greenbone/openvas-scanner | GPL-2.0 | An open vulnerability scanner. The Greenbone enterprise product is separate.
+- Scan | Scans | A scan checks a range of hosts or a cloud account.
+- Plugins | Plugins | Findings come from a feed of checks that Tenable updates and the scanner runs against a host.
+- Assets | Assets | A host is tracked over time, not only as one scan.
+- VPR | Priority | Findings are ranked so the team does not treat every item as equal.
+- Dash | Dashboards | Open risk is summarized for the program.
+- Compliance | Compliance audits | A scan can check a configuration benchmark.
+- Report | Reports | A report is exported for a team that will patch.
+- Integrate | Tickets | A finding can be sent to a ticket tracker.
+@@ knowbe4 | KnowBe4 | KnowBe4 | Security
+summary: Security-awareness training and simulated phishing for employees.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default phishing-training vendor at companies that have to show they trained staff.
+license: KnowBe4 terms
+note: The training library and the phishing service are proprietary.
+gap: An open phishing simulator can send a campaign you write. KnowBe4's course library and the reporting for auditors are the gap.
+url: https://www.knowbe4.com/
+docs: https://developer.knowbe4.com/
+alt: Gophish | https://github.com/gophish/gophish | MIT | An open phishing simulator. You write the emails and you host it.
+- Train | Training | An employee is assigned a course and a quiz.
+- Phish | Phishing campaigns | A simulated phish is sent, and a click is recorded.
+- Library | Content library | Courses and templates are provided by the vendor.
+- Report | Reporting | The admin sees who finished training and who clicked.
+- Phish alert | Phish-alert button | A button in the mail client lets a person report a message.
+- Risk | Risk score | A person is scored from training and from clicks, under the product's formula.
+- Automate | Automated enrollment | New employees can be enrolled from a directory sync.
+- Compliance | Compliance views | A report is shaped for an audit that asks whether training happened.
+@@ proofpoint | Proofpoint | Proofpoint | Security
+summary: An email-security gateway that filters phishing and malware before the mailbox.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default secure-email gateway at large companies.
+license: Proofpoint terms
+note: The gateway and the threat intelligence are proprietary.
+gap: An open filter can score spam you receive. Proofpoint's targeted-attack products and the hosted gateway are the gap.
+url: https://www.proofpoint.com/
+docs: https://help.proofpoint.com/
+alt: Rspamd | https://github.com/rspamd/rspamd | Apache-2.0 | An open mail filter you run in front of a mail server.
+- Filter | Inbound filtering | Mail is scanned before it reaches the mailbox.
+- URL | URL defense | A rewritten link is checked when the person clicks it.
+- Attach | Attachment defense | An attachment can be sandbox-checked or rewritten.
+- Impostor | Impostor mail | A display-name trick is called out when the visible sender name does not match the real domain.
+- Quarantine | Quarantine | A held message can be released by the user or an admin.
+- Encrypt | Encryption | A sensitive outbound message can be sent through an encrypted channel the product provides.
+- Awareness | Training tie-in | Reported messages can feed a training workflow where that product is bought.
+- Logs | Message logs | An admin traces what happened to one message.
+@@ smartsheet | Smartsheet | Smartsheet | Product work
+summary: A spreadsheet-shaped work system for sheets, reports, and automations.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The tool operations teams use when a project is still a grid but needs owners and reminders.
+license: Smartsheet terms
+note: The sheets, the automations, and the dashboards are proprietary.
+gap: An open spreadsheet-database can hold the rows. Smartsheet's automations and the hosted forms are the gap.
+url: https://www.smartsheet.com/
+docs: https://smartsheet.redoc.ly/
+alt: Grist | https://github.com/gristlabs/grist-core | Apache-2.0 | An Apache-2.0 spreadsheet-database you host.
+- Sheets | Sheets | Rows and columns track work, with assignees and dates.
+- Views | Views | The same sheet can be a grid, a Gantt, or a card view.
+- Forms | Forms | A form adds a row without opening the whole sheet.
+- Automate | Automations | A rule notifies someone or moves a row when a date arrives.
+- Report | Reports | A report pulls rows from more than one sheet.
+- Dashboard | Dashboards | Charts and reports sit on one page so a team sees sheet numbers without opening every sheet.
+- Attach | Attachments | A row holds a file so the document stays attached to that record instead of a separate folder.
+- Share | Sharing | A sheet is shared with edit or view rights.
+@@ trello | Trello | Atlassian | Product work
+summary: A kanban board of lists and cards, owned by Atlassian.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default simple board for teams that do not want a full issue tracker.
+license: Atlassian terms
+note: Trello boards, cards, and the hosted service are proprietary Atlassian software.
+gap: An open kanban board covers lists and cards. Trello's power-ups and the Atlassian account are the gap.
+url: https://trello.com/
+docs: https://developer.atlassian.com/cloud/trello/rest/
+alt: WeKan | https://github.com/wekan/wekan | MIT | An open kanban board you can host.
+- Boards | Boards | A board holds lists, and a list holds cards.
+- Cards | Cards | A card has a description, members, labels, and a due date.
+- Check | Checklists | A card contains a checklist so a task can be split into steps that are checked off in order.
+- Butler | Automation | A rule moves or labels a card when something happens.
+- Power | Power-ups | An add-on adds a field, a calendar, or a connection to another tool.
+- Comments | Comments | A comment and an attachment live on the card.
+- Views | Views | The same board can be seen as a calendar or a timeline where the plan allows.
+- Guest | Guests | A person outside the workspace can be invited to one board.
+@@ pipedrive | Pipedrive | Pipedrive | Sales
+summary: A sales CRM organized as a pipeline of deals.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common CRM for a small sales team that wants a board more than a database.
+license: Pipedrive terms
+note: The Pipedrive CRM and its pipeline views are proprietary.
+gap: An open CRM can track contacts and deals. Pipedrive's pipeline habits and the hosted automations are the gap.
+url: https://www.pipedrive.com/
+docs: https://developers.pipedrive.com/docs/api/v1
+alt: EspoCRM | https://github.com/espocrm/espocrm | AGPL-3.0 | An open CRM for contacts and deals.
+- Pipeline | Pipelines | A deal sits in a stage, and the stages are the board.
+- Deals | Deals | A deal has a value, a contact, and an expected close date.
+- Activities | Activities | A call or a task is scheduled on the deal.
+- Leads | Leads | A lead can be converted into a deal so the early contact becomes a card on the pipeline.
+- Automate | Automations | A stage change can send a mail or create an activity.
+- Insights | Insights | The forecast adds up the deals in each stage.
+- Mail | Mail sync | Email with a contact can be filed on the deal.
+- Products | Products | A deal can contain products and a price.
+@@ dynamics-365 | Dynamics 365 | Microsoft | Business
+summary: Microsoft's cloud CRM and ERP applications, sold as a family of apps.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The CRM and ERP a Microsoft-centered company buys instead of Salesforce or a separate ledger.
+license: Microsoft terms
+note: The applications and Dataverse hosting are proprietary. This card is the product family, not every screen.
+gap: An open CRM and an open ERP cover contacts and a ledger. Dynamics' tie to Microsoft 365 and the hosted apps are the gap.
+url: https://www.microsoft.com/dynamics-365
+docs: https://learn.microsoft.com/en-us/dynamics365/
+alt: Odoo Community | https://github.com/odoo/odoo | LGPL-3.0 | The community edition is LGPL. Enterprise modules in that ecosystem are proprietary.
+- Sales | Sales | Leads, opportunities, and quotes live in the sales app.
+- Service | Customer service | Cases are tracked and routed to a queue so a support team works from one case list.
+- Field | Field service | A work order can be scheduled to a technician.
+- Finance | Finance | A ledger, payables, and receivables are a separate app in the family.
+- Supply | Supply chain | Inventory and warehouses are another app.
+- Data | Dataverse | Records sit in the same data platform as Power Apps.
+- Flow | Power Automate | A flow can start when a record changes and then update another table or send a message.
+- Role | Security roles | A role decides which records a person sees.
+@@ obsidian | Obsidian | Dynalist | Knowledge
+summary: A local-first notes app of linked Markdown files. The app is not open source.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default personal knowledge base for people who want plain files and will pay for sync and publish.
+license: Obsidian terms
+note: The application is proprietary. The notes are plain files. A free license for personal use is not an open-source license. Sync and Publish are paid services.
+gap: An open notes app can open the same Markdown folder. Obsidian's plugins community around a closed app, plus Sync and Publish, is the gap.
+url: https://obsidian.md/
+docs: https://help.obsidian.md/
+alt: Joplin | https://github.com/laurent22/joplin | AGPL-3.0 | An open notebook. Your export is not locked to one vendor.
+- Vault | Vaults | A vault is a folder of Markdown files the app indexes.
+- Links | Links | A note links to another note, and the graph shows those links.
+- Graph | Graph | A graph view draws the links in the vault.
+- Plugins | Plugins | A community plugin adds a feature. The plugin license is that author's, separate from the app.
+- Canvas | Canvas | A canvas arranges notes and cards in space.
+- Daily | Daily notes | A note is created for the day and opens from the calendar so that date has its own page.
+- Sync | Sync | The paid sync service copies the vault between devices.
+- Publish | Publish | The paid publish service turns notes into a site.
+@@ mailgun | Mailgun | Mailgun | Communications
+summary: An API for sending and receiving transactional email.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default sending API for applications that need delivery more than a newsletter editor.
+license: Mailgun terms
+note: The sending service and the dashboard are proprietary.
+gap: An open mail server can deliver mail you operate. Mailgun's delivered reputation and the API are the gap.
+url: https://www.mailgun.com/
+docs: https://documentation.mailgun.com/
+alt: Postal | https://github.com/postalserver/postal | MIT | An open mail delivery server you host. You still need domains and a reputation.
+- Send | Sending API | An application posts a message and Mailgun delivers it.
+- Receive | Inbound routes | Incoming mail can be parsed and posted to your URL.
+- Domain | Domains | A domain is verified with DNS before it can send.
+- Logs | Logs | Each message has a log of accepted, delivered, or failed.
+- Suppress | Suppressions | Bounces and complaints are kept so the address is not retried blindly.
+- Template | Templates | A stored template is filled at send time.
+- Validate | Validation | An address can be checked before a send, as a separate feature.
+- Webhook | Webhooks | A delivery event is posted back to the application.
+@@ mapbox | Mapbox | Mapbox | Infrastructure
+summary: Hosted maps, geocoding, and a map SDK for applications.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The map behind a large number of delivery, real-estate, and mobility apps.
+license: Mapbox terms
+note: The hosted tiles, the geocoder, and the account are proprietary. Some client libraries have their own licenses. This card is the platform.
+gap: MapLibre can draw a map from tiles you have. Mapbox's hosted tiles, the geocoder, and the styles are the gap.
+url: https://www.mapbox.com/
+docs: https://docs.mapbox.com/
+alt: MapLibre GL JS | https://github.com/maplibre/maplibre-gl-js | BSD-3-Clause | An open map renderer. Read LICENSE.txt. You bring the tiles.
+- Maps | Map styles | A style controls land, roads, and labels.
+- SDK | SDKs | A web or mobile SDK draws the map in an app.
+- Geocode | Geocoding | An address becomes a coordinate, and a coordinate becomes an address.
+- Directions | Directions | A route is returned for driving, walking, or cycling.
+- Search | Search | A place search returns candidates with coordinates so a map can center on the chosen result.
+- Tiles | Tilesets | Custom data can be turned into tiles the map serves.
+- Static | Static images | A URL returns a map image for an email or a report.
+- Tokens | Tokens | A token on the account meters usage so a map request is billed against that token.
+@@ vimeo | Vimeo | Vimeo | Media
+summary: A hosted video platform for uploads, privacy controls, and an embeddable player.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default host for a film, a course video, or a marketing video that should not live only on a public social network.
+license: Vimeo terms
+note: The hosting, the player, and the review tools are proprietary.
+gap: A federated video platform can host a file you store. Vimeo's player, the transcoding, and the privacy controls are the gap.
+url: https://vimeo.com/
+docs: https://developer.vimeo.com/api/guides/start
+alt: PeerTube | https://github.com/Chocobozzz/PeerTube | AGPL-3.0 | A federated video platform you can host.
+- Upload | Upload | A video is uploaded and transcoded so viewers get a stream instead of the original file.
+- Privacy | Privacy | A video can be public, unlisted, or restricted by a password or a domain.
+- Player | Player | An embeddable player is customized with colors and an end screen.
+- Review | Review | Comments can be left on a timestamp, in the tools aimed at teams.
+- Live | Live | A live event can be streamed to the same account, on the plans that include it.
+- Showcase | Showcases | Videos are grouped on a page so a series or a course has one public link.
+- Stats | Stats | Plays and finishes are reported for a video so you can see how far viewers got.
+- OTT | Subscription channels | A creator can sell access, where that product is enabled.
+@@ jasper | Jasper | Jasper | AI
+summary: A marketing writing product that generates and edits copy from a prompt.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A writing tool marketing teams bought to draft ads, posts, and pages.
+license: Jasper terms
+note: The product and the brand voice features are proprietary. It calls models the company operates or resells.
+gap: An open chat interface and a model you run can draft text. Jasper's brand voice, the campaigns, and the marketing workflow are the gap.
+url: https://www.jasper.ai/
+docs: https://www.jasper.ai/api
+alt: LibreChat | https://github.com/danny-avila/LibreChat | MIT | An MIT chat interface. You bring the model.
+- Campaigns | Campaigns | A campaign holds the briefs and the drafts for one effort.
+- Voice | Brand voice | A style is saved so later drafts follow it.
+- Templates | Templates | A template starts a blog post, an ad, or a product description.
+- Editor | Editor | Generated text is edited in the product, not only in a chat transcript.
+- Knowledge | Knowledge | A document can be added so the draft uses the company's facts.
+- Art | Images | An image can be generated beside the copy, where that feature is on.
+- Chat | Chat | A chat mode drafts from a prompt and can rewrite the answer in the same thread.
+- Collab | Collaboration | Teammates work in the same workspace and can open a document another person started.
+@@ suno | Suno | Suno | AI
+summary: A music generator that writes a song from a text prompt.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A widely used consumer music generator that people open in a browser to make songs.
+license: Suno terms
+note: The product and the models are proprietary.
+gap: An open research codebase can generate audio. The model weights often have their own terms. Suno's product and its commercial song library are the gap.
+url: https://suno.com/
+docs: https://suno.com/about
+alt: AudioCraft | https://github.com/facebookresearch/audiocraft | MIT | The code is MIT. Model weights have their own terms. It is not a consumer music app.
+- Prompt | Prompts | A description or a lyric produces a song.
+- Style | Style | The prompt names a genre or a mood and the generator uses that direction for the clip.
+- Extend | Extend | A clip can be continued from its ending so the song grows past the first generation.
+- Library | Library | Generated songs stay in the account so a later visit can play or download them again.
+- Edit | Replace section | A section of a song can be regenerated while the rest of the clip stays as it was.
+- Instrumental | Instrumentals | A song can be generated without a vocal.
+- Download | Download | A file can be downloaded under the plan's rules.
+- Rights | Commercial use | Paid plans describe whether a song may be used commercially. Those rules are the company's, not a software license.
+@@ aws | Amazon Web Services | Amazon | Cloud
+summary: Amazon's cloud console and APIs for compute, storage, data, and a very large catalog of services.
+users: Not disclosed
+revenue: Not disclosed
+scale: No single user total is cited here. Amazon reports AWS revenue in its own releases. This card does not restate a figure.
+reach: The default cloud for a large share of the internet's backends.
+license: AWS terms
+note: The console, the APIs, and the managed services are proprietary. Some AWS-published clients and a few engines are open. This card is the platform.
+gap: An open cloud can schedule virtual machines you operate. AWS's managed services and the global console are the gap.
+url: https://aws.amazon.com/
+docs: https://docs.aws.amazon.com/
+alt: OpenStack Nova | https://github.com/openstack/nova | Apache-2.0 | An open compute service. It is one part of a cloud, not the AWS console.
+- Compute | Compute | Virtual machines and container services run customer workloads.
+- Storage | Storage | Object storage and block volumes keep data.
+- Data | Data services | Managed databases, warehouses, and queues are separate services in the catalog.
+- IAM | Identity | Policies decide which API calls an account or a role may make.
+- Network | Networking | Virtual networks, load balancers, and DNS are configured in the account.
+- Console | Console | A web console and a CLI call the same APIs.
+- Regions | Regions | A resource is placed in a region the customer chooses.
+- Bill | Billing | Usage is metered and billed per service.
+@@ azure | Microsoft Azure | Microsoft | Cloud
+summary: Microsoft's cloud for virtual machines, identity, data, and application services.
+users: Not disclosed
+revenue: Not disclosed
+scale: No single user total is cited here. Microsoft reports a cloud revenue figure in its own releases. This card does not restate one.
+reach: The default cloud for organizations that already run Microsoft identity and Windows.
+license: Microsoft terms
+note: The portal and the managed services are proprietary.
+gap: An open compute service can run virtual machines you operate. Azure's portal, Entra tie-in, and the managed catalog are the gap.
+url: https://azure.microsoft.com/
+docs: https://learn.microsoft.com/en-us/azure/
+alt: OpenStack Nova | https://github.com/openstack/nova | Apache-2.0 | An open compute service. It is not the Azure portal.
+- Compute | Virtual machines | A virtual machine runs in a region and a size the customer picks.
+- App | App services | A web app can be hosted without managing the machine.
+- Data | Data services | Managed SQL, storage accounts, and analytics services are in the catalog.
+- Identity | Entra ID | Access to the portal is the same identity many companies use for Microsoft 365.
+- Network | Networking | Virtual networks, private endpoints, and load balancers isolate workloads.
+- Portal | Portal | Resources are created from the portal, the CLI, or a template.
+- Policy | Policy | A policy can require tags or a region so a resource that breaks the rule is flagged or blocked.
+- Cost | Cost management | Spend is grouped by subscription and by resource group.
+@@ gcp | Google Cloud | Google | Cloud
+summary: Google's cloud for compute, data analytics, and application hosting.
+users: Not disclosed
+revenue: Not disclosed
+scale: No single user total is cited here. Alphabet reports Google Cloud revenue in its own releases. This card does not restate a figure.
+reach: The cloud data and application teams pick when they want Google's data services.
+license: Google terms
+note: The console and the managed services are proprietary.
+gap: An open compute layer runs machines you operate. BigQuery and the rest of the managed catalog are the gap.
+url: https://cloud.google.com/
+docs: https://cloud.google.com/docs
+alt: OpenStack Nova | https://github.com/openstack/nova | Apache-2.0 | An open compute service. It is not Google Cloud.
+- Compute | Compute Engine | Virtual machines run in a project and a zone.
+- Run | Cloud Run | A container runs as a service without a cluster to manage.
+- Data | Data services | BigQuery, the hosted warehouse, is a flagship service in this cloud. It is proprietary.
+- GKE | Kubernetes | A managed Kubernetes cluster is offered. Kubernetes itself is open. The managed control plane is not.
+- IAM | IAM | A policy binds a member to a role on a project.
+- Network | VPC | A virtual private cloud isolates addresses and firewall rules.
+- Console | Console | The web console, the CLI, and Terraform providers call the APIs.
+- Billing | Billing | A billing account is linked to projects and exports usage.
+@@ clickhouse-cloud | ClickHouse Cloud | ClickHouse | Data
+summary: The hosted ClickHouse service. The database engine itself is Apache-2.0.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A hosted columnar database teams use for event and analytics queries.
+license: ClickHouse Cloud terms
+note: ClickHouse Cloud is proprietary. The ClickHouse engine is Apache-2.0. This card is the cloud, not the engine.
+gap: You can run the Apache engine yourself. The hosted service, the console, and the operations are the gap.
+url: https://clickhouse.com/cloud
+docs: https://clickhouse.com/docs
+alt: ClickHouse | https://github.com/ClickHouse/ClickHouse | Apache-2.0 | The database engine. The cloud console is a separate product.
+- Service | Services | A service is a cluster the console provisions.
+- SQL | SQL | Queries use ClickHouse SQL against tables in the service.
+- Ingest | Ingest | Rows arrive from a client, a file, or a streaming source the service supports.
+- Scale | Scaling | The service can be scaled from the console.
+- Backup | Backups | Backups are part of the hosted operation.
+- Users | Users and roles | Database users are managed for the service.
+- Monitor | Monitoring | Query load and errors are visible in the console.
+- Private | Private networking | A service can be reached on a private network where the plan allows it.
+@@ elastic-cloud | Elastic Cloud | Elastic | Data
+summary: Elastic's hosted Elasticsearch and related services. The engine is not the same thing as the cloud.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The hosted search and observability cluster for teams that do not want to run the nodes.
+license: Elastic Cloud terms
+note: Elastic Cloud is a proprietary service. Elasticsearch the engine is published under the AGPL and other terms Elastic offers. This card is the cloud.
+gap: The engine can be run by anyone who accepts its license. The hosted cluster, the console, and the support are the gap.
+url: https://www.elastic.co/cloud
+docs: https://www.elastic.co/guide/en/cloud/current/index.html
+alt: Elasticsearch | https://github.com/elastic/elasticsearch | AGPL-3.0 | The engine. Elastic also publishes other license options. The cloud is separate.
+- Deploy | Deployments | A deployment is a cluster with a version and a size.
+- Search | Search | Indexes and queries are the core use, and the cluster runs as a managed service on Elastic Cloud.
+- Observe | Observability | Logs and metrics can be stored in the same hosted stack.
+- Security | Security features | Access control and detection features are configured on the deployment.
+- Snapshot | Snapshots | The service snapshots the cluster so an index can be restored after a bad write or a failure.
+- Scale | Scaling | Nodes can be added from the console so the cluster grows without rebuilding it by hand.
+- Traffic | Traffic filters | A deployment can limit which networks connect.
+- Upgrade | Upgrades | The console upgrades the version and walks the cluster through the supported path.
+@@ lastpass | LastPass | LastPass | Security
+summary: A password manager for vaults shared by a person or a company.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A long-running password vault, especially in companies that standardized on it.
+license: LastPass terms
+note: The vault service and the clients are proprietary.
+gap: An open vault server can store passwords you host. LastPass's hosted vault and the company admin console are the gap.
+url: https://www.lastpass.com/
+docs: https://support.lastpass.com/
+alt: Vaultwarden | https://github.com/dani-garcia/vaultwarden | AGPL-3.0 | An open server compatible with Bitwarden clients. You host it.
+- Vault | Vault | Logins, notes, and cards are stored in the account.
+- Fill | Autofill | The browser extension fills a saved login.
+- Generate | Generator | A generator proposes a password with a length and a character set you choose, then can save it.
+- Share | Shared folders | A folder of logins is shared with a group.
+- Admin | Admin console | A company admin can set policies and see who has access.
+- MFA | Multifactor | The account can require a second factor.
+- Emergency | Emergency access | A trusted contact can request access under a waiting period.
+- Breach | Breach monitoring | The product warns if a saved address showed up in a breach it tracks.
+@@ google-calendar | Google Calendar | Google | Collaboration
+summary: Google's calendar for events, guests, rooms, and working hours.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: The calendar behind a large share of Gmail accounts and many company scheduling links.
+license: Google terms
+note: The Google Calendar service and its web and mobile apps are proprietary.
+gap: An open calendar server speaks the calendar protocols. Google's guest handling, rooms, and the Gmail tie-in are the gap.
+url: https://calendar.google.com/
+docs: https://developers.google.com/calendar
+alt: Nextcloud | https://github.com/nextcloud/server | AGPL-3.0 | An open calendar and file server you host.
+- Events | Events | An event has a time, a place, a description, and guests.
+- Guests | Guests | Guests are invited and can accept or decline.
+- Rooms | Rooms | A room or another resource can be booked, in a work account.
+- Hours | Working hours | The calendar can show when someone is not to be booked.
+- Share | Shared calendars | A calendar is shared with view or edit rights.
+- Find | Find a time | A view shows when several guests are free.
+- Tasks | Tasks | A task list sits beside the calendar in the product.
+- Meet | Meet links | A video link can be added to the event automatically.
+@@ marketo | Marketo Engage | Adobe | Marketing
+summary: Adobe's marketing-automation product for email programs, scoring, and campaigns.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A default marketing-automation system in business-to-business companies that already buy Adobe.
+license: Adobe terms
+note: Marketo Engage, the Adobe marketing-automation product, is proprietary.
+gap: An open marketing app can send email and score a lead on rules you write. Marketo's program library and the revenue attribution are the gap.
+url: https://business.adobe.com/products/marketo/adobe-marketo.html
+docs: https://experienceleague.adobe.com/en/docs/marketo/using/home
+alt: Mautic | https://github.com/mautic/mautic | GPL-3.0 | An open marketing app. Confirm the license file on the tag you run.
+- Programs | Programs | A program holds emails, forms, and the campaign that sends them.
+- Smart | Smart campaigns | A trigger or a batch starts a flow of steps.
+- Score | Scoring | A lead's score changes when they take an action.
+- Email | Email editor | An email is built and tested before the send.
+- Forms | Forms | A form on a page creates or updates a lead.
+- Nurture | Nurture | A stream of content sends over time so a person receives the next email after a wait you set.
+- Revenue | Revenue cycle | Stages of a funnel are modeled for reporting.
+- CRM | CRM sync | Leads sync with a CRM such as Salesforce.
+@@ salesloft | Salesloft | Salesloft | Sales
+summary: A sales-engagement platform for cadences of email, calls, and tasks.
+users: Not disclosed
+revenue: Not disclosed
+scale: No audited user or revenue total is cited for this product.
+reach: A common tool for an outbound sales team that works a list every day.
+license: Salesloft terms
+note: The cadences and the dialer are proprietary.
+gap: An open CRM stores the contact. A cadence that sends the next touch and logs the call is the gap.
+url: https://www.salesloft.com/
+docs: https://developers.salesloft.com/
+alt: EspoCRM | https://github.com/espocrm/espocrm | AGPL-3.0 | An open CRM. It does not run a sales cadence product.
+- Cadence | Cadences | A cadence is a series of emails, calls, and other steps.
+- People | People | A person is added to a cadence from a list or a CRM.
+- Email | Email | A step sends a templated email and records the reply.
+- Dialer | Dialer | A call is placed from the product and logged.
+- Tasks | Tasks | A step can be a task the rep completes by hand.
+- Analytics | Analytics | The team sees who replied and which cadence step did it.
+- CRM | CRM sync | Activities write back to the CRM so a call or an email shows on the contact record.
+- Team | Team cadences | A manager builds the cadence the reps run.
